@@ -1,0 +1,8453 @@
+{
+ "components": {
+  "U1": {
+   "Name": "U1",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    997,
+    878,
+    1080,
+    921
+   ]
+  },
+  "V1": {
+   "Name": "V1",
+   "type": "other",
+   "value": null,
+   "bbox": [
+    997,
+    838,
+    1080,
+    880
+   ]
+  },
+  "W1": {
+   "Name": "W1",
+   "type": "other",
+   "value": null,
+   "bbox": [
+    997,
+    797,
+    1080,
+    840
+   ]
+  },
+  "GND": {
+   "Name": "GND",
+   "type": "other",
+   "value": null,
+   "bbox": [
+    1392,
+    767,
+    1475,
+    810
+   ]
+  },
+  "BAT": {
+   "Name": "BAT",
+   "type": "battary",
+   "value": null,
+   "bbox": [
+    1392,
+    726,
+    1475,
+    769
+   ]
+  },
+  "∅1799": {
+   "Name": "∅1799",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    1089,
+    1162,
+    1111,
+    1174
+   ]
+  },
+  "∅1812": {
+   "Name": "∅1812",
+   "type": "gnd",
+   "value": "GND_PORT",
+   "bbox": [
+    967,
+    1162,
+    989,
+    1174
+   ]
+  },
+  "Q1": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    183,
+    1658,
+    331,
+    1701
+   ]
+  },
+  "∅2952": {
+   "Name": "∅2952",
+   "type": "v",
+   "value": "VIN_BOARD",
+   "bbox": [
+    197,
+    1719,
+    219,
+    1741
+   ]
+  },
+  "R1": {
+   "Name": "R1",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    148,
+    1608,
+    167,
+    1650
+   ]
+  },
+  "Q4": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    183,
+    1496,
+    331,
+    1539
+   ]
+  },
+  "R4": {
+   "Name": "R4",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    148,
+    1446,
+    167,
+    1488
+   ]
+  },
+  "∅3340": {
+   "Name": "∅3340",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    189,
+    1383,
+    227,
+    1417
+   ]
+  },
+  "Q2": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    456,
+    1658,
+    604,
+    1701
+   ]
+  },
+  "∅3679": {
+   "Name": "∅3679",
+   "type": "v",
+   "value": "VIN_BOARD",
+   "bbox": [
+    471,
+    1719,
+    493,
+    1741
+   ]
+  },
+  "R2": {
+   "Name": "R2",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    422,
+    1608,
+    440,
+    1650
+   ]
+  },
+  "Q5": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    456,
+    1496,
+    604,
+    1539
+   ]
+  },
+  "R5": {
+   "Name": "R5",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    422,
+    1446,
+    440,
+    1488
+   ]
+  },
+  "∅3824": {
+   "Name": "∅3824",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    462,
+    1383,
+    501,
+    1417
+   ]
+  },
+  "Q3": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    730,
+    1658,
+    878,
+    1701
+   ]
+  },
+  "∅4665": {
+   "Name": "∅4665",
+   "type": "v",
+   "value": "VIN_BOARD",
+   "bbox": [
+    744,
+    1719,
+    766,
+    1741
+   ]
+  },
+  "R3": {
+   "Name": "R3",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    695,
+    1608,
+    714,
+    1650
+   ]
+  },
+  "Q6": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    730,
+    1496,
+    878,
+    1539
+   ]
+  },
+  "R6": {
+   "Name": "R6",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    695,
+    1446,
+    714,
+    1488
+   ]
+  },
+  "∅4810": {
+   "Name": "∅4810",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    736,
+    1383,
+    774,
+    1417
+   ]
+  },
+  "∅6107": {
+   "Name": "∅6107",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    1301,
+    972,
+    1344,
+    992
+   ]
+  },
+  "∅6136": {
+   "Name": "∅6136",
+   "type": "v",
+   "value": "VIN_BOARD",
+   "bbox": [
+    1311,
+    1142,
+    1334,
+    1154
+   ]
+  },
+  "Board1": {
+   "Name": "Board1",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    1068,
+    1243,
+    1293,
+    1711
+   ]
+  },
+  "Q7": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    183,
+    1253,
+    331,
+    1296
+   ]
+  },
+  "∅8523": {
+   "Name": "∅8523",
+   "type": "v",
+   "value": "VIN_BOARD",
+   "bbox": [
+    197,
+    1314,
+    219,
+    1336
+   ]
+  },
+  "R7": {
+   "Name": "R7",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    148,
+    1203,
+    167,
+    1245
+   ]
+  },
+  "Q10": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    183,
+    1091,
+    331,
+    1134
+   ]
+  },
+  "R10": {
+   "Name": "R10",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    148,
+    1040,
+    167,
+    1083
+   ]
+  },
+  "∅8115": {
+   "Name": "∅8115",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    189,
+    978,
+    227,
+    1012
+   ]
+  },
+  "Q8": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    456,
+    1253,
+    604,
+    1296
+   ]
+  },
+  "∅8631": {
+   "Name": "∅8631",
+   "type": "v",
+   "value": "VIN_BOARD",
+   "bbox": [
+    471,
+    1314,
+    493,
+    1336
+   ]
+  },
+  "R8": {
+   "Name": "R8",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    422,
+    1203,
+    440,
+    1245
+   ]
+  },
+  "Q11": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    456,
+    1091,
+    604,
+    1134
+   ]
+  },
+  "R11": {
+   "Name": "R11",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    422,
+    1040,
+    440,
+    1083
+   ]
+  },
+  "∅8452": {
+   "Name": "∅8452",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    462,
+    978,
+    501,
+    1012
+   ]
+  },
+  "Q9": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    730,
+    1253,
+    878,
+    1296
+   ]
+  },
+  "∅8270": {
+   "Name": "∅8270",
+   "type": "v",
+   "value": "VIN_BOARD",
+   "bbox": [
+    744,
+    1314,
+    766,
+    1336
+   ]
+  },
+  "R9": {
+   "Name": "R9",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    695,
+    1203,
+    714,
+    1245
+   ]
+  },
+  "Q12": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    730,
+    1091,
+    878,
+    1134
+   ]
+  },
+  "R12": {
+   "Name": "R12",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    695,
+    1040,
+    714,
+    1083
+   ]
+  },
+  "∅8162": {
+   "Name": "∅8162",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    736,
+    978,
+    774,
+    1012
+   ]
+  },
+  "Q13": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    183,
+    848,
+    331,
+    891
+   ]
+  },
+  "∅9201": {
+   "Name": "∅9201",
+   "type": "v",
+   "value": "VIN_BOARD",
+   "bbox": [
+    197,
+    909,
+    219,
+    931
+   ]
+  },
+  "R13": {
+   "Name": "R13",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    148,
+    797,
+    167,
+    840
+   ]
+  },
+  "Q16": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    183,
+    686,
+    331,
+    728
+   ]
+  },
+  "R16": {
+   "Name": "R16",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    148,
+    635,
+    167,
+    678
+   ]
+  },
+  "∅8793": {
+   "Name": "∅8793",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    189,
+    572,
+    227,
+    607
+   ]
+  },
+  "Q14": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    456,
+    848,
+    604,
+    891
+   ]
+  },
+  "∅9309": {
+   "Name": "∅9309",
+   "type": "v",
+   "value": "VIN_BOARD",
+   "bbox": [
+    471,
+    909,
+    493,
+    931
+   ]
+  },
+  "R14": {
+   "Name": "R14",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    422,
+    797,
+    440,
+    840
+   ]
+  },
+  "Q17": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    456,
+    686,
+    604,
+    728
+   ]
+  },
+  "R17": {
+   "Name": "R17",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    422,
+    635,
+    440,
+    678
+   ]
+  },
+  "∅9130": {
+   "Name": "∅9130",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    462,
+    572,
+    501,
+    607
+   ]
+  },
+  "Q15": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    730,
+    848,
+    878,
+    891
+   ]
+  },
+  "∅8948": {
+   "Name": "∅8948",
+   "type": "v",
+   "value": "VIN_BOARD",
+   "bbox": [
+    744,
+    909,
+    766,
+    931
+   ]
+  },
+  "R15": {
+   "Name": "R15",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    695,
+    797,
+    714,
+    840
+   ]
+  },
+  "Q18": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    730,
+    686,
+    878,
+    728
+   ]
+  },
+  "R18": {
+   "Name": "R18",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    695,
+    635,
+    714,
+    678
+   ]
+  },
+  "∅8840": {
+   "Name": "∅8840",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    736,
+    572,
+    774,
+    607
+   ]
+  },
+  "Q19": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    183,
+    443,
+    331,
+    485
+   ]
+  },
+  "∅9879": {
+   "Name": "∅9879",
+   "type": "v",
+   "value": "VIN_BOARD",
+   "bbox": [
+    197,
+    504,
+    219,
+    526
+   ]
+  },
+  "R19": {
+   "Name": "R19",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    148,
+    392,
+    167,
+    435
+   ]
+  },
+  "Q22": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    183,
+    281,
+    331,
+    323
+   ]
+  },
+  "R22": {
+   "Name": "R22",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    148,
+    230,
+    167,
+    273
+   ]
+  },
+  "∅9471": {
+   "Name": "∅9471",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    189,
+    167,
+    227,
+    202
+   ]
+  },
+  "Q20": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    456,
+    443,
+    604,
+    485
+   ]
+  },
+  "∅9987": {
+   "Name": "∅9987",
+   "type": "v",
+   "value": "VIN_BOARD",
+   "bbox": [
+    471,
+    504,
+    493,
+    526
+   ]
+  },
+  "R20": {
+   "Name": "R20",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    422,
+    392,
+    440,
+    435
+   ]
+  },
+  "Q23": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    456,
+    281,
+    604,
+    323
+   ]
+  },
+  "R23": {
+   "Name": "R23",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    422,
+    230,
+    440,
+    273
+   ]
+  },
+  "∅9808": {
+   "Name": "∅9808",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    462,
+    167,
+    501,
+    202
+   ]
+  },
+  "Q21": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    730,
+    443,
+    878,
+    485
+   ]
+  },
+  "∅9626": {
+   "Name": "∅9626",
+   "type": "v",
+   "value": "VIN_BOARD",
+   "bbox": [
+    744,
+    504,
+    766,
+    526
+   ]
+  },
+  "R21": {
+   "Name": "R21",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    695,
+    392,
+    714,
+    435
+   ]
+  },
+  "Q24": {
+   "Name": "HYG015N10NS1TA",
+   "type": "mosfet",
+   "value": null,
+   "bbox": [
+    730,
+    281,
+    878,
+    323
+   ]
+  },
+  "R24": {
+   "Name": "R24",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    695,
+    230,
+    714,
+    273
+   ]
+  },
+  "∅9518": {
+   "Name": "∅9518",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    736,
+    167,
+    774,
+    202
+   ]
+  },
+  "U2": {
+   "Name": "U2",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    997,
+    726,
+    1080,
+    769
+   ]
+  },
+  "V2": {
+   "Name": "V2",
+   "type": "other",
+   "value": null,
+   "bbox": [
+    997,
+    686,
+    1080,
+    728
+   ]
+  },
+  "W2": {
+   "Name": "W2",
+   "type": "other",
+   "value": null,
+   "bbox": [
+    997,
+    645,
+    1080,
+    688
+   ]
+  },
+  "U3": {
+   "Name": "U3",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    1190,
+    878,
+    1273,
+    921
+   ]
+  },
+  "V3": {
+   "Name": "V3",
+   "type": "other",
+   "value": null,
+   "bbox": [
+    1190,
+    838,
+    1273,
+    880
+   ]
+  },
+  "W3": {
+   "Name": "W3",
+   "type": "other",
+   "value": null,
+   "bbox": [
+    1190,
+    797,
+    1273,
+    840
+   ]
+  },
+  "U4": {
+   "Name": "U4",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    1190,
+    726,
+    1273,
+    769
+   ]
+  },
+  "V4": {
+   "Name": "V4",
+   "type": "other",
+   "value": null,
+   "bbox": [
+    1190,
+    686,
+    1273,
+    728
+   ]
+  },
+  "W4": {
+   "Name": "W4",
+   "type": "other",
+   "value": null,
+   "bbox": [
+    1190,
+    645,
+    1273,
+    688
+   ]
+  },
+  "D2": {
+   "Name": "SMDJ90A",
+   "type": "d",
+   "value": null,
+   "bbox": [
+    959,
+    1051,
+    997,
+    1093
+   ]
+  },
+  "GND1": {
+   "Name": "GND1",
+   "type": "other",
+   "value": null,
+   "bbox": [
+    1392,
+    686,
+    1475,
+    728
+   ]
+  },
+  "BAT1": {
+   "Name": "BAT1",
+   "type": "battary",
+   "value": null,
+   "bbox": [
+    1392,
+    645,
+    1475,
+    688
+   ]
+  },
+  "∅23714": {
+   "Name": "∅23714",
+   "type": "v",
+   "value": "VIN_BOARD",
+   "bbox": [
+    967,
+    990,
+    989,
+    1002
+   ]
+  },
+  "C1": {
+   "Name": "C1",
+   "type": "c",
+   "value": "10uF",
+   "bbox": [
+    1346,
+    1051,
+    1380,
+    1093
+   ]
+  },
+  "C2": {
+   "Name": "C2",
+   "type": "c",
+   "value": "10uF",
+   "bbox": [
+    1305,
+    1051,
+    1340,
+    1093
+   ]
+  },
+  "C3": {
+   "Name": "C3",
+   "type": "c",
+   "value": "10uF",
+   "bbox": [
+    1265,
+    1051,
+    1299,
+    1093
+   ]
+  },
+  "C4": {
+   "Name": "C4",
+   "type": "c",
+   "value": "10uF",
+   "bbox": [
+    1386,
+    1051,
+    1421,
+    1093
+   ]
+  },
+  "C5": {
+   "Name": "C5",
+   "type": "c",
+   "value": "10uF",
+   "bbox": [
+    1427,
+    1051,
+    1461,
+    1093
+   ]
+  },
+  "C6": {
+   "Name": "C6",
+   "type": "c",
+   "value": "10uF",
+   "bbox": [
+    1467,
+    1051,
+    1502,
+    1093
+   ]
+  },
+  "C7": {
+   "Name": "C7",
+   "type": "c",
+   "value": "10uF",
+   "bbox": [
+    1508,
+    1051,
+    1542,
+    1093
+   ]
+  },
+  "RSENS": {
+   "Name": "RSENS",
+   "type": "r",
+   "value": "0.2mΩ",
+   "bbox": [
+    1018,
+    1122,
+    1060,
+    1144
+   ]
+  }
+ },
+ "pins": {
+  "U1": {
+   "pin_1": {
+    "pinname": "Pad",
+    "point": {
+     "x": 1100,
+     "y": 900
+    }
+   }
+  },
+  "V1": {
+   "pin_1": {
+    "pinname": "Pad",
+    "point": {
+     "x": 1100,
+     "y": 859
+    }
+   }
+  },
+  "W1": {
+   "pin_1": {
+    "pinname": "Pad",
+    "point": {
+     "x": 1100,
+     "y": 819
+    }
+   }
+  },
+  "GND": {
+   "pin_1": {
+    "pinname": "Pad",
+    "point": {
+     "x": 1495,
+     "y": 788
+    }
+   }
+  },
+  "BAT": {
+   "pin_1": {
+    "pinname": "Pad",
+    "point": {
+     "x": 1495,
+     "y": 748
+    }
+   }
+  },
+  "∅1799": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 1100,
+     "y": 1153
+    }
+   }
+  },
+  "∅1812": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 978,
+     "y": 1153
+    }
+   }
+  },
+  "Q1": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 228,
+     "y": 1639
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 249,
+     "y": 1639
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 269,
+     "y": 1639
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 289,
+     "y": 1639
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 310,
+     "y": 1639
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 330,
+     "y": 1639
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 208,
+     "y": 1639
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 168,
+     "y": 1680
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 208,
+     "y": 1720
+    }
+   }
+  },
+  "∅2952": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 208,
+     "y": 1720
+    }
+   }
+  },
+  "R1": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 158,
+     "y": 1589
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 158,
+     "y": 1670
+    }
+   }
+  },
+  "Q4": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 228,
+     "y": 1477
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 249,
+     "y": 1477
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 269,
+     "y": 1477
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 289,
+     "y": 1477
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 310,
+     "y": 1477
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 330,
+     "y": 1477
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 208,
+     "y": 1477
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 168,
+     "y": 1518
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 208,
+     "y": 1558
+    }
+   }
+  },
+  "R4": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 158,
+     "y": 1507
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 158,
+     "y": 1426
+    }
+   }
+  },
+  "∅3340": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 208,
+     "y": 1416
+    }
+   }
+  },
+  "Q2": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 502,
+     "y": 1639
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 522,
+     "y": 1639
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 543,
+     "y": 1639
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 563,
+     "y": 1639
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 583,
+     "y": 1639
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 603,
+     "y": 1639
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 482,
+     "y": 1639
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 441,
+     "y": 1680
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 482,
+     "y": 1720
+    }
+   }
+  },
+  "∅3679": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 482,
+     "y": 1720
+    }
+   }
+  },
+  "R2": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 431,
+     "y": 1589
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 431,
+     "y": 1670
+    }
+   }
+  },
+  "Q5": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 502,
+     "y": 1477
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 522,
+     "y": 1477
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 543,
+     "y": 1477
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 563,
+     "y": 1477
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 583,
+     "y": 1477
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 603,
+     "y": 1477
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 482,
+     "y": 1477
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 441,
+     "y": 1518
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 482,
+     "y": 1558
+    }
+   }
+  },
+  "R5": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 431,
+     "y": 1507
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 431,
+     "y": 1426
+    }
+   }
+  },
+  "∅3824": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 482,
+     "y": 1416
+    }
+   }
+  },
+  "Q3": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 776,
+     "y": 1639
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 796,
+     "y": 1639
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 816,
+     "y": 1639
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 836,
+     "y": 1639
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 857,
+     "y": 1639
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 877,
+     "y": 1639
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 755,
+     "y": 1639
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 715,
+     "y": 1680
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 755,
+     "y": 1720
+    }
+   }
+  },
+  "∅4665": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 755,
+     "y": 1720
+    }
+   }
+  },
+  "R3": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 705,
+     "y": 1589
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 705,
+     "y": 1670
+    }
+   }
+  },
+  "Q6": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 776,
+     "y": 1477
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 796,
+     "y": 1477
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 816,
+     "y": 1477
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 836,
+     "y": 1477
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 857,
+     "y": 1477
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 877,
+     "y": 1477
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 755,
+     "y": 1477
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 715,
+     "y": 1518
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 755,
+     "y": 1558
+    }
+   }
+  },
+  "R6": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 705,
+     "y": 1507
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 705,
+     "y": 1426
+    }
+   }
+  },
+  "∅4810": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 755,
+     "y": 1416
+    }
+   }
+  },
+  "∅6107": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 1323,
+     "y": 1011
+    }
+   }
+  },
+  "∅6136": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 1323,
+     "y": 1133
+    }
+   }
+  },
+  "Board1": {
+   "pin_1": {
+    "pinname": "GND",
+    "point": {
+     "x": 1029,
+     "y": 1670
+    }
+   },
+   "pin_2": {
+    "pinname": "LW2",
+    "point": {
+     "x": 1029,
+     "y": 1649
+    }
+   },
+   "pin_3": {
+    "pinname": "HW2",
+    "point": {
+     "x": 1029,
+     "y": 1629
+    }
+   },
+   "pin_4": {
+    "pinname": "SW2",
+    "point": {
+     "x": 1029,
+     "y": 1609
+    }
+   },
+   "pin_5": {
+    "pinname": "LV2",
+    "point": {
+     "x": 1029,
+     "y": 1589
+    }
+   },
+   "pin_6": {
+    "pinname": "HV2",
+    "point": {
+     "x": 1029,
+     "y": 1568
+    }
+   },
+   "pin_7": {
+    "pinname": "SV2",
+    "point": {
+     "x": 1029,
+     "y": 1548
+    }
+   },
+   "pin_8": {
+    "pinname": "LU2",
+    "point": {
+     "x": 1029,
+     "y": 1528
+    }
+   },
+   "pin_9": {
+    "pinname": "HU2",
+    "point": {
+     "x": 1029,
+     "y": 1507
+    }
+   },
+   "pin_10": {
+    "pinname": "SU2",
+    "point": {
+     "x": 1029,
+     "y": 1487
+    }
+   },
+   "pin_11": {
+    "pinname": "GND",
+    "point": {
+     "x": 1029,
+     "y": 1467
+    }
+   },
+   "pin_12": {
+    "pinname": "LW1",
+    "point": {
+     "x": 1029,
+     "y": 1447
+    }
+   },
+   "pin_13": {
+    "pinname": "HW1",
+    "point": {
+     "x": 1029,
+     "y": 1426
+    }
+   },
+   "pin_14": {
+    "pinname": "SW1",
+    "point": {
+     "x": 1029,
+     "y": 1406
+    }
+   },
+   "pin_15": {
+    "pinname": "LV1",
+    "point": {
+     "x": 1029,
+     "y": 1386
+    }
+   },
+   "pin_16": {
+    "pinname": "HV1",
+    "point": {
+     "x": 1029,
+     "y": 1366
+    }
+   },
+   "pin_17": {
+    "pinname": "SV1",
+    "point": {
+     "x": 1029,
+     "y": 1345
+    }
+   },
+   "pin_18": {
+    "pinname": "LU1",
+    "point": {
+     "x": 1029,
+     "y": 1325
+    }
+   },
+   "pin_19": {
+    "pinname": "HU1",
+    "point": {
+     "x": 1029,
+     "y": 1305
+    }
+   },
+   "pin_20": {
+    "pinname": "SU1",
+    "point": {
+     "x": 1029,
+     "y": 1285
+    }
+   },
+   "pin_21": {
+    "pinname": "LW3",
+    "point": {
+     "x": 1333,
+     "y": 1285
+    }
+   },
+   "pin_22": {
+    "pinname": "HW3",
+    "point": {
+     "x": 1333,
+     "y": 1305
+    }
+   },
+   "pin_23": {
+    "pinname": "SW3",
+    "point": {
+     "x": 1333,
+     "y": 1325
+    }
+   },
+   "pin_24": {
+    "pinname": "LV3",
+    "point": {
+     "x": 1333,
+     "y": 1345
+    }
+   },
+   "pin_25": {
+    "pinname": "HV3",
+    "point": {
+     "x": 1333,
+     "y": 1366
+    }
+   },
+   "pin_26": {
+    "pinname": "SV3",
+    "point": {
+     "x": 1333,
+     "y": 1386
+    }
+   },
+   "pin_27": {
+    "pinname": "LU3",
+    "point": {
+     "x": 1333,
+     "y": 1406
+    }
+   },
+   "pin_28": {
+    "pinname": "HU3",
+    "point": {
+     "x": 1333,
+     "y": 1426
+    }
+   },
+   "pin_29": {
+    "pinname": "SU3",
+    "point": {
+     "x": 1333,
+     "y": 1447
+    }
+   },
+   "pin_30": {
+    "pinname": "GND",
+    "point": {
+     "x": 1333,
+     "y": 1467
+    }
+   },
+   "pin_31": {
+    "pinname": "LW4",
+    "point": {
+     "x": 1333,
+     "y": 1487
+    }
+   },
+   "pin_32": {
+    "pinname": "HW4",
+    "point": {
+     "x": 1333,
+     "y": 1507
+    }
+   },
+   "pin_33": {
+    "pinname": "SW4",
+    "point": {
+     "x": 1333,
+     "y": 1528
+    }
+   },
+   "pin_34": {
+    "pinname": "LV4",
+    "point": {
+     "x": 1333,
+     "y": 1548
+    }
+   },
+   "pin_35": {
+    "pinname": "HV4",
+    "point": {
+     "x": 1333,
+     "y": 1568
+    }
+   },
+   "pin_36": {
+    "pinname": "SV4",
+    "point": {
+     "x": 1333,
+     "y": 1589
+    }
+   },
+   "pin_37": {
+    "pinname": "LU4",
+    "point": {
+     "x": 1333,
+     "y": 1609
+    }
+   },
+   "pin_38": {
+    "pinname": "HU4",
+    "point": {
+     "x": 1333,
+     "y": 1629
+    }
+   },
+   "pin_39": {
+    "pinname": "SU4",
+    "point": {
+     "x": 1333,
+     "y": 1649
+    }
+   },
+   "pin_40": {
+    "pinname": "VIN",
+    "point": {
+     "x": 1333,
+     "y": 1670
+    }
+   },
+   "pin_41": {
+    "pinname": "CUR_N",
+    "point": {
+     "x": 1191,
+     "y": 1204
+    }
+   },
+   "pin_42": {
+    "pinname": "CUR_P",
+    "point": {
+     "x": 1171,
+     "y": 1204
+    }
+   }
+  },
+  "Q7": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 228,
+     "y": 1234
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 249,
+     "y": 1234
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 269,
+     "y": 1234
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 289,
+     "y": 1234
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 310,
+     "y": 1234
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 330,
+     "y": 1234
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 208,
+     "y": 1234
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 168,
+     "y": 1274
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 208,
+     "y": 1315
+    }
+   }
+  },
+  "∅8523": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 208,
+     "y": 1315
+    }
+   }
+  },
+  "R7": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 158,
+     "y": 1183
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 158,
+     "y": 1264
+    }
+   }
+  },
+  "Q10": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 228,
+     "y": 1072
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 249,
+     "y": 1072
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 269,
+     "y": 1072
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 289,
+     "y": 1072
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 310,
+     "y": 1072
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 330,
+     "y": 1072
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 208,
+     "y": 1072
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 168,
+     "y": 1112
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 208,
+     "y": 1153
+    }
+   }
+  },
+  "R10": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 158,
+     "y": 1102
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 158,
+     "y": 1021
+    }
+   }
+  },
+  "∅8115": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 208,
+     "y": 1011
+    }
+   }
+  },
+  "Q8": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 502,
+     "y": 1234
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 522,
+     "y": 1234
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 543,
+     "y": 1234
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 563,
+     "y": 1234
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 583,
+     "y": 1234
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 603,
+     "y": 1234
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 482,
+     "y": 1234
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 441,
+     "y": 1274
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 482,
+     "y": 1315
+    }
+   }
+  },
+  "∅8631": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 482,
+     "y": 1315
+    }
+   }
+  },
+  "R8": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 431,
+     "y": 1183
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 431,
+     "y": 1264
+    }
+   }
+  },
+  "Q11": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 502,
+     "y": 1072
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 522,
+     "y": 1072
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 543,
+     "y": 1072
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 563,
+     "y": 1072
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 583,
+     "y": 1072
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 603,
+     "y": 1072
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 482,
+     "y": 1072
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 441,
+     "y": 1112
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 482,
+     "y": 1153
+    }
+   }
+  },
+  "R11": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 431,
+     "y": 1102
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 431,
+     "y": 1021
+    }
+   }
+  },
+  "∅8452": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 482,
+     "y": 1011
+    }
+   }
+  },
+  "Q9": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 776,
+     "y": 1234
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 796,
+     "y": 1234
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 816,
+     "y": 1234
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 836,
+     "y": 1234
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 857,
+     "y": 1234
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 877,
+     "y": 1234
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 755,
+     "y": 1234
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 715,
+     "y": 1274
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 755,
+     "y": 1315
+    }
+   }
+  },
+  "∅8270": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 755,
+     "y": 1315
+    }
+   }
+  },
+  "R9": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 705,
+     "y": 1183
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 705,
+     "y": 1264
+    }
+   }
+  },
+  "Q12": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 776,
+     "y": 1072
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 796,
+     "y": 1072
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 816,
+     "y": 1072
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 836,
+     "y": 1072
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 857,
+     "y": 1072
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 877,
+     "y": 1072
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 755,
+     "y": 1072
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 715,
+     "y": 1112
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 755,
+     "y": 1153
+    }
+   }
+  },
+  "R12": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 705,
+     "y": 1102
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 705,
+     "y": 1021
+    }
+   }
+  },
+  "∅8162": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 755,
+     "y": 1011
+    }
+   }
+  },
+  "Q13": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 228,
+     "y": 829
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 249,
+     "y": 829
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 269,
+     "y": 829
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 289,
+     "y": 829
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 310,
+     "y": 829
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 330,
+     "y": 829
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 208,
+     "y": 829
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 168,
+     "y": 869
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 208,
+     "y": 910
+    }
+   }
+  },
+  "∅9201": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 208,
+     "y": 910
+    }
+   }
+  },
+  "R13": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 158,
+     "y": 778
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 158,
+     "y": 859
+    }
+   }
+  },
+  "Q16": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 228,
+     "y": 667
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 249,
+     "y": 667
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 269,
+     "y": 667
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 289,
+     "y": 667
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 310,
+     "y": 667
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 330,
+     "y": 667
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 208,
+     "y": 667
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 168,
+     "y": 707
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 208,
+     "y": 748
+    }
+   }
+  },
+  "R16": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 158,
+     "y": 697
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 158,
+     "y": 616
+    }
+   }
+  },
+  "∅8793": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 208,
+     "y": 606
+    }
+   }
+  },
+  "Q14": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 502,
+     "y": 829
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 522,
+     "y": 829
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 543,
+     "y": 829
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 563,
+     "y": 829
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 583,
+     "y": 829
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 603,
+     "y": 829
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 482,
+     "y": 829
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 441,
+     "y": 869
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 482,
+     "y": 910
+    }
+   }
+  },
+  "∅9309": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 482,
+     "y": 910
+    }
+   }
+  },
+  "R14": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 431,
+     "y": 778
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 431,
+     "y": 859
+    }
+   }
+  },
+  "Q17": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 502,
+     "y": 667
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 522,
+     "y": 667
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 543,
+     "y": 667
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 563,
+     "y": 667
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 583,
+     "y": 667
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 603,
+     "y": 667
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 482,
+     "y": 667
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 441,
+     "y": 707
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 482,
+     "y": 748
+    }
+   }
+  },
+  "R17": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 431,
+     "y": 697
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 431,
+     "y": 616
+    }
+   }
+  },
+  "∅9130": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 482,
+     "y": 606
+    }
+   }
+  },
+  "Q15": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 776,
+     "y": 829
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 796,
+     "y": 829
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 816,
+     "y": 829
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 836,
+     "y": 829
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 857,
+     "y": 829
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 877,
+     "y": 829
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 755,
+     "y": 829
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 715,
+     "y": 869
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 755,
+     "y": 910
+    }
+   }
+  },
+  "∅8948": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 755,
+     "y": 910
+    }
+   }
+  },
+  "R15": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 705,
+     "y": 778
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 705,
+     "y": 859
+    }
+   }
+  },
+  "Q18": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 776,
+     "y": 667
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 796,
+     "y": 667
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 816,
+     "y": 667
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 836,
+     "y": 667
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 857,
+     "y": 667
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 877,
+     "y": 667
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 755,
+     "y": 667
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 715,
+     "y": 707
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 755,
+     "y": 748
+    }
+   }
+  },
+  "R18": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 705,
+     "y": 697
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 705,
+     "y": 616
+    }
+   }
+  },
+  "∅8840": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 755,
+     "y": 606
+    }
+   }
+  },
+  "Q19": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 228,
+     "y": 424
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 249,
+     "y": 424
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 269,
+     "y": 424
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 289,
+     "y": 424
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 310,
+     "y": 424
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 330,
+     "y": 424
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 208,
+     "y": 424
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 168,
+     "y": 464
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 208,
+     "y": 505
+    }
+   }
+  },
+  "∅9879": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 208,
+     "y": 505
+    }
+   }
+  },
+  "R19": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 158,
+     "y": 373
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 158,
+     "y": 454
+    }
+   }
+  },
+  "Q22": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 228,
+     "y": 261
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 249,
+     "y": 261
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 269,
+     "y": 261
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 289,
+     "y": 261
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 310,
+     "y": 261
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 330,
+     "y": 261
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 208,
+     "y": 261
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 168,
+     "y": 302
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 208,
+     "y": 343
+    }
+   }
+  },
+  "R22": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 158,
+     "y": 292
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 158,
+     "y": 211
+    }
+   }
+  },
+  "∅9471": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 208,
+     "y": 201
+    }
+   }
+  },
+  "Q20": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 502,
+     "y": 424
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 522,
+     "y": 424
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 543,
+     "y": 424
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 563,
+     "y": 424
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 583,
+     "y": 424
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 603,
+     "y": 424
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 482,
+     "y": 424
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 441,
+     "y": 464
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 482,
+     "y": 505
+    }
+   }
+  },
+  "∅9987": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 482,
+     "y": 505
+    }
+   }
+  },
+  "R20": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 431,
+     "y": 373
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 431,
+     "y": 454
+    }
+   }
+  },
+  "Q23": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 502,
+     "y": 261
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 522,
+     "y": 261
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 543,
+     "y": 261
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 563,
+     "y": 261
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 583,
+     "y": 261
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 603,
+     "y": 261
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 482,
+     "y": 261
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 441,
+     "y": 302
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 482,
+     "y": 343
+    }
+   }
+  },
+  "R23": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 431,
+     "y": 292
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 431,
+     "y": 211
+    }
+   }
+  },
+  "∅9808": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 482,
+     "y": 201
+    }
+   }
+  },
+  "Q21": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 776,
+     "y": 424
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 796,
+     "y": 424
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 816,
+     "y": 424
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 836,
+     "y": 424
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 857,
+     "y": 424
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 877,
+     "y": 424
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 755,
+     "y": 424
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 715,
+     "y": 464
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 755,
+     "y": 505
+    }
+   }
+  },
+  "∅9626": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 755,
+     "y": 505
+    }
+   }
+  },
+  "R21": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 705,
+     "y": 373
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 705,
+     "y": 454
+    }
+   }
+  },
+  "Q24": {
+   "pin_3": {
+    "pinname": "S",
+    "point": {
+     "x": 776,
+     "y": 261
+    }
+   },
+   "pin_4": {
+    "pinname": "S",
+    "point": {
+     "x": 796,
+     "y": 261
+    }
+   },
+   "pin_5": {
+    "pinname": "S",
+    "point": {
+     "x": 816,
+     "y": 261
+    }
+   },
+   "pin_6": {
+    "pinname": "S",
+    "point": {
+     "x": 836,
+     "y": 261
+    }
+   },
+   "pin_7": {
+    "pinname": "S",
+    "point": {
+     "x": 857,
+     "y": 261
+    }
+   },
+   "pin_8": {
+    "pinname": "S",
+    "point": {
+     "x": 877,
+     "y": 261
+    }
+   },
+   "pin_2": {
+    "pinname": "S",
+    "point": {
+     "x": 755,
+     "y": 261
+    }
+   },
+   "pin_1": {
+    "pinname": "G",
+    "point": {
+     "x": 715,
+     "y": 302
+    }
+   },
+   "pin_9": {
+    "pinname": "D",
+    "point": {
+     "x": 755,
+     "y": 343
+    }
+   }
+  },
+  "R24": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 705,
+     "y": 292
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 705,
+     "y": 211
+    }
+   }
+  },
+  "∅9518": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 755,
+     "y": 201
+    }
+   }
+  },
+  "U2": {
+   "pin_1": {
+    "pinname": "Pad",
+    "point": {
+     "x": 1100,
+     "y": 748
+    }
+   }
+  },
+  "V2": {
+   "pin_1": {
+    "pinname": "Pad",
+    "point": {
+     "x": 1100,
+     "y": 707
+    }
+   }
+  },
+  "W2": {
+   "pin_1": {
+    "pinname": "Pad",
+    "point": {
+     "x": 1100,
+     "y": 667
+    }
+   }
+  },
+  "U3": {
+   "pin_1": {
+    "pinname": "Pad",
+    "point": {
+     "x": 1292,
+     "y": 900
+    }
+   }
+  },
+  "V3": {
+   "pin_1": {
+    "pinname": "Pad",
+    "point": {
+     "x": 1292,
+     "y": 859
+    }
+   }
+  },
+  "W3": {
+   "pin_1": {
+    "pinname": "Pad",
+    "point": {
+     "x": 1292,
+     "y": 819
+    }
+   }
+  },
+  "U4": {
+   "pin_1": {
+    "pinname": "Pad",
+    "point": {
+     "x": 1292,
+     "y": 748
+    }
+   }
+  },
+  "V4": {
+   "pin_1": {
+    "pinname": "Pad",
+    "point": {
+     "x": 1292,
+     "y": 707
+    }
+   }
+  },
+  "W4": {
+   "pin_1": {
+    "pinname": "Pad",
+    "point": {
+     "x": 1292,
+     "y": 667
+    }
+   }
+  },
+  "D2": {
+   "pin_1": {
+    "pinname": "C",
+    "point": {
+     "x": 978,
+     "y": 1031
+    }
+   },
+   "pin_2": {
+    "pinname": "A",
+    "point": {
+     "x": 978,
+     "y": 1112
+    }
+   }
+  },
+  "GND1": {
+   "pin_1": {
+    "pinname": "Pad",
+    "point": {
+     "x": 1495,
+     "y": 707
+    }
+   }
+  },
+  "BAT1": {
+   "pin_1": {
+    "pinname": "Pad",
+    "point": {
+     "x": 1495,
+     "y": 667
+    }
+   }
+  },
+  "∅23714": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 978,
+     "y": 1011
+    }
+   }
+  },
+  "C1": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 1363,
+     "y": 1031
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 1363,
+     "y": 1112
+    }
+   }
+  },
+  "C2": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 1323,
+     "y": 1031
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 1323,
+     "y": 1112
+    }
+   }
+  },
+  "C3": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 1282,
+     "y": 1031
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 1282,
+     "y": 1112
+    }
+   }
+  },
+  "C4": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 1404,
+     "y": 1031
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 1404,
+     "y": 1112
+    }
+   }
+  },
+  "C5": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 1444,
+     "y": 1031
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 1444,
+     "y": 1112
+    }
+   }
+  },
+  "C6": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 1485,
+     "y": 1031
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 1485,
+     "y": 1112
+    }
+   }
+  },
+  "C7": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 1525,
+     "y": 1031
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 1525,
+     "y": 1112
+    }
+   }
+  },
+  "RSENS": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 1079,
+     "y": 1133
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 998,
+     "y": 1133
+    }
+   }
+  }
+ },
+ "nets": {
+  "net_1": {
+   "hyperGraph": "(U1.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1160,
+      "y": 900
+     },
+     {
+      "x": 1100,
+      "y": 900
+     }
+    ]
+   }
+  },
+  "net_2": {
+   "hyperGraph": "(V1.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1160,
+      "y": 859
+     },
+     {
+      "x": 1100,
+      "y": 859
+     }
+    ]
+   }
+  },
+  "net_3": {
+   "hyperGraph": "(W1.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1160,
+      "y": 819
+     },
+     {
+      "x": 1100,
+      "y": 819
+     }
+    ]
+   }
+  },
+  "net_4": {
+   "hyperGraph": "(GND.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1495,
+      "y": 788
+     },
+     {
+      "x": 1556,
+      "y": 788
+     }
+    ]
+   }
+  },
+  "net_5": {
+   "hyperGraph": "(BAT.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1495,
+      "y": 748
+     },
+     {
+      "x": 1556,
+      "y": 748
+     }
+    ]
+   }
+  },
+  "net_6": {
+   "hyperGraph": "(∅1812.1,D2.2,RSENS.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 978,
+      "y": 1133
+     },
+     {
+      "x": 998,
+      "y": 1133
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 978,
+      "y": 1112
+     },
+     {
+      "x": 978,
+      "y": 1133
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 978,
+      "y": 1133
+     },
+     {
+      "x": 978,
+      "y": 1153
+     }
+    ]
+   }
+  },
+  "net_7": {
+   "hyperGraph": "(∅1799.1,RSENS.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1100,
+      "y": 1133
+     },
+     {
+      "x": 1079,
+      "y": 1133
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 1100,
+      "y": 1133
+     },
+     {
+      "x": 1100,
+      "y": 1153
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 1100,
+      "y": 1133
+     },
+     {
+      "x": 1120,
+      "y": 1133
+     }
+    ]
+   }
+  },
+  "net_8": {
+   "hyperGraph": "(Q1.1,R1.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 107,
+      "y": 1680
+     },
+     {
+      "x": 158,
+      "y": 1680
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 158,
+      "y": 1680
+     },
+     {
+      "x": 168,
+      "y": 1680
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 158,
+      "y": 1680
+     },
+     {
+      "x": 158,
+      "y": 1670
+     }
+    ]
+   }
+  },
+  "net_9": {
+   "hyperGraph": "(Q1.3,Q1.4,Q1.5,Q1.6,Q1.7,Q1.8,Q1.2,R1.2,Q4.9)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 208,
+      "y": 1578
+     },
+     {
+      "x": 330,
+      "y": 1578
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 208,
+      "y": 1578
+     },
+     {
+      "x": 158,
+      "y": 1578
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 158,
+      "y": 1578
+     },
+     {
+      "x": 158,
+      "y": 1589
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 249,
+      "y": 1639
+     },
+     {
+      "x": 269,
+      "y": 1639
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 228,
+      "y": 1639
+     },
+     {
+      "x": 249,
+      "y": 1639
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 208,
+      "y": 1639
+     },
+     {
+      "x": 228,
+      "y": 1639
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 269,
+      "y": 1639
+     },
+     {
+      "x": 289,
+      "y": 1639
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 310,
+      "y": 1639
+     },
+     {
+      "x": 289,
+      "y": 1639
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 310,
+      "y": 1639
+     },
+     {
+      "x": 330,
+      "y": 1639
+     }
+    ],
+    "edge_10": [
+     {
+      "x": 208,
+      "y": 1639
+     },
+     {
+      "x": 208,
+      "y": 1578
+     }
+    ],
+    "edge_11": [
+     {
+      "x": 208,
+      "y": 1578
+     },
+     {
+      "x": 208,
+      "y": 1558
+     }
+    ]
+   }
+  },
+  "net_10": {
+   "hyperGraph": "(Q4.1,R4.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 107,
+      "y": 1518
+     },
+     {
+      "x": 158,
+      "y": 1518
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 158,
+      "y": 1518
+     },
+     {
+      "x": 158,
+      "y": 1507
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 158,
+      "y": 1518
+     },
+     {
+      "x": 168,
+      "y": 1518
+     }
+    ]
+   }
+  },
+  "net_11": {
+   "hyperGraph": "(Q4.3,Q4.4,Q4.5,Q4.6,Q4.7,Q4.8,Q4.2,R4.1,∅3340.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 208,
+      "y": 1416
+     },
+     {
+      "x": 208,
+      "y": 1426
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 208,
+      "y": 1426
+     },
+     {
+      "x": 158,
+      "y": 1426
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 208,
+      "y": 1477
+     },
+     {
+      "x": 208,
+      "y": 1426
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 208,
+      "y": 1477
+     },
+     {
+      "x": 228,
+      "y": 1477
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 228,
+      "y": 1477
+     },
+     {
+      "x": 249,
+      "y": 1477
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 249,
+      "y": 1477
+     },
+     {
+      "x": 269,
+      "y": 1477
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 269,
+      "y": 1477
+     },
+     {
+      "x": 289,
+      "y": 1477
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 289,
+      "y": 1477
+     },
+     {
+      "x": 310,
+      "y": 1477
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 310,
+      "y": 1477
+     },
+     {
+      "x": 330,
+      "y": 1477
+     }
+    ]
+   }
+  },
+  "net_12": {
+   "hyperGraph": "(Q2.1,R2.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 380,
+      "y": 1680
+     },
+     {
+      "x": 431,
+      "y": 1680
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 431,
+      "y": 1680
+     },
+     {
+      "x": 441,
+      "y": 1680
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 431,
+      "y": 1680
+     },
+     {
+      "x": 431,
+      "y": 1670
+     }
+    ]
+   }
+  },
+  "net_13": {
+   "hyperGraph": "(Q2.3,Q2.4,Q2.5,Q2.6,Q2.7,Q2.8,Q2.2,R2.2,Q5.9)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 482,
+      "y": 1578
+     },
+     {
+      "x": 603,
+      "y": 1578
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 482,
+      "y": 1578
+     },
+     {
+      "x": 431,
+      "y": 1578
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 431,
+      "y": 1578
+     },
+     {
+      "x": 431,
+      "y": 1589
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 522,
+      "y": 1639
+     },
+     {
+      "x": 543,
+      "y": 1639
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 502,
+      "y": 1639
+     },
+     {
+      "x": 522,
+      "y": 1639
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 482,
+      "y": 1639
+     },
+     {
+      "x": 502,
+      "y": 1639
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 543,
+      "y": 1639
+     },
+     {
+      "x": 563,
+      "y": 1639
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 583,
+      "y": 1639
+     },
+     {
+      "x": 563,
+      "y": 1639
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 583,
+      "y": 1639
+     },
+     {
+      "x": 603,
+      "y": 1639
+     }
+    ],
+    "edge_10": [
+     {
+      "x": 482,
+      "y": 1639
+     },
+     {
+      "x": 482,
+      "y": 1578
+     }
+    ],
+    "edge_11": [
+     {
+      "x": 482,
+      "y": 1578
+     },
+     {
+      "x": 482,
+      "y": 1558
+     }
+    ]
+   }
+  },
+  "net_14": {
+   "hyperGraph": "(Q5.1,R5.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 380,
+      "y": 1518
+     },
+     {
+      "x": 431,
+      "y": 1518
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 431,
+      "y": 1518
+     },
+     {
+      "x": 431,
+      "y": 1507
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 431,
+      "y": 1518
+     },
+     {
+      "x": 441,
+      "y": 1518
+     }
+    ]
+   }
+  },
+  "net_15": {
+   "hyperGraph": "(Q5.3,Q5.4,Q5.5,Q5.6,Q5.7,Q5.8,Q5.2,R5.1,∅3824.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 482,
+      "y": 1416
+     },
+     {
+      "x": 482,
+      "y": 1426
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 482,
+      "y": 1426
+     },
+     {
+      "x": 431,
+      "y": 1426
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 482,
+      "y": 1477
+     },
+     {
+      "x": 482,
+      "y": 1426
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 482,
+      "y": 1477
+     },
+     {
+      "x": 502,
+      "y": 1477
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 502,
+      "y": 1477
+     },
+     {
+      "x": 522,
+      "y": 1477
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 522,
+      "y": 1477
+     },
+     {
+      "x": 543,
+      "y": 1477
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 543,
+      "y": 1477
+     },
+     {
+      "x": 563,
+      "y": 1477
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 563,
+      "y": 1477
+     },
+     {
+      "x": 583,
+      "y": 1477
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 583,
+      "y": 1477
+     },
+     {
+      "x": 603,
+      "y": 1477
+     }
+    ]
+   }
+  },
+  "net_16": {
+   "hyperGraph": "(Q3.1,R3.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 705,
+      "y": 1680
+     },
+     {
+      "x": 654,
+      "y": 1680
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 715,
+      "y": 1680
+     },
+     {
+      "x": 705,
+      "y": 1680
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 705,
+      "y": 1670
+     },
+     {
+      "x": 705,
+      "y": 1680
+     }
+    ]
+   }
+  },
+  "net_17": {
+   "hyperGraph": "(Q3.3,Q3.4,Q3.5,Q3.6,Q3.7,Q3.8,Q3.2,R3.2,Q6.9)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 877,
+      "y": 1578
+     },
+     {
+      "x": 755,
+      "y": 1578
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 705,
+      "y": 1578
+     },
+     {
+      "x": 755,
+      "y": 1578
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 705,
+      "y": 1589
+     },
+     {
+      "x": 705,
+      "y": 1578
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 816,
+      "y": 1639
+     },
+     {
+      "x": 796,
+      "y": 1639
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 796,
+      "y": 1639
+     },
+     {
+      "x": 776,
+      "y": 1639
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 776,
+      "y": 1639
+     },
+     {
+      "x": 755,
+      "y": 1639
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 836,
+      "y": 1639
+     },
+     {
+      "x": 816,
+      "y": 1639
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 836,
+      "y": 1639
+     },
+     {
+      "x": 857,
+      "y": 1639
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 877,
+      "y": 1639
+     },
+     {
+      "x": 857,
+      "y": 1639
+     }
+    ],
+    "edge_10": [
+     {
+      "x": 755,
+      "y": 1578
+     },
+     {
+      "x": 755,
+      "y": 1639
+     }
+    ],
+    "edge_11": [
+     {
+      "x": 755,
+      "y": 1558
+     },
+     {
+      "x": 755,
+      "y": 1578
+     }
+    ]
+   }
+  },
+  "net_18": {
+   "hyperGraph": "(Q6.1,R6.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 705,
+      "y": 1518
+     },
+     {
+      "x": 654,
+      "y": 1518
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 705,
+      "y": 1507
+     },
+     {
+      "x": 705,
+      "y": 1518
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 715,
+      "y": 1518
+     },
+     {
+      "x": 705,
+      "y": 1518
+     }
+    ]
+   }
+  },
+  "net_19": {
+   "hyperGraph": "(Q6.3,Q6.4,Q6.5,Q6.6,Q6.7,Q6.8,Q6.2,R6.1,∅4810.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 755,
+      "y": 1426
+     },
+     {
+      "x": 755,
+      "y": 1416
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 705,
+      "y": 1426
+     },
+     {
+      "x": 755,
+      "y": 1426
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 755,
+      "y": 1426
+     },
+     {
+      "x": 755,
+      "y": 1477
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 776,
+      "y": 1477
+     },
+     {
+      "x": 755,
+      "y": 1477
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 796,
+      "y": 1477
+     },
+     {
+      "x": 776,
+      "y": 1477
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 816,
+      "y": 1477
+     },
+     {
+      "x": 796,
+      "y": 1477
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 836,
+      "y": 1477
+     },
+     {
+      "x": 816,
+      "y": 1477
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 857,
+      "y": 1477
+     },
+     {
+      "x": 836,
+      "y": 1477
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 877,
+      "y": 1477
+     },
+     {
+      "x": 857,
+      "y": 1477
+     }
+    ]
+   }
+  },
+  "net_20": {
+   "hyperGraph": "(∅6136.1,C1.2,C2.2,C3.2,C4.2,C5.2,C6.2,C7.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1404,
+      "y": 1112
+     },
+     {
+      "x": 1363,
+      "y": 1112
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 1444,
+      "y": 1112
+     },
+     {
+      "x": 1404,
+      "y": 1112
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 1485,
+      "y": 1112
+     },
+     {
+      "x": 1444,
+      "y": 1112
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 1485,
+      "y": 1112
+     },
+     {
+      "x": 1525,
+      "y": 1112
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 1323,
+      "y": 1112
+     },
+     {
+      "x": 1363,
+      "y": 1112
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 1282,
+      "y": 1112
+     },
+     {
+      "x": 1323,
+      "y": 1112
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 1323,
+      "y": 1133
+     },
+     {
+      "x": 1323,
+      "y": 1112
+     }
+    ]
+   }
+  },
+  "net_21": {
+   "hyperGraph": "(∅6107.1,C1.1,C2.1,C3.1,C4.1,C5.1,C6.1,C7.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1404,
+      "y": 1031
+     },
+     {
+      "x": 1363,
+      "y": 1031
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 1444,
+      "y": 1031
+     },
+     {
+      "x": 1404,
+      "y": 1031
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 1485,
+      "y": 1031
+     },
+     {
+      "x": 1444,
+      "y": 1031
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 1485,
+      "y": 1031
+     },
+     {
+      "x": 1525,
+      "y": 1031
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 1282,
+      "y": 1031
+     },
+     {
+      "x": 1323,
+      "y": 1031
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 1323,
+      "y": 1031
+     },
+     {
+      "x": 1363,
+      "y": 1031
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 1323,
+      "y": 1011
+     },
+     {
+      "x": 1323,
+      "y": 1031
+     }
+    ]
+   }
+  },
+  "net_22": {
+   "hyperGraph": "(Q7.1,R7.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 158,
+      "y": 1274
+     },
+     {
+      "x": 107,
+      "y": 1274
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 168,
+      "y": 1274
+     },
+     {
+      "x": 158,
+      "y": 1274
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 158,
+      "y": 1264
+     },
+     {
+      "x": 158,
+      "y": 1274
+     }
+    ]
+   }
+  },
+  "net_23": {
+   "hyperGraph": "(Q7.3,Q7.4,Q7.5,Q7.6,Q7.7,Q7.8,Q7.2,R7.2,Q10.9)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 330,
+      "y": 1173
+     },
+     {
+      "x": 208,
+      "y": 1173
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 158,
+      "y": 1173
+     },
+     {
+      "x": 208,
+      "y": 1173
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 158,
+      "y": 1183
+     },
+     {
+      "x": 158,
+      "y": 1173
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 269,
+      "y": 1234
+     },
+     {
+      "x": 249,
+      "y": 1234
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 249,
+      "y": 1234
+     },
+     {
+      "x": 228,
+      "y": 1234
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 228,
+      "y": 1234
+     },
+     {
+      "x": 208,
+      "y": 1234
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 289,
+      "y": 1234
+     },
+     {
+      "x": 269,
+      "y": 1234
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 289,
+      "y": 1234
+     },
+     {
+      "x": 310,
+      "y": 1234
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 330,
+      "y": 1234
+     },
+     {
+      "x": 310,
+      "y": 1234
+     }
+    ],
+    "edge_10": [
+     {
+      "x": 208,
+      "y": 1173
+     },
+     {
+      "x": 208,
+      "y": 1234
+     }
+    ],
+    "edge_11": [
+     {
+      "x": 208,
+      "y": 1153
+     },
+     {
+      "x": 208,
+      "y": 1173
+     }
+    ]
+   }
+  },
+  "net_24": {
+   "hyperGraph": "(Q10.1,R10.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 158,
+      "y": 1112
+     },
+     {
+      "x": 107,
+      "y": 1112
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 158,
+      "y": 1102
+     },
+     {
+      "x": 158,
+      "y": 1112
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 168,
+      "y": 1112
+     },
+     {
+      "x": 158,
+      "y": 1112
+     }
+    ]
+   }
+  },
+  "net_25": {
+   "hyperGraph": "(Q10.3,Q10.4,Q10.5,Q10.6,Q10.7,Q10.8,Q10.2,R10.1,∅8115.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 208,
+      "y": 1021
+     },
+     {
+      "x": 208,
+      "y": 1011
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 158,
+      "y": 1021
+     },
+     {
+      "x": 208,
+      "y": 1021
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 208,
+      "y": 1021
+     },
+     {
+      "x": 208,
+      "y": 1072
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 228,
+      "y": 1072
+     },
+     {
+      "x": 208,
+      "y": 1072
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 249,
+      "y": 1072
+     },
+     {
+      "x": 228,
+      "y": 1072
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 269,
+      "y": 1072
+     },
+     {
+      "x": 249,
+      "y": 1072
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 289,
+      "y": 1072
+     },
+     {
+      "x": 269,
+      "y": 1072
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 310,
+      "y": 1072
+     },
+     {
+      "x": 289,
+      "y": 1072
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 330,
+      "y": 1072
+     },
+     {
+      "x": 310,
+      "y": 1072
+     }
+    ]
+   }
+  },
+  "net_26": {
+   "hyperGraph": "(Q8.1,R8.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 431,
+      "y": 1274
+     },
+     {
+      "x": 380,
+      "y": 1274
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 441,
+      "y": 1274
+     },
+     {
+      "x": 431,
+      "y": 1274
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 431,
+      "y": 1264
+     },
+     {
+      "x": 431,
+      "y": 1274
+     }
+    ]
+   }
+  },
+  "net_27": {
+   "hyperGraph": "(Q8.3,Q8.4,Q8.5,Q8.6,Q8.7,Q8.8,Q8.2,R8.2,Q11.9)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 603,
+      "y": 1173
+     },
+     {
+      "x": 482,
+      "y": 1173
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 431,
+      "y": 1173
+     },
+     {
+      "x": 482,
+      "y": 1173
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 431,
+      "y": 1183
+     },
+     {
+      "x": 431,
+      "y": 1173
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 543,
+      "y": 1234
+     },
+     {
+      "x": 522,
+      "y": 1234
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 522,
+      "y": 1234
+     },
+     {
+      "x": 502,
+      "y": 1234
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 502,
+      "y": 1234
+     },
+     {
+      "x": 482,
+      "y": 1234
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 563,
+      "y": 1234
+     },
+     {
+      "x": 543,
+      "y": 1234
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 563,
+      "y": 1234
+     },
+     {
+      "x": 583,
+      "y": 1234
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 603,
+      "y": 1234
+     },
+     {
+      "x": 583,
+      "y": 1234
+     }
+    ],
+    "edge_10": [
+     {
+      "x": 482,
+      "y": 1173
+     },
+     {
+      "x": 482,
+      "y": 1234
+     }
+    ],
+    "edge_11": [
+     {
+      "x": 482,
+      "y": 1153
+     },
+     {
+      "x": 482,
+      "y": 1173
+     }
+    ]
+   }
+  },
+  "net_28": {
+   "hyperGraph": "(Q11.1,R11.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 431,
+      "y": 1112
+     },
+     {
+      "x": 380,
+      "y": 1112
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 431,
+      "y": 1102
+     },
+     {
+      "x": 431,
+      "y": 1112
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 441,
+      "y": 1112
+     },
+     {
+      "x": 431,
+      "y": 1112
+     }
+    ]
+   }
+  },
+  "net_29": {
+   "hyperGraph": "(Q11.3,Q11.4,Q11.5,Q11.6,Q11.7,Q11.8,Q11.2,R11.1,∅8452.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 482,
+      "y": 1021
+     },
+     {
+      "x": 482,
+      "y": 1011
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 431,
+      "y": 1021
+     },
+     {
+      "x": 482,
+      "y": 1021
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 482,
+      "y": 1021
+     },
+     {
+      "x": 482,
+      "y": 1072
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 502,
+      "y": 1072
+     },
+     {
+      "x": 482,
+      "y": 1072
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 522,
+      "y": 1072
+     },
+     {
+      "x": 502,
+      "y": 1072
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 543,
+      "y": 1072
+     },
+     {
+      "x": 522,
+      "y": 1072
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 563,
+      "y": 1072
+     },
+     {
+      "x": 543,
+      "y": 1072
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 583,
+      "y": 1072
+     },
+     {
+      "x": 563,
+      "y": 1072
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 603,
+      "y": 1072
+     },
+     {
+      "x": 583,
+      "y": 1072
+     }
+    ]
+   }
+  },
+  "net_30": {
+   "hyperGraph": "(Q9.1,R9.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 654,
+      "y": 1274
+     },
+     {
+      "x": 705,
+      "y": 1274
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 705,
+      "y": 1274
+     },
+     {
+      "x": 715,
+      "y": 1274
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 705,
+      "y": 1274
+     },
+     {
+      "x": 705,
+      "y": 1264
+     }
+    ]
+   }
+  },
+  "net_31": {
+   "hyperGraph": "(Q9.3,Q9.4,Q9.5,Q9.6,Q9.7,Q9.8,Q9.2,R9.2,Q12.9)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 755,
+      "y": 1173
+     },
+     {
+      "x": 877,
+      "y": 1173
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 755,
+      "y": 1173
+     },
+     {
+      "x": 705,
+      "y": 1173
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 705,
+      "y": 1173
+     },
+     {
+      "x": 705,
+      "y": 1183
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 796,
+      "y": 1234
+     },
+     {
+      "x": 816,
+      "y": 1234
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 776,
+      "y": 1234
+     },
+     {
+      "x": 796,
+      "y": 1234
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 755,
+      "y": 1234
+     },
+     {
+      "x": 776,
+      "y": 1234
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 816,
+      "y": 1234
+     },
+     {
+      "x": 836,
+      "y": 1234
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 857,
+      "y": 1234
+     },
+     {
+      "x": 836,
+      "y": 1234
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 857,
+      "y": 1234
+     },
+     {
+      "x": 877,
+      "y": 1234
+     }
+    ],
+    "edge_10": [
+     {
+      "x": 755,
+      "y": 1234
+     },
+     {
+      "x": 755,
+      "y": 1173
+     }
+    ],
+    "edge_11": [
+     {
+      "x": 755,
+      "y": 1173
+     },
+     {
+      "x": 755,
+      "y": 1153
+     }
+    ]
+   }
+  },
+  "net_32": {
+   "hyperGraph": "(Q12.1,R12.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 654,
+      "y": 1112
+     },
+     {
+      "x": 705,
+      "y": 1112
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 705,
+      "y": 1112
+     },
+     {
+      "x": 705,
+      "y": 1102
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 705,
+      "y": 1112
+     },
+     {
+      "x": 715,
+      "y": 1112
+     }
+    ]
+   }
+  },
+  "net_33": {
+   "hyperGraph": "(Q12.3,Q12.4,Q12.5,Q12.6,Q12.7,Q12.8,Q12.2,R12.1,∅8162.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 755,
+      "y": 1011
+     },
+     {
+      "x": 755,
+      "y": 1021
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 755,
+      "y": 1021
+     },
+     {
+      "x": 705,
+      "y": 1021
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 755,
+      "y": 1072
+     },
+     {
+      "x": 755,
+      "y": 1021
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 755,
+      "y": 1072
+     },
+     {
+      "x": 776,
+      "y": 1072
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 776,
+      "y": 1072
+     },
+     {
+      "x": 796,
+      "y": 1072
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 796,
+      "y": 1072
+     },
+     {
+      "x": 816,
+      "y": 1072
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 816,
+      "y": 1072
+     },
+     {
+      "x": 836,
+      "y": 1072
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 836,
+      "y": 1072
+     },
+     {
+      "x": 857,
+      "y": 1072
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 857,
+      "y": 1072
+     },
+     {
+      "x": 877,
+      "y": 1072
+     }
+    ]
+   }
+  },
+  "net_34": {
+   "hyperGraph": "(Q13.1,R13.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 107,
+      "y": 869
+     },
+     {
+      "x": 158,
+      "y": 869
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 158,
+      "y": 869
+     },
+     {
+      "x": 168,
+      "y": 869
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 158,
+      "y": 869
+     },
+     {
+      "x": 158,
+      "y": 859
+     }
+    ]
+   }
+  },
+  "net_35": {
+   "hyperGraph": "(Q13.3,Q13.4,Q13.5,Q13.6,Q13.7,Q13.8,Q13.2,R13.2,Q16.9)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 208,
+      "y": 768
+     },
+     {
+      "x": 330,
+      "y": 768
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 208,
+      "y": 768
+     },
+     {
+      "x": 158,
+      "y": 768
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 158,
+      "y": 768
+     },
+     {
+      "x": 158,
+      "y": 778
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 249,
+      "y": 829
+     },
+     {
+      "x": 269,
+      "y": 829
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 228,
+      "y": 829
+     },
+     {
+      "x": 249,
+      "y": 829
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 208,
+      "y": 829
+     },
+     {
+      "x": 228,
+      "y": 829
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 269,
+      "y": 829
+     },
+     {
+      "x": 289,
+      "y": 829
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 310,
+      "y": 829
+     },
+     {
+      "x": 289,
+      "y": 829
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 310,
+      "y": 829
+     },
+     {
+      "x": 330,
+      "y": 829
+     }
+    ],
+    "edge_10": [
+     {
+      "x": 208,
+      "y": 829
+     },
+     {
+      "x": 208,
+      "y": 768
+     }
+    ],
+    "edge_11": [
+     {
+      "x": 208,
+      "y": 768
+     },
+     {
+      "x": 208,
+      "y": 748
+     }
+    ]
+   }
+  },
+  "net_36": {
+   "hyperGraph": "(Q16.1,R16.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 107,
+      "y": 707
+     },
+     {
+      "x": 158,
+      "y": 707
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 158,
+      "y": 707
+     },
+     {
+      "x": 158,
+      "y": 697
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 158,
+      "y": 707
+     },
+     {
+      "x": 168,
+      "y": 707
+     }
+    ]
+   }
+  },
+  "net_37": {
+   "hyperGraph": "(Q16.3,Q16.4,Q16.5,Q16.6,Q16.7,Q16.8,Q16.2,R16.1,∅8793.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 208,
+      "y": 606
+     },
+     {
+      "x": 208,
+      "y": 616
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 208,
+      "y": 616
+     },
+     {
+      "x": 158,
+      "y": 616
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 208,
+      "y": 667
+     },
+     {
+      "x": 208,
+      "y": 616
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 208,
+      "y": 667
+     },
+     {
+      "x": 228,
+      "y": 667
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 228,
+      "y": 667
+     },
+     {
+      "x": 249,
+      "y": 667
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 249,
+      "y": 667
+     },
+     {
+      "x": 269,
+      "y": 667
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 269,
+      "y": 667
+     },
+     {
+      "x": 289,
+      "y": 667
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 289,
+      "y": 667
+     },
+     {
+      "x": 310,
+      "y": 667
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 310,
+      "y": 667
+     },
+     {
+      "x": 330,
+      "y": 667
+     }
+    ]
+   }
+  },
+  "net_38": {
+   "hyperGraph": "(Q14.1,R14.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 380,
+      "y": 869
+     },
+     {
+      "x": 431,
+      "y": 869
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 431,
+      "y": 869
+     },
+     {
+      "x": 441,
+      "y": 869
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 431,
+      "y": 869
+     },
+     {
+      "x": 431,
+      "y": 859
+     }
+    ]
+   }
+  },
+  "net_39": {
+   "hyperGraph": "(Q14.3,Q14.4,Q14.5,Q14.6,Q14.7,Q14.8,Q14.2,R14.2,Q17.9)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 482,
+      "y": 768
+     },
+     {
+      "x": 603,
+      "y": 768
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 482,
+      "y": 768
+     },
+     {
+      "x": 431,
+      "y": 768
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 431,
+      "y": 768
+     },
+     {
+      "x": 431,
+      "y": 778
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 522,
+      "y": 829
+     },
+     {
+      "x": 543,
+      "y": 829
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 502,
+      "y": 829
+     },
+     {
+      "x": 522,
+      "y": 829
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 482,
+      "y": 829
+     },
+     {
+      "x": 502,
+      "y": 829
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 543,
+      "y": 829
+     },
+     {
+      "x": 563,
+      "y": 829
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 583,
+      "y": 829
+     },
+     {
+      "x": 563,
+      "y": 829
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 583,
+      "y": 829
+     },
+     {
+      "x": 603,
+      "y": 829
+     }
+    ],
+    "edge_10": [
+     {
+      "x": 482,
+      "y": 829
+     },
+     {
+      "x": 482,
+      "y": 768
+     }
+    ],
+    "edge_11": [
+     {
+      "x": 482,
+      "y": 768
+     },
+     {
+      "x": 482,
+      "y": 748
+     }
+    ]
+   }
+  },
+  "net_40": {
+   "hyperGraph": "(Q17.1,R17.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 380,
+      "y": 707
+     },
+     {
+      "x": 431,
+      "y": 707
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 431,
+      "y": 707
+     },
+     {
+      "x": 431,
+      "y": 697
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 431,
+      "y": 707
+     },
+     {
+      "x": 441,
+      "y": 707
+     }
+    ]
+   }
+  },
+  "net_41": {
+   "hyperGraph": "(Q17.3,Q17.4,Q17.5,Q17.6,Q17.7,Q17.8,Q17.2,R17.1,∅9130.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 482,
+      "y": 606
+     },
+     {
+      "x": 482,
+      "y": 616
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 482,
+      "y": 616
+     },
+     {
+      "x": 431,
+      "y": 616
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 482,
+      "y": 667
+     },
+     {
+      "x": 482,
+      "y": 616
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 482,
+      "y": 667
+     },
+     {
+      "x": 502,
+      "y": 667
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 502,
+      "y": 667
+     },
+     {
+      "x": 522,
+      "y": 667
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 522,
+      "y": 667
+     },
+     {
+      "x": 543,
+      "y": 667
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 543,
+      "y": 667
+     },
+     {
+      "x": 563,
+      "y": 667
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 563,
+      "y": 667
+     },
+     {
+      "x": 583,
+      "y": 667
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 583,
+      "y": 667
+     },
+     {
+      "x": 603,
+      "y": 667
+     }
+    ]
+   }
+  },
+  "net_42": {
+   "hyperGraph": "(Q15.1,R15.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 705,
+      "y": 869
+     },
+     {
+      "x": 654,
+      "y": 869
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 715,
+      "y": 869
+     },
+     {
+      "x": 705,
+      "y": 869
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 705,
+      "y": 859
+     },
+     {
+      "x": 705,
+      "y": 869
+     }
+    ]
+   }
+  },
+  "net_43": {
+   "hyperGraph": "(Q15.3,Q15.4,Q15.5,Q15.6,Q15.7,Q15.8,Q15.2,R15.2,Q18.9)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 877,
+      "y": 768
+     },
+     {
+      "x": 755,
+      "y": 768
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 705,
+      "y": 768
+     },
+     {
+      "x": 755,
+      "y": 768
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 705,
+      "y": 778
+     },
+     {
+      "x": 705,
+      "y": 768
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 816,
+      "y": 829
+     },
+     {
+      "x": 796,
+      "y": 829
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 796,
+      "y": 829
+     },
+     {
+      "x": 776,
+      "y": 829
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 776,
+      "y": 829
+     },
+     {
+      "x": 755,
+      "y": 829
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 836,
+      "y": 829
+     },
+     {
+      "x": 816,
+      "y": 829
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 836,
+      "y": 829
+     },
+     {
+      "x": 857,
+      "y": 829
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 877,
+      "y": 829
+     },
+     {
+      "x": 857,
+      "y": 829
+     }
+    ],
+    "edge_10": [
+     {
+      "x": 755,
+      "y": 768
+     },
+     {
+      "x": 755,
+      "y": 829
+     }
+    ],
+    "edge_11": [
+     {
+      "x": 755,
+      "y": 748
+     },
+     {
+      "x": 755,
+      "y": 768
+     }
+    ]
+   }
+  },
+  "net_44": {
+   "hyperGraph": "(Q18.1,R18.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 705,
+      "y": 707
+     },
+     {
+      "x": 654,
+      "y": 707
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 705,
+      "y": 697
+     },
+     {
+      "x": 705,
+      "y": 707
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 715,
+      "y": 707
+     },
+     {
+      "x": 705,
+      "y": 707
+     }
+    ]
+   }
+  },
+  "net_45": {
+   "hyperGraph": "(Q18.3,Q18.4,Q18.5,Q18.6,Q18.7,Q18.8,Q18.2,R18.1,∅8840.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 755,
+      "y": 616
+     },
+     {
+      "x": 755,
+      "y": 606
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 705,
+      "y": 616
+     },
+     {
+      "x": 755,
+      "y": 616
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 755,
+      "y": 616
+     },
+     {
+      "x": 755,
+      "y": 667
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 776,
+      "y": 667
+     },
+     {
+      "x": 755,
+      "y": 667
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 796,
+      "y": 667
+     },
+     {
+      "x": 776,
+      "y": 667
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 816,
+      "y": 667
+     },
+     {
+      "x": 796,
+      "y": 667
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 836,
+      "y": 667
+     },
+     {
+      "x": 816,
+      "y": 667
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 857,
+      "y": 667
+     },
+     {
+      "x": 836,
+      "y": 667
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 877,
+      "y": 667
+     },
+     {
+      "x": 857,
+      "y": 667
+     }
+    ]
+   }
+  },
+  "net_46": {
+   "hyperGraph": "(Q19.1,R19.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 107,
+      "y": 464
+     },
+     {
+      "x": 158,
+      "y": 464
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 158,
+      "y": 464
+     },
+     {
+      "x": 168,
+      "y": 464
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 158,
+      "y": 464
+     },
+     {
+      "x": 158,
+      "y": 454
+     }
+    ]
+   }
+  },
+  "net_47": {
+   "hyperGraph": "(Q19.3,Q19.4,Q19.5,Q19.6,Q19.7,Q19.8,Q19.2,R19.2,Q22.9)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 208,
+      "y": 363
+     },
+     {
+      "x": 330,
+      "y": 363
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 208,
+      "y": 363
+     },
+     {
+      "x": 158,
+      "y": 363
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 158,
+      "y": 363
+     },
+     {
+      "x": 158,
+      "y": 373
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 249,
+      "y": 424
+     },
+     {
+      "x": 269,
+      "y": 424
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 228,
+      "y": 424
+     },
+     {
+      "x": 249,
+      "y": 424
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 208,
+      "y": 424
+     },
+     {
+      "x": 228,
+      "y": 424
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 269,
+      "y": 424
+     },
+     {
+      "x": 289,
+      "y": 424
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 310,
+      "y": 424
+     },
+     {
+      "x": 289,
+      "y": 424
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 310,
+      "y": 424
+     },
+     {
+      "x": 330,
+      "y": 424
+     }
+    ],
+    "edge_10": [
+     {
+      "x": 208,
+      "y": 424
+     },
+     {
+      "x": 208,
+      "y": 363
+     }
+    ],
+    "edge_11": [
+     {
+      "x": 208,
+      "y": 363
+     },
+     {
+      "x": 208,
+      "y": 343
+     }
+    ]
+   }
+  },
+  "net_48": {
+   "hyperGraph": "(Q22.1,R22.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 107,
+      "y": 302
+     },
+     {
+      "x": 158,
+      "y": 302
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 158,
+      "y": 302
+     },
+     {
+      "x": 158,
+      "y": 292
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 158,
+      "y": 302
+     },
+     {
+      "x": 168,
+      "y": 302
+     }
+    ]
+   }
+  },
+  "net_49": {
+   "hyperGraph": "(Q22.3,Q22.4,Q22.5,Q22.6,Q22.7,Q22.8,Q22.2,R22.1,∅9471.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 208,
+      "y": 201
+     },
+     {
+      "x": 208,
+      "y": 211
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 208,
+      "y": 211
+     },
+     {
+      "x": 158,
+      "y": 211
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 208,
+      "y": 261
+     },
+     {
+      "x": 208,
+      "y": 211
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 208,
+      "y": 261
+     },
+     {
+      "x": 228,
+      "y": 261
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 228,
+      "y": 261
+     },
+     {
+      "x": 249,
+      "y": 261
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 249,
+      "y": 261
+     },
+     {
+      "x": 269,
+      "y": 261
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 269,
+      "y": 261
+     },
+     {
+      "x": 289,
+      "y": 261
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 289,
+      "y": 261
+     },
+     {
+      "x": 310,
+      "y": 261
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 310,
+      "y": 261
+     },
+     {
+      "x": 330,
+      "y": 261
+     }
+    ]
+   }
+  },
+  "net_50": {
+   "hyperGraph": "(Q20.1,R20.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 380,
+      "y": 464
+     },
+     {
+      "x": 431,
+      "y": 464
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 431,
+      "y": 464
+     },
+     {
+      "x": 441,
+      "y": 464
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 431,
+      "y": 464
+     },
+     {
+      "x": 431,
+      "y": 454
+     }
+    ]
+   }
+  },
+  "net_51": {
+   "hyperGraph": "(Q20.3,Q20.4,Q20.5,Q20.6,Q20.7,Q20.8,Q20.2,R20.2,Q23.9)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 482,
+      "y": 363
+     },
+     {
+      "x": 603,
+      "y": 363
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 482,
+      "y": 363
+     },
+     {
+      "x": 431,
+      "y": 363
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 431,
+      "y": 363
+     },
+     {
+      "x": 431,
+      "y": 373
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 522,
+      "y": 424
+     },
+     {
+      "x": 543,
+      "y": 424
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 502,
+      "y": 424
+     },
+     {
+      "x": 522,
+      "y": 424
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 482,
+      "y": 424
+     },
+     {
+      "x": 502,
+      "y": 424
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 543,
+      "y": 424
+     },
+     {
+      "x": 563,
+      "y": 424
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 583,
+      "y": 424
+     },
+     {
+      "x": 563,
+      "y": 424
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 583,
+      "y": 424
+     },
+     {
+      "x": 603,
+      "y": 424
+     }
+    ],
+    "edge_10": [
+     {
+      "x": 482,
+      "y": 424
+     },
+     {
+      "x": 482,
+      "y": 363
+     }
+    ],
+    "edge_11": [
+     {
+      "x": 482,
+      "y": 363
+     },
+     {
+      "x": 482,
+      "y": 343
+     }
+    ]
+   }
+  },
+  "net_52": {
+   "hyperGraph": "(Q23.1,R23.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 380,
+      "y": 302
+     },
+     {
+      "x": 431,
+      "y": 302
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 431,
+      "y": 302
+     },
+     {
+      "x": 431,
+      "y": 292
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 431,
+      "y": 302
+     },
+     {
+      "x": 441,
+      "y": 302
+     }
+    ]
+   }
+  },
+  "net_53": {
+   "hyperGraph": "(Q23.3,Q23.4,Q23.5,Q23.6,Q23.7,Q23.8,Q23.2,R23.1,∅9808.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 482,
+      "y": 201
+     },
+     {
+      "x": 482,
+      "y": 211
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 482,
+      "y": 211
+     },
+     {
+      "x": 431,
+      "y": 211
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 482,
+      "y": 261
+     },
+     {
+      "x": 482,
+      "y": 211
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 482,
+      "y": 261
+     },
+     {
+      "x": 502,
+      "y": 261
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 502,
+      "y": 261
+     },
+     {
+      "x": 522,
+      "y": 261
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 522,
+      "y": 261
+     },
+     {
+      "x": 543,
+      "y": 261
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 543,
+      "y": 261
+     },
+     {
+      "x": 563,
+      "y": 261
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 563,
+      "y": 261
+     },
+     {
+      "x": 583,
+      "y": 261
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 583,
+      "y": 261
+     },
+     {
+      "x": 603,
+      "y": 261
+     }
+    ]
+   }
+  },
+  "net_54": {
+   "hyperGraph": "(Q21.1,R21.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 705,
+      "y": 464
+     },
+     {
+      "x": 654,
+      "y": 464
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 715,
+      "y": 464
+     },
+     {
+      "x": 705,
+      "y": 464
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 705,
+      "y": 454
+     },
+     {
+      "x": 705,
+      "y": 464
+     }
+    ]
+   }
+  },
+  "net_55": {
+   "hyperGraph": "(Q21.3,Q21.4,Q21.5,Q21.6,Q21.7,Q21.8,Q21.2,R21.2,Q24.9)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 877,
+      "y": 363
+     },
+     {
+      "x": 755,
+      "y": 363
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 705,
+      "y": 363
+     },
+     {
+      "x": 755,
+      "y": 363
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 705,
+      "y": 373
+     },
+     {
+      "x": 705,
+      "y": 363
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 816,
+      "y": 424
+     },
+     {
+      "x": 796,
+      "y": 424
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 796,
+      "y": 424
+     },
+     {
+      "x": 776,
+      "y": 424
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 776,
+      "y": 424
+     },
+     {
+      "x": 755,
+      "y": 424
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 836,
+      "y": 424
+     },
+     {
+      "x": 816,
+      "y": 424
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 836,
+      "y": 424
+     },
+     {
+      "x": 857,
+      "y": 424
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 877,
+      "y": 424
+     },
+     {
+      "x": 857,
+      "y": 424
+     }
+    ],
+    "edge_10": [
+     {
+      "x": 755,
+      "y": 363
+     },
+     {
+      "x": 755,
+      "y": 424
+     }
+    ],
+    "edge_11": [
+     {
+      "x": 755,
+      "y": 343
+     },
+     {
+      "x": 755,
+      "y": 363
+     }
+    ]
+   }
+  },
+  "net_56": {
+   "hyperGraph": "(Q24.1,R24.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 705,
+      "y": 302
+     },
+     {
+      "x": 654,
+      "y": 302
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 705,
+      "y": 292
+     },
+     {
+      "x": 705,
+      "y": 302
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 715,
+      "y": 302
+     },
+     {
+      "x": 705,
+      "y": 302
+     }
+    ]
+   }
+  },
+  "net_57": {
+   "hyperGraph": "(Q24.3,Q24.4,Q24.5,Q24.6,Q24.7,Q24.8,Q24.2,R24.1,∅9518.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 755,
+      "y": 211
+     },
+     {
+      "x": 755,
+      "y": 201
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 705,
+      "y": 211
+     },
+     {
+      "x": 755,
+      "y": 211
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 755,
+      "y": 211
+     },
+     {
+      "x": 755,
+      "y": 261
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 776,
+      "y": 261
+     },
+     {
+      "x": 755,
+      "y": 261
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 796,
+      "y": 261
+     },
+     {
+      "x": 776,
+      "y": 261
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 816,
+      "y": 261
+     },
+     {
+      "x": 796,
+      "y": 261
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 836,
+      "y": 261
+     },
+     {
+      "x": 816,
+      "y": 261
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 857,
+      "y": 261
+     },
+     {
+      "x": 836,
+      "y": 261
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 877,
+      "y": 261
+     },
+     {
+      "x": 857,
+      "y": 261
+     }
+    ]
+   }
+  },
+  "net_58": {
+   "hyperGraph": "(Board1.11)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1029,
+      "y": 1467
+     },
+     {
+      "x": 968,
+      "y": 1467
+     }
+    ]
+   }
+  },
+  "net_59": {
+   "hyperGraph": "(Board1.12)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1029,
+      "y": 1447
+     },
+     {
+      "x": 968,
+      "y": 1447
+     }
+    ]
+   }
+  },
+  "net_60": {
+   "hyperGraph": "(Board1.13)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1029,
+      "y": 1426
+     },
+     {
+      "x": 968,
+      "y": 1426
+     }
+    ]
+   }
+  },
+  "net_61": {
+   "hyperGraph": "(Board1.15)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1029,
+      "y": 1386
+     },
+     {
+      "x": 968,
+      "y": 1386
+     }
+    ]
+   }
+  },
+  "net_62": {
+   "hyperGraph": "(Board1.16)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1029,
+      "y": 1366
+     },
+     {
+      "x": 968,
+      "y": 1366
+     }
+    ]
+   }
+  },
+  "net_63": {
+   "hyperGraph": "(Board1.18)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1029,
+      "y": 1325
+     },
+     {
+      "x": 968,
+      "y": 1325
+     }
+    ]
+   }
+  },
+  "net_64": {
+   "hyperGraph": "(Board1.19)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1029,
+      "y": 1305
+     },
+     {
+      "x": 968,
+      "y": 1305
+     }
+    ]
+   }
+  },
+  "net_65": {
+   "hyperGraph": "(Board1.20)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1029,
+      "y": 1285
+     },
+     {
+      "x": 968,
+      "y": 1285
+     }
+    ]
+   }
+  },
+  "net_66": {
+   "hyperGraph": "(Board1.17)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1029,
+      "y": 1345
+     },
+     {
+      "x": 968,
+      "y": 1345
+     }
+    ]
+   }
+  },
+  "net_67": {
+   "hyperGraph": "(Board1.14)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1029,
+      "y": 1406
+     },
+     {
+      "x": 968,
+      "y": 1406
+     }
+    ]
+   }
+  },
+  "net_68": {
+   "hyperGraph": "(Board1.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1029,
+      "y": 1670
+     },
+     {
+      "x": 968,
+      "y": 1670
+     }
+    ]
+   }
+  },
+  "net_69": {
+   "hyperGraph": "(Board1.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1029,
+      "y": 1649
+     },
+     {
+      "x": 968,
+      "y": 1649
+     }
+    ]
+   }
+  },
+  "net_70": {
+   "hyperGraph": "(Board1.3)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1029,
+      "y": 1629
+     },
+     {
+      "x": 968,
+      "y": 1629
+     }
+    ]
+   }
+  },
+  "net_71": {
+   "hyperGraph": "(Board1.5)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1029,
+      "y": 1589
+     },
+     {
+      "x": 968,
+      "y": 1589
+     }
+    ]
+   }
+  },
+  "net_72": {
+   "hyperGraph": "(Board1.6)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1029,
+      "y": 1568
+     },
+     {
+      "x": 968,
+      "y": 1568
+     }
+    ]
+   }
+  },
+  "net_73": {
+   "hyperGraph": "(Board1.8)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1029,
+      "y": 1528
+     },
+     {
+      "x": 968,
+      "y": 1528
+     }
+    ]
+   }
+  },
+  "net_74": {
+   "hyperGraph": "(Board1.9)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1029,
+      "y": 1507
+     },
+     {
+      "x": 968,
+      "y": 1507
+     }
+    ]
+   }
+  },
+  "net_75": {
+   "hyperGraph": "(Board1.10)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1029,
+      "y": 1487
+     },
+     {
+      "x": 968,
+      "y": 1487
+     }
+    ]
+   }
+  },
+  "net_76": {
+   "hyperGraph": "(Board1.7)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1029,
+      "y": 1548
+     },
+     {
+      "x": 968,
+      "y": 1548
+     }
+    ]
+   }
+  },
+  "net_77": {
+   "hyperGraph": "(Board1.4)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1029,
+      "y": 1609
+     },
+     {
+      "x": 968,
+      "y": 1609
+     }
+    ]
+   }
+  },
+  "net_78": {
+   "hyperGraph": "(Board1.21)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1333,
+      "y": 1285
+     },
+     {
+      "x": 1393,
+      "y": 1285
+     }
+    ]
+   }
+  },
+  "net_79": {
+   "hyperGraph": "(Board1.22)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1333,
+      "y": 1305
+     },
+     {
+      "x": 1393,
+      "y": 1305
+     }
+    ]
+   }
+  },
+  "net_80": {
+   "hyperGraph": "(Board1.23)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1333,
+      "y": 1325
+     },
+     {
+      "x": 1393,
+      "y": 1325
+     }
+    ]
+   }
+  },
+  "net_81": {
+   "hyperGraph": "(Board1.24)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1333,
+      "y": 1345
+     },
+     {
+      "x": 1393,
+      "y": 1345
+     }
+    ]
+   }
+  },
+  "net_82": {
+   "hyperGraph": "(Board1.25)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1333,
+      "y": 1366
+     },
+     {
+      "x": 1393,
+      "y": 1366
+     }
+    ]
+   }
+  },
+  "net_83": {
+   "hyperGraph": "(Board1.26)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1333,
+      "y": 1386
+     },
+     {
+      "x": 1393,
+      "y": 1386
+     }
+    ]
+   }
+  },
+  "net_84": {
+   "hyperGraph": "(Board1.27)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1333,
+      "y": 1406
+     },
+     {
+      "x": 1393,
+      "y": 1406
+     }
+    ]
+   }
+  },
+  "net_85": {
+   "hyperGraph": "(Board1.28)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1333,
+      "y": 1426
+     },
+     {
+      "x": 1393,
+      "y": 1426
+     }
+    ]
+   }
+  },
+  "net_86": {
+   "hyperGraph": "(Board1.29)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1333,
+      "y": 1447
+     },
+     {
+      "x": 1393,
+      "y": 1447
+     }
+    ]
+   }
+  },
+  "net_87": {
+   "hyperGraph": "(Board1.30)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1333,
+      "y": 1467
+     },
+     {
+      "x": 1393,
+      "y": 1467
+     }
+    ]
+   }
+  },
+  "net_88": {
+   "hyperGraph": "(Board1.31)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1333,
+      "y": 1487
+     },
+     {
+      "x": 1393,
+      "y": 1487
+     }
+    ]
+   }
+  },
+  "net_89": {
+   "hyperGraph": "(Board1.32)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1333,
+      "y": 1507
+     },
+     {
+      "x": 1393,
+      "y": 1507
+     }
+    ]
+   }
+  },
+  "net_90": {
+   "hyperGraph": "(Board1.33)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1333,
+      "y": 1528
+     },
+     {
+      "x": 1393,
+      "y": 1528
+     }
+    ]
+   }
+  },
+  "net_91": {
+   "hyperGraph": "(Board1.34)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1333,
+      "y": 1548
+     },
+     {
+      "x": 1393,
+      "y": 1548
+     }
+    ]
+   }
+  },
+  "net_92": {
+   "hyperGraph": "(Board1.35)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1333,
+      "y": 1568
+     },
+     {
+      "x": 1393,
+      "y": 1568
+     }
+    ]
+   }
+  },
+  "net_93": {
+   "hyperGraph": "(Board1.36)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1333,
+      "y": 1589
+     },
+     {
+      "x": 1393,
+      "y": 1589
+     }
+    ]
+   }
+  },
+  "net_94": {
+   "hyperGraph": "(Board1.37)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1333,
+      "y": 1609
+     },
+     {
+      "x": 1393,
+      "y": 1609
+     }
+    ]
+   }
+  },
+  "net_95": {
+   "hyperGraph": "(Board1.38)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1333,
+      "y": 1629
+     },
+     {
+      "x": 1393,
+      "y": 1629
+     }
+    ]
+   }
+  },
+  "net_96": {
+   "hyperGraph": "(Board1.39)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1333,
+      "y": 1649
+     },
+     {
+      "x": 1393,
+      "y": 1649
+     }
+    ]
+   }
+  },
+  "net_97": {
+   "hyperGraph": "(Board1.41)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1191,
+      "y": 1204
+     },
+     {
+      "x": 1191,
+      "y": 1143
+     }
+    ]
+   }
+  },
+  "net_98": {
+   "hyperGraph": "(Board1.42)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1171,
+      "y": 1133
+     },
+     {
+      "x": 1160,
+      "y": 1133
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 1171,
+      "y": 1204
+     },
+     {
+      "x": 1171,
+      "y": 1133
+     }
+    ]
+   }
+  },
+  "net_99": {
+   "hyperGraph": "(Board1.40)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1333,
+      "y": 1670
+     },
+     {
+      "x": 1393,
+      "y": 1670
+     }
+    ]
+   }
+  },
+  "net_100": {
+   "hyperGraph": "(U2.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1160,
+      "y": 748
+     },
+     {
+      "x": 1100,
+      "y": 748
+     }
+    ]
+   }
+  },
+  "net_101": {
+   "hyperGraph": "(V2.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1160,
+      "y": 707
+     },
+     {
+      "x": 1100,
+      "y": 707
+     }
+    ]
+   }
+  },
+  "net_102": {
+   "hyperGraph": "(W2.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1160,
+      "y": 667
+     },
+     {
+      "x": 1100,
+      "y": 667
+     }
+    ]
+   }
+  },
+  "net_103": {
+   "hyperGraph": "(U3.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1353,
+      "y": 900
+     },
+     {
+      "x": 1292,
+      "y": 900
+     }
+    ]
+   }
+  },
+  "net_104": {
+   "hyperGraph": "(V3.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1353,
+      "y": 859
+     },
+     {
+      "x": 1292,
+      "y": 859
+     }
+    ]
+   }
+  },
+  "net_105": {
+   "hyperGraph": "(W3.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1353,
+      "y": 819
+     },
+     {
+      "x": 1292,
+      "y": 819
+     }
+    ]
+   }
+  },
+  "net_106": {
+   "hyperGraph": "(U4.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1353,
+      "y": 748
+     },
+     {
+      "x": 1292,
+      "y": 748
+     }
+    ]
+   }
+  },
+  "net_107": {
+   "hyperGraph": "(V4.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1353,
+      "y": 707
+     },
+     {
+      "x": 1292,
+      "y": 707
+     }
+    ]
+   }
+  },
+  "net_108": {
+   "hyperGraph": "(W4.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1353,
+      "y": 667
+     },
+     {
+      "x": 1292,
+      "y": 667
+     }
+    ]
+   }
+  },
+  "net_109": {
+   "hyperGraph": "(GND1.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1495,
+      "y": 707
+     },
+     {
+      "x": 1556,
+      "y": 707
+     }
+    ]
+   }
+  },
+  "net_110": {
+   "hyperGraph": "(BAT1.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1495,
+      "y": 667
+     },
+     {
+      "x": 1556,
+      "y": 667
+     }
+    ]
+   }
+  },
+  "net_111": {
+   "hyperGraph": "(D2.1,∅23714.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 978,
+      "y": 1031
+     },
+     {
+      "x": 978,
+      "y": 1011
+     }
+    ]
+   }
+  },
+  "net_112": {
+   "hyperGraph": "(Q1.9,∅2952.1)",
+   "edges": {}
+  },
+  "net_113": {
+   "hyperGraph": "(Q2.9,∅3679.1)",
+   "edges": {}
+  },
+  "net_114": {
+   "hyperGraph": "(Q3.9,∅4665.1)",
+   "edges": {}
+  },
+  "net_115": {
+   "hyperGraph": "(Q7.9,∅8523.1)",
+   "edges": {}
+  },
+  "net_116": {
+   "hyperGraph": "(Q8.9,∅8631.1)",
+   "edges": {}
+  },
+  "net_117": {
+   "hyperGraph": "(Q9.9,∅8270.1)",
+   "edges": {}
+  },
+  "net_118": {
+   "hyperGraph": "(Q13.9,∅9201.1)",
+   "edges": {}
+  },
+  "net_119": {
+   "hyperGraph": "(Q14.9,∅9309.1)",
+   "edges": {}
+  },
+  "net_120": {
+   "hyperGraph": "(Q15.9,∅8948.1)",
+   "edges": {}
+  },
+  "net_121": {
+   "hyperGraph": "(Q19.9,∅9879.1)",
+   "edges": {}
+  },
+  "net_122": {
+   "hyperGraph": "(Q20.9,∅9987.1)",
+   "edges": {}
+  },
+  "net_123": {
+   "hyperGraph": "(Q21.9,∅9626.1)",
+   "edges": {}
+  }
+ }
+}

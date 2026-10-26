@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PCB 原理图标注校对工具</title>
+<style>
+:root{--bg:#f6f5f2;--panel:#fff;--ink:#1d1d1f;--muted:#6b6b70;--line:#d9d7d2;--acc:#0b63ce;--sel:#e8590c}
+*{box-sizing:border-box}body{margin:0;font:13px/1.4 system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);display:grid;grid-template-columns:1fr 380px;height:100vh}
+#view{position:relative;overflow:hidden;background:#fff;border-right:1px solid var(--line)}
+canvas{position:absolute;left:0;top:0;cursor:crosshair}
+#side{display:flex;flex-direction:column;overflow:hidden;background:var(--panel)}
+header{padding:10px 12px;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+header b{font-size:14px;margin-right:auto}
+button,label.btn{border:1px solid var(--line);background:#fff;border-radius:6px;padding:4px 8px;cursor:pointer;font:inherit}
+button:hover,label.btn:hover{border-color:var(--acc)}
+.tabs{display:flex;border-bottom:1px solid var(--line)}.tabs button{flex:1;border:0;border-radius:0;padding:8px}.tabs button.on{border-bottom:2px solid var(--acc);color:var(--acc)}
+#list{flex:1;overflow:auto;padding:6px 8px}
+.row{padding:4px 6px;border-radius:5px;cursor:pointer;display:flex;gap:6px;align-items:center}.row:hover{background:#f0efe9}.row.on{background:#fde9dd}
+.k{font-weight:600;min-width:60px}.t{color:var(--muted)}
+#edit{border-top:1px solid var(--line);padding:8px 10px;max-height:46%;overflow:auto}
+#edit input,#edit select,#edit textarea{width:100%;font:inherit;padding:3px 5px;border:1px solid var(--line);border-radius:4px}
+#edit .f{margin-bottom:6px}#edit .f span{display:block;color:var(--muted);font-size:12px}
+.hint{color:var(--muted);font-size:12px;padding:6px 12px;border-top:1px solid var(--line)}
+#status{position:absolute;left:8px;bottom:8px;background:rgba(255,255,255,.9);border:1px solid var(--line);border-radius:6px;padding:3px 8px;font-size:12px}
+</style>
+</head>
+<body>
+<div id="view"><canvas id="cv"></canvas><div id="status">载入 PNG 与 JSON 开始</div></div>
+<div id="side">
+<header><b>标注校对</b>
+<label class="btn">图片<input id="fimg" type="file" accept="image/*" hidden></label>
+<label class="btn">JSON<input id="fjson" type="file" accept=".json" hidden></label>
+<button id="save">导出 JSON</button></header>
+<div class="tabs"><button data-tab="comp" class="on">元件</button><button data-tab="net">网络</button><button data-tab="chk">检查</button></div>
+<div id="list"></div>
+<div id="edit"></div>
+<div class="hint">滚轮缩放，右键/空格拖动平移；点击选择元件/引脚/线段，拖动引脚点或线段端点；Shift+拖动 为选中元件重画 bbox；坐标为左下角原点整数像素。</div>
+</div>
+<script>
+const cv=document.getElementById('cv'),ctx=cv.getContext('2d'),view=document.getElementById('view');
+let img=null,J={components:{},pins:{},nets:{}},H=0,scale=1,ox=0,oy=0,tab='comp',sel=null,drag=null,fname='case.json';
+const TYPES=['box','r','c','l','d','led','gnd','v','net_bidirection','net_input','net_output','net_short','pin','switch','crystal_2pin','crystal_3pin','crystal_4pin','mosfet','bjt','fuse','buzzer','battary','testpoint','amp','other'];
+function resize(){cv.width=view.clientWidth;cv.height=view.clientHeight;draw()}
+window.addEventListener('resize',resize);
+function toScr(x,y){return[ox+x*scale,oy+(H-y)*scale]}
+function toImg(sx,sy){return[Math.round((sx-ox)/scale),Math.round(H-(sy-oy)/scale)]}
+function netColor(i){return `hsl(${(i*47)%360} 80% 42%)`}
+function draw(){ctx.clearRect(0,0,cv.width,cv.height);if(!img)return;ctx.globalAlpha=.55;ctx.drawImage(img,ox,oy,img.width*scale,img.height*scale);ctx.globalAlpha=1;
+ let i=0;for(const[nk,n]of Object.entries(J.nets)){const on=sel&&sel.kind!=='comp'&&sel.net===nk;ctx.strokeStyle=on?'#e8590c':netColor(i++);ctx.lineWidth=on?3:2;
+  for(const[ek,e]of Object.entries(n.edges||{})){if(!e||e.length!==2)continue;const a=toScr(e[0].x,e[0].y),b=toScr(e[1].x,e[1].y);ctx.beginPath();ctx.moveTo(...a);ctx.lineTo(...b);ctx.stroke();
+   if(on){for(const p of[a,b]){ctx.fillStyle='#e8590c';ctx.fillRect(p[0]-3,p[1]-3,6,6)}}}}
+ for(const[k,c]of Object.entries(J.components)){const[x0,y0,x1,y1]=c.bbox;const a=toScr(x0,y1),b=toScr(x1,y0);const on=sel&&sel.comp===k;ctx.strokeStyle=on?'#e8590c':'#0b63ce';ctx.lineWidth=on?2:1;ctx.strokeRect(a[0],a[1],b[0]-a[0],b[1]-a[1]);
+  ctx.fillStyle=on?'#e8590c':'#0b63ce';ctx.font='11px system-ui';ctx.fillText(`${k}:${c.type}`,a[0],a[1]-3)}
+ for(const[k,ps]of Object.entries(J.pins)){for(const[pk,p]of Object.entries(ps)){const q=toScr(p.point.x,p.point.y);const on=sel&&sel.comp===k&&sel.pin===pk;ctx.fillStyle=on?'#e8590c':'#c92a2a';ctx.beginPath();ctx.arc(q[0],q[1],on?5:3,0,7);ctx.fill();
+  if(scale>1.2){ctx.fillStyle='#c92a2a';ctx.font='10px system-ui';ctx.fillText(pk.slice(4),q[0]+4,q[1]-4)}}}}
+function hit(sx,sy){const r=8;let best=null;
+ for(const[k,ps]of Object.entries(J.pins))for(const[pk,p]of Object.entries(ps)){const q=toScr(p.point.x,p.point.y);const d=Math.hypot(q[0]-sx,q[1]-sy);if(d<r&&(!best||d<best.d))best={d,kind:'pin',comp:k,pin:pk}}
+ if(best)return best;
+ for(const[nk,n]of Object.entries(J.nets))for(const[ek,e]of Object.entries(n.edges||{})){for(let j=0;j<2;j++){const q=toScr(e[j].x,e[j].y);const d=Math.hypot(q[0]-sx,q[1]-sy);if(d<r&&(!best||d<best.d))best={d,kind:'end',net:nk,edge:ek,end:j}}}
+ if(best)return best;
+ for(const[nk,n]of Object.entries(J.nets))for(const[ek,e]of Object.entries(n.edges||{})){const a=toScr(e[0].x,e[0].y),b=toScr(e[1].x,e[1].y);const vx=b[0]-a[0],vy=b[1]-a[1];const L=vx*vx+vy*vy||1;let t=((sx-a[0])*vx+(sy-a[1])*vy)/L;t=Math.max(0,Math.min(1,t));const d=Math.hypot(a[0]+t*vx-sx,a[1]+t*vy-sy);if(d<5&&(!best||d<best.d))best={d,kind:'edge',net:nk,edge:ek}}
+ if(best)return best;
+ for(const[k,c]of Object.entries(J.components)){const[x,y]=toImg(sx,sy);if(x>=c.bbox[0]&&x<=c.bbox[2]&&y>=c.bbox[1]&&y<=c.bbox[3])return{kind:'comp',comp:k}}
+ return null}
+let pan=null,space=false;
+window.addEventListener('keydown',e=>{if(e.code==='Space'&&e.target.tagName!=='INPUT'&&e.target.tagName!=='TEXTAREA'){space=true;e.preventDefault()}
+ if((e.key==='Delete')&&sel&&document.activeElement.tagName!=='INPUT'&&document.activeElement.tagName!=='TEXTAREA')delSel()});
+window.addEventListener('keyup',e=>{if(e.code==='Space')space=false});
+cv.addEventListener('contextmenu',e=>e.preventDefault());
+cv.addEventListener('mousedown',e=>{const sx=e.offsetX,sy=e.offsetY;if(e.button===2||space){pan={sx,sy,ox,oy};return}
+ if(e.shiftKey&&sel&&sel.comp&&sel.kind!=='pin'){const[x,y]=toImg(sx,sy);drag={kind:'box',x0:x,y0:y};return}
+ const h=hit(sx,sy);sel=h;if(h&&(h.kind==='pin'||h.kind==='end'))drag=h;render();draw()});
+cv.addEventListener('mousemove',e=>{const sx=e.offsetX,sy=e.offsetY;const[x,y]=toImg(sx,sy);document.getElementById('status').textContent=`x=${x}  y=${y}  缩放 ${scale.toFixed(2)}`;
+ if(pan){ox=pan.ox+sx-pan.sx;oy=pan.oy+sy-pan.sy;draw();return}
+ if(!drag)return;
+ if(drag.kind==='pin'){const p=J.pins[drag.comp][drag.pin].point;p.x=x;p.y=y}
+ else if(drag.kind==='end'){const pt=J.nets[drag.net].edges[drag.edge][drag.end];pt.x=x;pt.y=y}
+ else if(drag.kind==='box'){J.components[sel.comp].bbox=[Math.min(drag.x0,x),Math.min(drag.y0,y),Math.max(drag.x0,x),Math.max(drag.y0,y)]}
+ draw()});
+window.addEventListener('mouseup',()=>{if(drag){render()}pan=null;drag=null});
+cv.addEventListener('wheel',e=>{e.preventDefault();const f=e.deltaY<0?1.15:1/1.15;const sx=e.offsetX,sy=e.offsetY;ox=sx-(sx-ox)*f;oy=sy-(sy-oy)*f;scale*=f;draw()},{passive:false});
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('on'));b.classList.add('on');tab=b.dataset.tab;render()});
+function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function render(){const L=document.getElementById('list'),E=document.getElementById('edit');L.innerHTML='';E.innerHTML='';
+ if(tab==='comp'){const add=document.createElement('button');add.textContent='+ 新元件';add.onclick=()=>{let k=prompt('元件 key（位号，如 R12；电源/地用 ∅n）');if(!k)return;if(J.components[k])return alert('已存在');const c=view.getBoundingClientRect();const[x,y]=toImg(c.width/2,c.height/2);J.components[k]={Name:k,type:'r',value:null,bbox:[x-10,y-10,x+10,y+10]};J.pins[k]={};sel={kind:'comp',comp:k};render();draw()};L.appendChild(add);
+  for(const[k,c]of Object.entries(J.components).sort()){const d=document.createElement('div');d.className='row'+(sel&&sel.comp===k?' on':'');d.innerHTML=`<span class="k">${esc(k)}</span><span class="t">${esc(c.type)}</span><span>${esc(c.type==='box'?c.Name:(c.value??''))}</span>`;d.onclick=()=>{sel={kind:'comp',comp:k};focusComp(k);render();draw()};L.appendChild(d)}
+  if(sel&&sel.comp&&J.components[sel.comp])compEditor(E,sel.comp)}
+ else if(tab==='net'){const add=document.createElement('button');add.textContent='+ 新网络';add.onclick=()=>{let i=1;while(J.nets['net_'+i])i++;J.nets['net_'+i]={hyperGraph:'()',edges:{}};sel={kind:'net',net:'net_'+i};render();draw()};L.appendChild(add);
+  for(const[nk,n]of Object.entries(J.nets)){const d=document.createElement('div');d.className='row'+(sel&&sel.net===nk?' on':'');d.innerHTML=`<span class="k">${esc(nk)}</span><span class="t">${Object.keys(n.edges||{}).length} 段</span><span>${esc(n.hyperGraph)}</span>`;d.onclick=()=>{sel={kind:'net',net:nk};render();draw()};L.appendChild(d)}
+  if(sel&&sel.net&&J.nets[sel.net])netEditor(E,sel.net)}
+ else{L.innerHTML='<pre style="white-space:pre-wrap">'+esc(check().join('\n')||'未发现问题')+'</pre>'}}
+function field(E,label,val,on,type='text'){const f=document.createElement('div');f.className='f';f.innerHTML=`<span>${label}</span>`;let inp;
+ if(type==='select'){inp=document.createElement('select');for(const t of TYPES){const o=document.createElement('option');o.value=t;o.textContent=t;inp.appendChild(o)}if(!TYPES.includes(val)){const o=document.createElement('option');o.value=val;o.textContent=val;inp.appendChild(o)}inp.value=val}
+ else if(type==='area'){inp=document.createElement('textarea');inp.rows=3;inp.value=val}else{inp=document.createElement('input');inp.value=val??''}
+ inp.onchange=()=>{on(inp.value);draw()};f.appendChild(inp);E.appendChild(f);return inp}
+function compEditor(E,k){const c=J.components[k];
+ field(E,'key（重命名）',k,v=>{if(!v||v===k||J.components[v])return;J.components[v]=c;delete J.components[k];J.pins[v]=J.pins[k]||{};delete J.pins[k];for(const n of Object.values(J.nets))n.hyperGraph=n.hyperGraph.replace(new RegExp('([(,])'+k.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\.','g'),'$1'+v+'.');sel={kind:'comp',comp:v};render()});
+ field(E,'type',c.type,v=>c.type=v,'select');field(E,'Name（IC 填型号）',c.Name,v=>c.Name=v);field(E,'value（R/C 填阻容值，严格大小写）',c.value??'',v=>c.value=v===''?null:v);
+ field(E,'bbox x1,y1,x2,y2',c.bbox.join(','),v=>{const a=v.split(',').map(Number);if(a.length===4&&a.every(Number.isFinite))c.bbox=a.map(Math.round)});
+ const ps=J.pins[k]||(J.pins[k]={});const h=document.createElement('div');h.style.margin='8px 0 4px';h.innerHTML='<b>引脚</b> ';const ab=document.createElement('button');ab.textContent='+ 引脚';ab.onclick=()=>{const n=prompt('pin number');if(!n)return;const[x0,y0,x1,y1]=c.bbox;ps['pin_'+n]={pinname:n,point:{x:x0,y:Math.round((y0+y1)/2)}};render();draw()};h.appendChild(ab);E.appendChild(h);
+ for(const[pk,p]of Object.entries(ps)){const r=document.createElement('div');r.className='row'+(sel&&sel.pin===pk?' on':'');r.innerHTML=`<span class="k">${esc(pk)}</span>`;
+  const nm=document.createElement('input');nm.value=p.pinname;nm.style.width='90px';nm.onchange=()=>p.pinname=nm.value;const xy=document.createElement('input');xy.value=p.point.x+','+p.point.y;xy.style.width='90px';xy.onchange=()=>{const a=xy.value.split(',').map(Number);if(a.length===2){p.point.x=Math.round(a[0]);p.point.y=Math.round(a[1]);draw()}};
+  const del=document.createElement('button');del.textContent='×';del.onclick=()=>{delete ps[pk];render();draw()};r.append(nm,xy,del);r.onclick=e=>{if(e.target.tagName==='DIV'||e.target.tagName==='SPAN'){sel={kind:'pin',comp:k,pin:pk};render();draw()}};E.appendChild(r)}
+ const del=document.createElement('button');del.textContent='删除该元件';del.style.marginTop='8px';del.onclick=delSel;E.appendChild(del)}
+function netEditor(E,nk){const n=J.nets[nk];field(E,'hyperGraph，如 (U1.3,R2.1,∅5.1)',n.hyperGraph,v=>n.hyperGraph=v,'area');
+ const b=document.createElement('button');b.textContent='+ 线段（在视图中心）';b.onclick=()=>{const c=view.getBoundingClientRect();const[x,y]=toImg(c.width/2,c.height/2);let i=1;while(n.edges['edge_'+i])i++;n.edges['edge_'+i]=[{x,y},{x:x+20,y}];render();draw()};E.appendChild(b);
+ for(const[ek,e]of Object.entries(n.edges)){const r=document.createElement('div');r.className='row'+(sel&&sel.edge===ek?' on':'');r.innerHTML=`<span class="k">${ek}</span><span class="t">(${e[0].x},${e[0].y})→(${e[1].x},${e[1].y})</span>`;const d=document.createElement('button');d.textContent='×';d.onclick=()=>{delete n.edges[ek];render();draw()};r.appendChild(d);E.appendChild(r)}
+ const del=document.createElement('button');del.textContent='删除该网络';del.style.marginTop='8px';del.onclick=()=>{delete J.nets[nk];sel=null;render();draw()};E.appendChild(del)}
+function delSel(){if(!sel)return;if(sel.kind==='pin'){delete J.pins[sel.comp][sel.pin]}else if(sel.kind==='edge'||sel.kind==='end'){delete J.nets[sel.net].edges[sel.edge]}else if(sel.comp){const k=sel.comp;if(!confirm('删除 '+k+' ?'))return;delete J.components[k];delete J.pins[k]}sel=null;render();draw()}
+function focusComp(k){const c=J.components[k];const r=view.getBoundingClientRect();const cx=(c.bbox[0]+c.bbox[2])/2,cy=(c.bbox[1]+c.bbox[3])/2;ox=r.width/2-cx*scale;oy=r.height/2-(H-cy)*scale}
+function check(){const out=[];const pin_in=new Map();
+ for(const[nk,n]of Object.entries(J.nets)){const s=(n.hyperGraph||'').replace(/^\(|\)$/g,'');for(const t of s.split(',').map(x=>x.trim()).filter(Boolean)){const i=t.lastIndexOf('.');const c=t.slice(0,i),p=t.slice(i+1);if(!J.pins[c]||!J.pins[c]['pin_'+p])out.push(`${nk}: ${t} 不存在于 pins`);pin_in.set(t,(pin_in.get(t)||0)+1)}
+  for(const[ek,e]of Object.entries(n.edges||{}))if(!e||e.length!==2)out.push(`${nk}.${ek}: 线段必须两个点`)}
+ for(const[t,c]of pin_in)if(c>1)out.push(`${t} 出现在 ${c} 个网络中（应合并）`);
+ for(const[k,c]of Object.entries(J.components)){if(c.bbox.some(v=>!Number.isInteger(v)))out.push(`${k}: bbox 需为整数`);if(c.type==='box'&&(!c.Name||c.Name===k))out.push(`${k}: IC 的 Name 应填写型号`)}
+ for(const[k,ps]of Object.entries(J.pins))for(const[pk,p]of Object.entries(ps))if(!Number.isInteger(p.point.x)||!Number.isInteger(p.point.y))out.push(`${k}.${pk}: 坐标需为整数`);
+ if(!Object.values(J.components).some(c=>c.type==='box'))out.push('没有 IC（type=box）');
+ if(Object.keys(J.components).length<5)out.push('有效元件少于 5 个');
+ return out}
+document.getElementById('fimg').onchange=e=>{const f=e.target.files[0];if(!f)return;const u=URL.createObjectURL(f);const im=new Image();im.onload=()=>{img=im;H=im.height;const r=view.getBoundingClientRect();scale=Math.min(r.width/im.width,r.height/im.height);ox=(r.width-im.width*scale)/2;oy=(r.height-im.height*scale)/2;draw()};im.src=u};
+document.getElementById('fjson').onchange=e=>{const f=e.target.files[0];if(!f)return;fname=f.name;f.text().then(t=>{J=JSON.parse(t);J.components=J.components||{};J.pins=J.pins||{};J.nets=J.nets||{};sel=null;render();draw()})};
+document.getElementById('save').onclick=()=>{const b=new Blob([JSON.stringify(J,null,1)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=fname;a.click()};
+resize();render();
+</script>
+</body>
+</html>

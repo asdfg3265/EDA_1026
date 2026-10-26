@@ -1,0 +1,6877 @@
+{
+ "components": {
+  "R7": {
+   "Name": "R7",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    1378,
+    2139,
+    1419,
+    2161
+   ]
+  },
+  "R8": {
+   "Name": "R8",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    1387,
+    2000,
+    1429,
+    2022
+   ]
+  },
+  "IO0": {
+   "Name": "IO0",
+   "type": "net_output",
+   "value": "IO0",
+   "bbox": [
+    1608,
+    1958,
+    1669,
+    1980
+   ]
+  },
+  "EN": {
+   "Name": "EN",
+   "type": "net_output",
+   "value": "EN",
+   "bbox": [
+    1615,
+    2179,
+    1677,
+    2200
+   ]
+  },
+  "RTS": {
+   "Name": "RTS",
+   "type": "net_input",
+   "value": "RTS",
+   "bbox": [
+    1239,
+    2000,
+    1300,
+    2022
+   ]
+  },
+  "DTR": {
+   "Name": "DTR",
+   "type": "net_input",
+   "value": "DTR",
+   "bbox": [
+    1239,
+    2139,
+    1300,
+    2161
+   ]
+  },
+  "∅1576": {
+   "Name": "∅1576",
+   "type": "v",
+   "value": "3.3V",
+   "bbox": [
+    297,
+    830,
+    319,
+    842
+   ]
+  },
+  "C5": {
+   "Name": "C5",
+   "type": "c",
+   "value": "10uF",
+   "bbox": [
+    227,
+    705,
+    269,
+    739
+   ]
+  },
+  "C4": {
+   "Name": "C4",
+   "type": "c",
+   "value": "0.1uF",
+   "bbox": [
+    227,
+    755,
+    269,
+    789
+   ]
+  },
+  "USB1": {
+   "Name": "USB1",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    446,
+    1911,
+    586,
+    2181
+   ]
+  },
+  "∅1806": {
+   "Name": "∅1806",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    198,
+    1853,
+    239,
+    1873
+   ]
+  },
+  "R1": {
+   "Name": "R1",
+   "type": "r",
+   "value": "5.1kΩ",
+   "bbox": [
+    257,
+    2099,
+    299,
+    2121
+   ]
+  },
+  "R2": {
+   "Name": "R2",
+   "type": "r",
+   "value": "5.1kΩ",
+   "bbox": [
+    257,
+    1980,
+    299,
+    2002
+   ]
+  },
+  "IO8": {
+   "Name": "IO8",
+   "type": "net_input",
+   "value": "IO8",
+   "bbox": [
+    327,
+    384,
+    388,
+    406
+   ]
+  },
+  "IO1": {
+   "Name": "IO1",
+   "type": "net_input",
+   "value": "IO1",
+   "bbox": [
+    763,
+    582,
+    824,
+    604
+   ]
+  },
+  "IO2": {
+   "Name": "IO2",
+   "type": "net_input",
+   "value": "IO2",
+   "bbox": [
+    763,
+    563,
+    824,
+    584
+   ]
+  },
+  "TXD0": {
+   "Name": "TXD0",
+   "type": "net_input",
+   "value": "TXD0",
+   "bbox": [
+    763,
+    543,
+    824,
+    564
+   ]
+  },
+  "RXD0": {
+   "Name": "RXD0",
+   "type": "net_input",
+   "value": "RXD0",
+   "bbox": [
+    763,
+    523,
+    824,
+    545
+   ]
+  },
+  "LED_BL": {
+   "Name": "LED_BL",
+   "type": "net_input",
+   "value": "LED_BL",
+   "bbox": [
+    763,
+    503,
+    824,
+    525
+   ]
+  },
+  "SPI_CS": {
+   "Name": "SPI_CS",
+   "type": "net_input",
+   "value": "SPI_CS",
+   "bbox": [
+    763,
+    483,
+    824,
+    505
+   ]
+  },
+  "SPI_DC": {
+   "Name": "SPI_DC",
+   "type": "net_input",
+   "value": "SPI_DC",
+   "bbox": [
+    763,
+    463,
+    824,
+    485
+   ]
+  },
+  "IO39": {
+   "Name": "IO39",
+   "type": "net_input",
+   "value": "IO39",
+   "bbox": [
+    763,
+    444,
+    824,
+    465
+   ]
+  },
+  "IO38": {
+   "Name": "IO38",
+   "type": "net_input",
+   "value": "IO38",
+   "bbox": [
+    763,
+    424,
+    824,
+    446
+   ]
+  },
+  "IO37": {
+   "Name": "IO37",
+   "type": "net_input",
+   "value": "IO37",
+   "bbox": [
+    763,
+    404,
+    824,
+    426
+   ]
+  },
+  "IO36": {
+   "Name": "IO36",
+   "type": "net_input",
+   "value": "IO36",
+   "bbox": [
+    763,
+    384,
+    824,
+    406
+   ]
+  },
+  "IO35": {
+   "Name": "IO35",
+   "type": "net_input",
+   "value": "IO35",
+   "bbox": [
+    763,
+    364,
+    824,
+    386
+   ]
+  },
+  "IO3": {
+   "Name": "IO3",
+   "type": "net_input",
+   "value": "IO3",
+   "bbox": [
+    465,
+    166,
+    487,
+    227
+   ]
+  },
+  "IO9": {
+   "Name": "IO9",
+   "type": "net_input",
+   "value": "IO9",
+   "bbox": [
+    505,
+    166,
+    527,
+    227
+   ]
+  },
+  "IO10": {
+   "Name": "IO10",
+   "type": "net_input",
+   "value": "IO10",
+   "bbox": [
+    525,
+    166,
+    547,
+    227
+   ]
+  },
+  "IO11": {
+   "Name": "IO11",
+   "type": "net_input",
+   "value": "IO11",
+   "bbox": [
+    545,
+    166,
+    566,
+    227
+   ]
+  },
+  "IO12": {
+   "Name": "IO12",
+   "type": "net_input",
+   "value": "IO12",
+   "bbox": [
+    565,
+    166,
+    586,
+    227
+   ]
+  },
+  "IO13": {
+   "Name": "IO13",
+   "type": "net_input",
+   "value": "IO13",
+   "bbox": [
+    584,
+    166,
+    606,
+    227
+   ]
+  },
+  "BAT_DET": {
+   "Name": "BAT_DET",
+   "type": "net_input",
+   "value": "BAT_DET",
+   "bbox": [
+    604,
+    166,
+    626,
+    227
+   ]
+  },
+  "SPI_CLK": {
+   "Name": "SPI_CLK",
+   "type": "net_input",
+   "value": "SPI_CLK",
+   "bbox": [
+    624,
+    166,
+    646,
+    227
+   ]
+  },
+  "SPI_MOSI": {
+   "Name": "SPI_MOSI",
+   "type": "net_input",
+   "value": "SPI_MOSI",
+   "bbox": [
+    644,
+    166,
+    666,
+    227
+   ]
+  },
+  "IO48": {
+   "Name": "IO48",
+   "type": "net_input",
+   "value": "IO48",
+   "bbox": [
+    664,
+    166,
+    685,
+    227
+   ]
+  },
+  "SPI_RST": {
+   "Name": "SPI_RST",
+   "type": "net_input",
+   "value": "SPI_RST",
+   "bbox": [
+    683,
+    166,
+    705,
+    227
+   ]
+  },
+  "D-": {
+   "Name": "D-",
+   "type": "net_input",
+   "value": "D-",
+   "bbox": [
+    327,
+    364,
+    388,
+    386
+   ]
+  },
+  "D+": {
+   "Name": "D+",
+   "type": "net_input",
+   "value": "D+",
+   "bbox": [
+    327,
+    344,
+    388,
+    366
+   ]
+  },
+  "EN_2": {
+   "Name": "EN_2",
+   "type": "net_input",
+   "value": "EN",
+   "bbox": [
+    128,
+    563,
+    190,
+    584
+   ]
+  },
+  "D+_2": {
+   "Name": "D+_2",
+   "type": "net_output",
+   "value": "D+",
+   "bbox": [
+    346,
+    2079,
+    408,
+    2101
+   ]
+  },
+  "D+_3": {
+   "Name": "D+_3",
+   "type": "net_output",
+   "value": "D+",
+   "bbox": [
+    346,
+    1960,
+    408,
+    1982
+   ]
+  },
+  "D-_2": {
+   "Name": "D-_2",
+   "type": "net_output",
+   "value": "D-",
+   "bbox": [
+    346,
+    1941,
+    408,
+    1962
+   ]
+  },
+  "D-_3": {
+   "Name": "D-_3",
+   "type": "net_output",
+   "value": "D-",
+   "bbox": [
+    346,
+    2060,
+    408,
+    2081
+   ]
+  },
+  "Power1": {
+   "Name": "Power1",
+   "type": "other",
+   "value": null,
+   "bbox": [
+    761,
+    2002,
+    812,
+    2032
+   ]
+  },
+  "R3": {
+   "Name": "R3",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    763,
+    2079,
+    785,
+    2121
+   ]
+  },
+  "∅10591": {
+   "Name": "∅10591",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    753,
+    1893,
+    795,
+    1913
+   ]
+  },
+  "3.3V": {
+   "Name": "3.3V",
+   "type": "net_input",
+   "value": "3.3V",
+   "bbox": [
+    763,
+    2159,
+    785,
+    2220
+   ]
+  },
+  "R6": {
+   "Name": "R6",
+   "type": "r",
+   "value": "10kΩ",
+   "bbox": [
+    227,
+    622,
+    269,
+    644
+   ]
+  },
+  "IO46": {
+   "Name": "IO46",
+   "type": "net_input",
+   "value": "IO46",
+   "bbox": [
+    485,
+    166,
+    507,
+    227
+   ]
+  },
+  "状态指示": {
+   "Name": "WS2812E",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    1328,
+    1633,
+    1489,
+    1695
+   ]
+  },
+  "IO48_2": {
+   "Name": "IO48_2",
+   "type": "net_input",
+   "value": "IO48",
+   "bbox": [
+    1526,
+    1663,
+    1588,
+    1685
+   ]
+  },
+  "∅25385": {
+   "Name": "∅25385",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    1526,
+    1586,
+    1568,
+    1606
+   ]
+  },
+  "EN_3": {
+   "Name": "EN_3",
+   "type": "net_output",
+   "value": "EN",
+   "bbox": [
+    584,
+    1237,
+    646,
+    1259
+   ]
+  },
+  "VIN": {
+   "Name": "VIN",
+   "type": "net_output",
+   "value": "VIN",
+   "bbox": [
+    178,
+    2159,
+    200,
+    2220
+   ]
+  },
+  "GND": {
+   "Name": "GND",
+   "type": "net_input",
+   "value": "GND",
+   "bbox": [
+    2785,
+    592,
+    2847,
+    614
+   ]
+  },
+  "IO18": {
+   "Name": "IO18",
+   "type": "net_input",
+   "value": "IO18",
+   "bbox": [
+    2785,
+    553,
+    2847,
+    574
+   ]
+  },
+  "3.3V_2": {
+   "Name": "3.3V_2",
+   "type": "net_input",
+   "value": "3.3V",
+   "bbox": [
+    2785,
+    572,
+    2847,
+    594
+   ]
+  },
+  "GND_2": {
+   "Name": "GND_2",
+   "type": "net_input",
+   "value": "GND",
+   "bbox": [
+    2538,
+    820,
+    2599,
+    842
+   ]
+  },
+  "IO13_2": {
+   "Name": "IO13_2",
+   "type": "net_input",
+   "value": "IO13",
+   "bbox": [
+    2538,
+    781,
+    2599,
+    802
+   ]
+  },
+  "3.3V_3": {
+   "Name": "3.3V_3",
+   "type": "net_input",
+   "value": "3.3V",
+   "bbox": [
+    2538,
+    800,
+    2599,
+    822
+   ]
+  },
+  "GND_3": {
+   "Name": "GND_3",
+   "type": "net_input",
+   "value": "GND",
+   "bbox": [
+    2538,
+    592,
+    2599,
+    614
+   ]
+  },
+  "IO14": {
+   "Name": "IO14",
+   "type": "net_input",
+   "value": "IO14",
+   "bbox": [
+    2538,
+    553,
+    2599,
+    574
+   ]
+  },
+  "3.3V_4": {
+   "Name": "3.3V_4",
+   "type": "net_input",
+   "value": "3.3V",
+   "bbox": [
+    2538,
+    572,
+    2599,
+    594
+   ]
+  },
+  "GND_4": {
+   "Name": "GND_4",
+   "type": "net_input",
+   "value": "GND",
+   "bbox": [
+    2775,
+    820,
+    2837,
+    842
+   ]
+  },
+  "3.3V_5": {
+   "Name": "3.3V_5",
+   "type": "net_input",
+   "value": "3.3V",
+   "bbox": [
+    2775,
+    800,
+    2837,
+    822
+   ]
+  },
+  "IO17": {
+   "Name": "IO17",
+   "type": "net_input",
+   "value": "IO17",
+   "bbox": [
+    2775,
+    781,
+    2837,
+    802
+   ]
+  },
+  "GND_5": {
+   "Name": "GND_5",
+   "type": "net_input",
+   "value": "GND",
+   "bbox": [
+    3023,
+    592,
+    3085,
+    614
+   ]
+  },
+  "IO0_2": {
+   "Name": "IO0_2",
+   "type": "net_input",
+   "value": "IO0",
+   "bbox": [
+    3023,
+    553,
+    3085,
+    574
+   ]
+  },
+  "VIN_2": {
+   "Name": "VIN_2",
+   "type": "net_input",
+   "value": "VIN",
+   "bbox": [
+    3023,
+    572,
+    3085,
+    594
+   ]
+  },
+  "GND_6": {
+   "Name": "GND_6",
+   "type": "net_input",
+   "value": "GND",
+   "bbox": [
+    3023,
+    840,
+    3085,
+    862
+   ]
+  },
+  "VIN_3": {
+   "Name": "VIN_3",
+   "type": "net_input",
+   "value": "VIN",
+   "bbox": [
+    3023,
+    820,
+    3085,
+    842
+   ]
+  },
+  "D+_4": {
+   "Name": "D+_4",
+   "type": "net_input",
+   "value": "D+",
+   "bbox": [
+    3023,
+    800,
+    3085,
+    822
+   ]
+  },
+  "D-_4": {
+   "Name": "D-_4",
+   "type": "net_input",
+   "value": "D-",
+   "bbox": [
+    3023,
+    781,
+    3085,
+    802
+   ]
+  },
+  "VIN_4": {
+   "Name": "VIN_4",
+   "type": "net_input",
+   "value": "VIN",
+   "bbox": [
+    1249,
+    265,
+    1310,
+    287
+   ]
+  },
+  "∅55639": {
+   "Name": "∅55639",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    1239,
+    128,
+    1280,
+    148
+   ]
+  },
+  "U2": {
+   "Name": "ESP32-S3-WROOM-1-N16R8",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    426,
+    265,
+    725,
+    812
+   ]
+  },
+  "IO0_3": {
+   "Name": "IO0_3",
+   "type": "net_input",
+   "value": "IO0",
+   "bbox": [
+    763,
+    344,
+    824,
+    366
+   ]
+  },
+  "∅2024": {
+   "Name": "∅2024",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    872,
+    592,
+    892,
+    634
+   ]
+  },
+  "∅1987": {
+   "Name": "∅1987",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    158,
+    674,
+    200,
+    693
+   ]
+  },
+  "RESET": {
+   "Name": "TS24CA",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    416,
+    1243,
+    497,
+    1288
+   ]
+  },
+  "∅48798": {
+   "Name": "∅48798",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    299,
+    1227,
+    319,
+    1268
+   ]
+  },
+  "BOOT": {
+   "Name": "TS24CA",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    416,
+    1084,
+    497,
+    1130
+   ]
+  },
+  "IO0_4": {
+   "Name": "IO0_4",
+   "type": "net_output",
+   "value": "IO0",
+   "bbox": [
+    584,
+    1078,
+    646,
+    1100
+   ]
+  },
+  "∅47707": {
+   "Name": "∅47707",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    299,
+    1068,
+    319,
+    1110
+   ]
+  },
+  "GND_7": {
+   "Name": "GND_7",
+   "type": "net_input",
+   "value": "GND",
+   "bbox": [
+    1330,
+    1280,
+    1391,
+    1302
+   ]
+  },
+  "VIN_5": {
+   "Name": "VIN_5",
+   "type": "net_input",
+   "value": "VIN",
+   "bbox": [
+    1330,
+    1260,
+    1391,
+    1282
+   ]
+  },
+  "IO21": {
+   "Name": "IO21",
+   "type": "net_input",
+   "value": "IO21",
+   "bbox": [
+    1330,
+    1241,
+    1391,
+    1262
+   ]
+  },
+  "IO47": {
+   "Name": "IO47",
+   "type": "net_input",
+   "value": "IO47",
+   "bbox": [
+    1330,
+    1221,
+    1391,
+    1243
+   ]
+  },
+  "IO45": {
+   "Name": "IO45",
+   "type": "net_input",
+   "value": "IO45",
+   "bbox": [
+    1330,
+    1201,
+    1391,
+    1223
+   ]
+  },
+  "IO40": {
+   "Name": "IO40",
+   "type": "net_input",
+   "value": "IO40",
+   "bbox": [
+    1330,
+    1181,
+    1391,
+    1203
+   ]
+  },
+  "IO41": {
+   "Name": "IO41",
+   "type": "net_input",
+   "value": "IO41",
+   "bbox": [
+    1330,
+    1161,
+    1391,
+    1183
+   ]
+  },
+  "IO42": {
+   "Name": "IO42",
+   "type": "net_input",
+   "value": "IO42",
+   "bbox": [
+    1330,
+    1142,
+    1391,
+    1163
+   ]
+  },
+  "GND_8": {
+   "Name": "GND_8",
+   "type": "net_input",
+   "value": "GND",
+   "bbox": [
+    1611,
+    1241,
+    1673,
+    1262
+   ]
+  },
+  "IO42_2": {
+   "Name": "IO42_2",
+   "type": "net_input",
+   "value": "IO42",
+   "bbox": [
+    1611,
+    1201,
+    1673,
+    1223
+   ]
+  },
+  "IO41_2": {
+   "Name": "IO41_2",
+   "type": "net_input",
+   "value": "IO41",
+   "bbox": [
+    1611,
+    1181,
+    1673,
+    1203
+   ]
+  },
+  "3.3V_6": {
+   "Name": "3.3V_6",
+   "type": "net_input",
+   "value": "3.3V",
+   "bbox": [
+    1611,
+    1221,
+    1673,
+    1243
+   ]
+  },
+  "∅67825": {
+   "Name": "∅67825",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    1328,
+    545,
+    1370,
+    564
+   ]
+  },
+  "∅67951": {
+   "Name": "∅67951",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    1929,
+    566,
+    1970,
+    586
+   ]
+  },
+  "∅68002": {
+   "Name": "∅68002",
+   "type": "v",
+   "value": "3.3V",
+   "bbox": [
+    1915,
+    842,
+    1937,
+    854
+   ]
+  },
+  "∅68013": {
+   "Name": "∅68013",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    1144,
+    634,
+    1185,
+    654
+   ]
+  },
+  "∅68027": {
+   "Name": "∅68027",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    1070,
+    634,
+    1112,
+    654
+   ]
+  },
+  "∅68041": {
+   "Name": "∅68041",
+   "type": "v",
+   "value": "3.3V",
+   "bbox": [
+    1040,
+    771,
+    1062,
+    783
+   ]
+  },
+  "U1": {
+   "Name": "ME6217C33M5G",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    267,
+    1544,
+    388,
+    1625
+   ]
+  },
+  "∅68136": {
+   "Name": "∅68136",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    210,
+    1564,
+    229,
+    1606
+   ]
+  },
+  "∅68149": {
+   "Name": "∅68149",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    136,
+    1487,
+    178,
+    1506
+   ]
+  },
+  "∅68162": {
+   "Name": "∅68162",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    396,
+    1719,
+    438,
+    1738
+   ]
+  },
+  "VIN_6": {
+   "Name": "VIN_6",
+   "type": "net_input",
+   "value": "VIN",
+   "bbox": [
+    146,
+    1637,
+    168,
+    1699
+   ]
+  },
+  "C1": {
+   "Name": "C1",
+   "type": "c",
+   "value": "10uF",
+   "bbox": [
+    140,
+    1544,
+    174,
+    1586
+   ]
+  },
+  "C2": {
+   "Name": "C2",
+   "type": "c",
+   "value": "10uF",
+   "bbox": [
+    400,
+    1631,
+    434,
+    1673
+   ]
+  },
+  "∅68252": {
+   "Name": "∅68252",
+   "type": "v",
+   "value": "VIN",
+   "bbox": [
+    703,
+    1683,
+    715,
+    1705
+   ]
+  },
+  "∅68262": {
+   "Name": "∅68262",
+   "type": "v",
+   "value": "3.3V",
+   "bbox": [
+    446,
+    1594,
+    457,
+    1615
+   ]
+  },
+  "电源开关": {
+   "Name": "MSK12C02",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    654,
+    1742,
+    775,
+    1804
+   ]
+  },
+  "∅68368": {
+   "Name": "∅68368",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    594,
+    1724,
+    636,
+    1744
+   ]
+  },
+  "R4": {
+   "Name": "R4",
+   "type": "r",
+   "value": "100kΩ",
+   "bbox": [
+    735,
+    1633,
+    777,
+    1655
+   ]
+  },
+  "R5": {
+   "Name": "R5",
+   "type": "r",
+   "value": "100kΩ",
+   "bbox": [
+    735,
+    1604,
+    777,
+    1625
+   ]
+  },
+  "C3": {
+   "Name": "C3",
+   "type": "c",
+   "value": "0.1uF",
+   "bbox": [
+    735,
+    1568,
+    777,
+    1602
+   ]
+  },
+  "∅68483": {
+   "Name": "∅68483",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    586,
+    1467,
+    628,
+    1487
+   ]
+  },
+  "3.7V锂电": {
+   "Name": "WAFER-PH2.0-2PWB",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    654,
+    1475,
+    715,
+    1536
+   ]
+  },
+  "C6": {
+   "Name": "C6",
+   "type": "c",
+   "value": "0.1uF",
+   "bbox": [
+    1074,
+    701,
+    1108,
+    743
+   ]
+  },
+  "C7": {
+   "Name": "C7",
+   "type": "c",
+   "value": "10uF",
+   "bbox": [
+    1147,
+    701,
+    1181,
+    743
+   ]
+  },
+  "R10": {
+   "Name": "R10",
+   "type": "r",
+   "value": "33Ω",
+   "bbox": [
+    1915,
+    773,
+    1937,
+    814
+   ]
+  },
+  "LCD-2.4TFT": {
+   "Name": "2.4TFT",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    1564,
+    586,
+    1645,
+    826
+   ]
+  },
+  "GND_9": {
+   "Name": "GND_9",
+   "type": "net_input",
+   "value": "GND",
+   "bbox": [
+    1116,
+    1278,
+    1177,
+    1300
+   ]
+  },
+  "VIN_7": {
+   "Name": "VIN_7",
+   "type": "net_input",
+   "value": "VIN",
+   "bbox": [
+    1116,
+    1259,
+    1177,
+    1280
+   ]
+  },
+  "SCL-CLK": {
+   "Name": "SCL-CLK",
+   "type": "net_input",
+   "value": "SCL-CLK",
+   "bbox": [
+    1116,
+    1239,
+    1177,
+    1260
+   ]
+  },
+  "SDA-MOSI": {
+   "Name": "SDA-MOSI",
+   "type": "net_input",
+   "value": "SDA-MOSI",
+   "bbox": [
+    1116,
+    1219,
+    1177,
+    1241
+   ]
+  },
+  "RST": {
+   "Name": "RST",
+   "type": "net_input",
+   "value": "RST",
+   "bbox": [
+    1116,
+    1199,
+    1177,
+    1221
+   ]
+  },
+  "DC": {
+   "Name": "DC",
+   "type": "net_input",
+   "value": "DC",
+   "bbox": [
+    1116,
+    1179,
+    1177,
+    1201
+   ]
+  },
+  "CS": {
+   "Name": "CS",
+   "type": "net_input",
+   "value": "CS",
+   "bbox": [
+    1116,
+    1159,
+    1177,
+    1181
+   ]
+  },
+  "BL": {
+   "Name": "BL",
+   "type": "net_input",
+   "value": "BL",
+   "bbox": [
+    1116,
+    1140,
+    1177,
+    1161
+   ]
+  },
+  "LCD-1.54TFT": {
+   "Name": "LCD-1.54TFT",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    1407,
+    582,
+    1508,
+    842
+   ]
+  },
+  "∅72104": {
+   "Name": "∅72104",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    1685,
+    824,
+    1726,
+    844
+   ]
+  },
+  "Q1": {
+   "Name": "S8050",
+   "type": "bjt",
+   "value": null,
+   "bbox": [
+    1467,
+    2129,
+    1489,
+    2171
+   ]
+  },
+  "Q2": {
+   "Name": "S8050",
+   "type": "bjt",
+   "value": null,
+   "bbox": [
+    1487,
+    1990,
+    1508,
+    2032
+   ]
+  },
+  "Q3": {
+   "Name": "S8050",
+   "type": "bjt",
+   "value": null,
+   "bbox": [
+    1929,
+    624,
+    1951,
+    666
+   ]
+  },
+  "R9": {
+   "Name": "R9",
+   "type": "r",
+   "value": "1kΩ",
+   "bbox": [
+    1849,
+    634,
+    1891,
+    656
+   ]
+  },
+  "LCD1": {
+   "Name": "TFT引脚-参考",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    1215,
+    1130,
+    1257,
+    1310
+   ]
+  },
+  "LCD2": {
+   "Name": "2.54-1*8P母环保",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    1449,
+    1132,
+    1491,
+    1312
+   ]
+  },
+  "OLED1": {
+   "Name": "PZ254V-11-04P",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    1711,
+    1171,
+    1752,
+    1272
+   ]
+  },
+  "IO4": {
+   "Name": "PZ254V-11-03P",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    2885,
+    543,
+    2926,
+    624
+   ]
+  },
+  "IO5": {
+   "Name": "PZ254V-11-03P",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    3122,
+    543,
+    3164,
+    624
+   ]
+  },
+  "串口1": {
+   "Name": "PZ254V-11-04P",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    3122,
+    771,
+    3164,
+    872
+   ]
+  },
+  "R18": {
+   "Name": "R18",
+   "type": "r",
+   "value": "510Ω",
+   "bbox": [
+    1179,
+    208,
+    1221,
+    225
+   ]
+  },
+  "UART1": {
+   "Name": "2.54-1*6P母",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    1397,
+    156,
+    1439,
+    297
+   ]
+  },
+  "LRCLK": {
+   "Name": "LRCLK",
+   "type": "net_input",
+   "value": "LRCLK",
+   "bbox": [
+    2210,
+    1266,
+    2272,
+    1288
+   ]
+  },
+  "BCLK": {
+   "Name": "BCLK",
+   "type": "net_input",
+   "value": "BCLK",
+   "bbox": [
+    2210,
+    1247,
+    2272,
+    1268
+   ]
+  },
+  "SDATA": {
+   "Name": "SDATA",
+   "type": "net_input",
+   "value": "SDATA",
+   "bbox": [
+    2210,
+    1227,
+    2272,
+    1249
+   ]
+  },
+  "3.3V_7": {
+   "Name": "3.3V_7",
+   "type": "net_input",
+   "value": "3.3V",
+   "bbox": [
+    2210,
+    1147,
+    2272,
+    1169
+   ]
+  },
+  "∅80162": {
+   "Name": "∅80162",
+   "type": "gnd",
+   "value": "GND",
+   "bbox": [
+    2101,
+    1110,
+    2143,
+    1130
+   ]
+  },
+  "MAX98357A": {
+   "Name": "PZ254V-11-07P",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    2309,
+    1138,
+    2351,
+    1298
+   ]
+  },
+  "麦克风孔朝下": {
+   "Name": "INMP441",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    2181,
+    1812,
+    2302,
+    1933
+   ]
+  },
+  "SCK": {
+   "Name": "SCK",
+   "type": "net_output",
+   "value": "SCK",
+   "bbox": [
+    2339,
+    1841,
+    2401,
+    1863
+   ]
+  },
+  "WS": {
+   "Name": "WS",
+   "type": "net_output",
+   "value": "WS",
+   "bbox": [
+    2339,
+    1861,
+    2401,
+    1883
+   ]
+  },
+  "GND_10": {
+   "Name": "GND_10",
+   "type": "net_output",
+   "value": "GND",
+   "bbox": [
+    2339,
+    1881,
+    2401,
+    1903
+   ]
+  },
+  "SD": {
+   "Name": "SD",
+   "type": "net_output",
+   "value": "SD",
+   "bbox": [
+    2081,
+    1841,
+    2143,
+    1863
+   ]
+  },
+  "3.3V_8": {
+   "Name": "3.3V_8",
+   "type": "net_output",
+   "value": "3.3V",
+   "bbox": [
+    2081,
+    1861,
+    2143,
+    1883
+   ]
+  },
+  "GND_11": {
+   "Name": "GND_11",
+   "type": "net_output",
+   "value": "GND",
+   "bbox": [
+    2081,
+    1881,
+    2143,
+    1903
+   ]
+  },
+  "SPK1": {
+   "Name": "SPK1",
+   "type": "buzzer",
+   "value": null,
+   "bbox": [
+    2359,
+    1187,
+    2401,
+    1249
+   ]
+  },
+  "扬声器2": {
+   "Name": "WAFER-PH2.0-2PWB",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    2498,
+    1187,
+    2559,
+    1249
+   ]
+  },
+  "H1": {
+   "Name": "PZ254V-11-02P",
+   "type": "box",
+   "value": null,
+   "bbox": [
+    2607,
+    1187,
+    2649,
+    1249
+   ]
+  },
+  "WS_2": {
+   "Name": "WS_2",
+   "type": "net_input",
+   "value": "WS",
+   "bbox": [
+    327,
+    543,
+    388,
+    564
+   ]
+  },
+  "SCK_2": {
+   "Name": "SCK_2",
+   "type": "net_input",
+   "value": "SCK",
+   "bbox": [
+    327,
+    523,
+    388,
+    545
+   ]
+  },
+  "SD_2": {
+   "Name": "SD_2",
+   "type": "net_input",
+   "value": "SD",
+   "bbox": [
+    327,
+    503,
+    388,
+    525
+   ]
+  },
+  "SDATA_2": {
+   "Name": "SDATA_2",
+   "type": "net_input",
+   "value": "SDATA",
+   "bbox": [
+    327,
+    483,
+    388,
+    505
+   ]
+  },
+  "BCLK_2": {
+   "Name": "BCLK_2",
+   "type": "net_input",
+   "value": "BCLK",
+   "bbox": [
+    327,
+    463,
+    388,
+    485
+   ]
+  },
+  "LRCLK_2": {
+   "Name": "LRCLK_2",
+   "type": "net_input",
+   "value": "LRCLK",
+   "bbox": [
+    327,
+    444,
+    388,
+    465
+   ]
+  },
+  "IO17_2": {
+   "Name": "IO17_2",
+   "type": "net_input",
+   "value": "IO17",
+   "bbox": [
+    327,
+    424,
+    388,
+    446
+   ]
+  },
+  "IO18_2": {
+   "Name": "IO18_2",
+   "type": "net_input",
+   "value": "IO18",
+   "bbox": [
+    327,
+    404,
+    388,
+    426
+   ]
+  },
+  "∅83039": {
+   "Name": "∅83039",
+   "type": "v",
+   "value": "3.3V",
+   "bbox": [
+    1278,
+    1683,
+    1300,
+    1695
+   ]
+  },
+  "3.7V锂电1": {
+   "Name": "3.7V锂电1",
+   "type": "other",
+   "value": null,
+   "bbox": [
+    547,
+    1494,
+    588,
+    1556
+   ]
+  }
+ },
+ "pins": {
+  "R7": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 1438,
+     "y": 2150
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 1359,
+     "y": 2150
+    }
+   }
+  },
+  "R8": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 1448,
+     "y": 2011
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 1369,
+     "y": 2011
+    }
+   }
+  },
+  "IO0": {
+   "pin_1": {
+    "pinname": "OUT",
+    "point": {
+     "x": 1589,
+     "y": 1969
+    }
+   }
+  },
+  "EN": {
+   "pin_1": {
+    "pinname": "OUT",
+    "point": {
+     "x": 1597,
+     "y": 2189
+    }
+   }
+  },
+  "RTS": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1319,
+     "y": 2011
+    }
+   }
+  },
+  "DTR": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1319,
+     "y": 2150
+    }
+   }
+  },
+  "∅1576": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 308,
+     "y": 821
+    }
+   }
+  },
+  "C5": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 209,
+     "y": 722
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 288,
+     "y": 722
+    }
+   }
+  },
+  "C4": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 288,
+     "y": 772
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 209,
+     "y": 772
+    }
+   }
+  },
+  "USB1": {
+   "pin_16": {
+    "pinname": "GND",
+    "point": {
+     "x": 625,
+     "y": 2051
+    }
+   },
+   "pin_15": {
+    "pinname": "GND",
+    "point": {
+     "x": 625,
+     "y": 2071
+    }
+   },
+   "pin_14": {
+    "pinname": "GND",
+    "point": {
+     "x": 625,
+     "y": 2090
+    }
+   },
+   "pin_13": {
+    "pinname": "GND",
+    "point": {
+     "x": 625,
+     "y": 2110
+    }
+   },
+   "pin_B8": {
+    "pinname": "SBU2",
+    "point": {
+     "x": 427,
+     "y": 1932
+    }
+   },
+   "pin_B7": {
+    "pinname": "DN2",
+    "point": {
+     "x": 427,
+     "y": 1952
+    }
+   },
+   "pin_B6": {
+    "pinname": "DP2",
+    "point": {
+     "x": 427,
+     "y": 1971
+    }
+   },
+   "pin_B5": {
+    "pinname": "CC2",
+    "point": {
+     "x": 427,
+     "y": 1991
+    }
+   },
+   "pin_B4A9": {
+    "pinname": "VBUS",
+    "point": {
+     "x": 427,
+     "y": 2011
+    }
+   },
+   "pin_B1A12": {
+    "pinname": "GND",
+    "point": {
+     "x": 427,
+     "y": 2031
+    }
+   },
+   "pin_A8": {
+    "pinname": "SBU1",
+    "point": {
+     "x": 427,
+     "y": 2051
+    }
+   },
+   "pin_A7": {
+    "pinname": "DN1",
+    "point": {
+     "x": 427,
+     "y": 2071
+    }
+   },
+   "pin_A6": {
+    "pinname": "DP1",
+    "point": {
+     "x": 427,
+     "y": 2090
+    }
+   },
+   "pin_A5": {
+    "pinname": "CC1",
+    "point": {
+     "x": 427,
+     "y": 2110
+    }
+   },
+   "pin_A4B9": {
+    "pinname": "VBUS",
+    "point": {
+     "x": 427,
+     "y": 2130
+    }
+   },
+   "pin_A1B12": {
+    "pinname": "GND",
+    "point": {
+     "x": 427,
+     "y": 2150
+    }
+   }
+  },
+  "∅1806": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 218,
+     "y": 1892
+    }
+   }
+  },
+  "R1": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 238,
+     "y": 2110
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 318,
+     "y": 2110
+    }
+   }
+  },
+  "R2": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 238,
+     "y": 1991
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 318,
+     "y": 1991
+    }
+   }
+  },
+  "IO8": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 407,
+     "y": 395
+    }
+   }
+  },
+  "IO1": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 744,
+     "y": 593
+    }
+   }
+  },
+  "IO2": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 744,
+     "y": 573
+    }
+   }
+  },
+  "TXD0": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 744,
+     "y": 554
+    }
+   }
+  },
+  "RXD0": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 744,
+     "y": 534
+    }
+   }
+  },
+  "LED_BL": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 744,
+     "y": 514
+    }
+   }
+  },
+  "SPI_CS": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 744,
+     "y": 494
+    }
+   }
+  },
+  "SPI_DC": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 744,
+     "y": 474
+    }
+   }
+  },
+  "IO39": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 744,
+     "y": 454
+    }
+   }
+  },
+  "IO38": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 744,
+     "y": 435
+    }
+   }
+  },
+  "IO37": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 744,
+     "y": 415
+    }
+   }
+  },
+  "IO36": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 744,
+     "y": 395
+    }
+   }
+  },
+  "IO35": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 744,
+     "y": 375
+    }
+   }
+  },
+  "IO3": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 476,
+     "y": 246
+    }
+   }
+  },
+  "IO9": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 516,
+     "y": 246
+    }
+   }
+  },
+  "IO10": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 536,
+     "y": 246
+    }
+   }
+  },
+  "IO11": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 556,
+     "y": 246
+    }
+   }
+  },
+  "IO12": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 575,
+     "y": 246
+    }
+   }
+  },
+  "IO13": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 595,
+     "y": 246
+    }
+   }
+  },
+  "BAT_DET": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 615,
+     "y": 246
+    }
+   }
+  },
+  "SPI_CLK": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 635,
+     "y": 246
+    }
+   }
+  },
+  "SPI_MOSI": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 655,
+     "y": 246
+    }
+   }
+  },
+  "IO48": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 675,
+     "y": 246
+    }
+   }
+  },
+  "SPI_RST": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 694,
+     "y": 246
+    }
+   }
+  },
+  "D-": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 407,
+     "y": 375
+    }
+   }
+  },
+  "D+": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 407,
+     "y": 355
+    }
+   }
+  },
+  "EN_2": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 209,
+     "y": 573
+    }
+   }
+  },
+  "D+_2": {
+   "pin_1": {
+    "pinname": "OUT",
+    "point": {
+     "x": 427,
+     "y": 2090
+    }
+   }
+  },
+  "D+_3": {
+   "pin_1": {
+    "pinname": "OUT",
+    "point": {
+     "x": 427,
+     "y": 1971
+    }
+   }
+  },
+  "D-_2": {
+   "pin_1": {
+    "pinname": "OUT",
+    "point": {
+     "x": 427,
+     "y": 1952
+    }
+   }
+  },
+  "D-_3": {
+   "pin_1": {
+    "pinname": "OUT",
+    "point": {
+     "x": 427,
+     "y": 2071
+    }
+   }
+  },
+  "Power1": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 774,
+     "y": 2061
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 774,
+     "y": 1981
+    }
+   }
+  },
+  "R3": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 774,
+     "y": 2140
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 774,
+     "y": 2061
+    }
+   }
+  },
+  "∅10591": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 774,
+     "y": 1932
+    }
+   }
+  },
+  "3.3V": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 774,
+     "y": 2140
+    }
+   }
+  },
+  "R6": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 288,
+     "y": 633
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 209,
+     "y": 633
+    }
+   }
+  },
+  "IO46": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 496,
+     "y": 246
+    }
+   }
+  },
+  "状态指示": {
+   "pin_1": {
+    "pinname": "VDD",
+    "point": {
+     "x": 1309,
+     "y": 1674
+    }
+   },
+   "pin_2": {
+    "pinname": "DOUT",
+    "point": {
+     "x": 1309,
+     "y": 1654
+    }
+   },
+   "pin_3": {
+    "pinname": "VSS",
+    "point": {
+     "x": 1507,
+     "y": 1654
+    }
+   },
+   "pin_4": {
+    "pinname": "DIN",
+    "point": {
+     "x": 1507,
+     "y": 1674
+    }
+   }
+  },
+  "IO48_2": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1507,
+     "y": 1674
+    }
+   }
+  },
+  "∅25385": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 1547,
+     "y": 1624
+    }
+   }
+  },
+  "EN_3": {
+   "pin_1": {
+    "pinname": "OUT",
+    "point": {
+     "x": 565,
+     "y": 1248
+    }
+   }
+  },
+  "VIN": {
+   "pin_1": {
+    "pinname": "OUT",
+    "point": {
+     "x": 189,
+     "y": 2140
+    }
+   }
+  },
+  "GND": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 2866,
+     "y": 603
+    }
+   }
+  },
+  "IO18": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 2866,
+     "y": 563
+    }
+   }
+  },
+  "3.3V_2": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 2866,
+     "y": 583
+    }
+   }
+  },
+  "GND_2": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 2618,
+     "y": 831
+    }
+   }
+  },
+  "IO13_2": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 2618,
+     "y": 792
+    }
+   }
+  },
+  "3.3V_3": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 2618,
+     "y": 811
+    }
+   }
+  },
+  "GND_3": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 2618,
+     "y": 603
+    }
+   }
+  },
+  "IO14": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 2618,
+     "y": 563
+    }
+   }
+  },
+  "3.3V_4": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 2618,
+     "y": 583
+    }
+   }
+  },
+  "GND_4": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 2856,
+     "y": 831
+    }
+   }
+  },
+  "3.3V_5": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 2856,
+     "y": 811
+    }
+   }
+  },
+  "IO17": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 2856,
+     "y": 792
+    }
+   }
+  },
+  "GND_5": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 3104,
+     "y": 603
+    }
+   }
+  },
+  "IO0_2": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 3104,
+     "y": 563
+    }
+   }
+  },
+  "VIN_2": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 3104,
+     "y": 583
+    }
+   }
+  },
+  "GND_6": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 3104,
+     "y": 851
+    }
+   }
+  },
+  "VIN_3": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 3104,
+     "y": 831
+    }
+   }
+  },
+  "D+_4": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 3104,
+     "y": 811
+    }
+   }
+  },
+  "D-_4": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 3104,
+     "y": 792
+    }
+   }
+  },
+  "VIN_4": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1329,
+     "y": 276
+    }
+   }
+  },
+  "∅55639": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 1260,
+     "y": 167
+    }
+   }
+  },
+  "U2": {
+   "pin_1": {
+    "pinname": "GND",
+    "point": {
+     "x": 407,
+     "y": 613
+    }
+   },
+   "pin_2": {
+    "pinname": "3V3",
+    "point": {
+     "x": 407,
+     "y": 593
+    }
+   },
+   "pin_3": {
+    "pinname": "EN",
+    "point": {
+     "x": 407,
+     "y": 573
+    }
+   },
+   "pin_4": {
+    "pinname": "IO4",
+    "point": {
+     "x": 407,
+     "y": 554
+    }
+   },
+   "pin_5": {
+    "pinname": "IO5",
+    "point": {
+     "x": 407,
+     "y": 534
+    }
+   },
+   "pin_6": {
+    "pinname": "IO6",
+    "point": {
+     "x": 407,
+     "y": 514
+    }
+   },
+   "pin_7": {
+    "pinname": "IO7",
+    "point": {
+     "x": 407,
+     "y": 494
+    }
+   },
+   "pin_8": {
+    "pinname": "IO15",
+    "point": {
+     "x": 407,
+     "y": 474
+    }
+   },
+   "pin_9": {
+    "pinname": "IO16",
+    "point": {
+     "x": 407,
+     "y": 454
+    }
+   },
+   "pin_10": {
+    "pinname": "IO17",
+    "point": {
+     "x": 407,
+     "y": 435
+    }
+   },
+   "pin_11": {
+    "pinname": "IO18",
+    "point": {
+     "x": 407,
+     "y": 415
+    }
+   },
+   "pin_12": {
+    "pinname": "IO8",
+    "point": {
+     "x": 407,
+     "y": 395
+    }
+   },
+   "pin_13": {
+    "pinname": "IO19",
+    "point": {
+     "x": 407,
+     "y": 375
+    }
+   },
+   "pin_14": {
+    "pinname": "IO20",
+    "point": {
+     "x": 407,
+     "y": 355
+    }
+   },
+   "pin_15": {
+    "pinname": "IO3",
+    "point": {
+     "x": 476,
+     "y": 246
+    }
+   },
+   "pin_16": {
+    "pinname": "IO46",
+    "point": {
+     "x": 496,
+     "y": 246
+    }
+   },
+   "pin_17": {
+    "pinname": "IO9",
+    "point": {
+     "x": 516,
+     "y": 246
+    }
+   },
+   "pin_18": {
+    "pinname": "IO10",
+    "point": {
+     "x": 536,
+     "y": 246
+    }
+   },
+   "pin_19": {
+    "pinname": "IO11",
+    "point": {
+     "x": 556,
+     "y": 246
+    }
+   },
+   "pin_20": {
+    "pinname": "IO12",
+    "point": {
+     "x": 575,
+     "y": 246
+    }
+   },
+   "pin_21": {
+    "pinname": "IO13",
+    "point": {
+     "x": 595,
+     "y": 246
+    }
+   },
+   "pin_22": {
+    "pinname": "IO14",
+    "point": {
+     "x": 615,
+     "y": 246
+    }
+   },
+   "pin_23": {
+    "pinname": "IO21",
+    "point": {
+     "x": 635,
+     "y": 246
+    }
+   },
+   "pin_24": {
+    "pinname": "IO47",
+    "point": {
+     "x": 655,
+     "y": 246
+    }
+   },
+   "pin_25": {
+    "pinname": "IO48",
+    "point": {
+     "x": 675,
+     "y": 246
+    }
+   },
+   "pin_26": {
+    "pinname": "IO45",
+    "point": {
+     "x": 694,
+     "y": 246
+    }
+   },
+   "pin_27": {
+    "pinname": "IO0",
+    "point": {
+     "x": 744,
+     "y": 355
+    }
+   },
+   "pin_28": {
+    "pinname": "IO35",
+    "point": {
+     "x": 744,
+     "y": 375
+    }
+   },
+   "pin_29": {
+    "pinname": "IO36",
+    "point": {
+     "x": 744,
+     "y": 395
+    }
+   },
+   "pin_30": {
+    "pinname": "IO37",
+    "point": {
+     "x": 744,
+     "y": 415
+    }
+   },
+   "pin_31": {
+    "pinname": "IO38",
+    "point": {
+     "x": 744,
+     "y": 435
+    }
+   },
+   "pin_32": {
+    "pinname": "IO39",
+    "point": {
+     "x": 744,
+     "y": 454
+    }
+   },
+   "pin_33": {
+    "pinname": "IO40",
+    "point": {
+     "x": 744,
+     "y": 474
+    }
+   },
+   "pin_34": {
+    "pinname": "IO41",
+    "point": {
+     "x": 744,
+     "y": 494
+    }
+   },
+   "pin_35": {
+    "pinname": "IO42",
+    "point": {
+     "x": 744,
+     "y": 514
+    }
+   },
+   "pin_36": {
+    "pinname": "RXD0",
+    "point": {
+     "x": 744,
+     "y": 534
+    }
+   },
+   "pin_37": {
+    "pinname": "TXD0",
+    "point": {
+     "x": 744,
+     "y": 554
+    }
+   },
+   "pin_38": {
+    "pinname": "IO2",
+    "point": {
+     "x": 744,
+     "y": 573
+    }
+   },
+   "pin_39": {
+    "pinname": "IO1",
+    "point": {
+     "x": 744,
+     "y": 593
+    }
+   },
+   "pin_40": {
+    "pinname": "GND",
+    "point": {
+     "x": 744,
+     "y": 613
+    }
+   },
+   "pin_41": {
+    "pinname": "GND",
+    "point": {
+     "x": 744,
+     "y": 643
+    }
+   }
+  },
+  "IO0_3": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 744,
+     "y": 355
+    }
+   }
+  },
+  "∅2024": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 853,
+     "y": 613
+    }
+   }
+  },
+  "∅1987": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 179,
+     "y": 712
+    }
+   }
+  },
+  "RESET": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 397,
+     "y": 1287
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 516,
+     "y": 1287
+    }
+   },
+   "pin_3": {
+    "pinname": "3",
+    "point": {
+     "x": 397,
+     "y": 1248
+    }
+   },
+   "pin_4": {
+    "pinname": "4",
+    "point": {
+     "x": 516,
+     "y": 1248
+    }
+   }
+  },
+  "∅48798": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 337,
+     "y": 1248
+    }
+   }
+  },
+  "BOOT": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 397,
+     "y": 1129
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 516,
+     "y": 1129
+    }
+   },
+   "pin_3": {
+    "pinname": "3",
+    "point": {
+     "x": 397,
+     "y": 1089
+    }
+   },
+   "pin_4": {
+    "pinname": "4",
+    "point": {
+     "x": 516,
+     "y": 1089
+    }
+   }
+  },
+  "IO0_4": {
+   "pin_1": {
+    "pinname": "OUT",
+    "point": {
+     "x": 565,
+     "y": 1089
+    }
+   }
+  },
+  "∅47707": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 337,
+     "y": 1089
+    }
+   }
+  },
+  "GND_7": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1410,
+     "y": 1291
+    }
+   }
+  },
+  "VIN_5": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1410,
+     "y": 1271
+    }
+   }
+  },
+  "IO21": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1410,
+     "y": 1252
+    }
+   }
+  },
+  "IO47": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1410,
+     "y": 1232
+    }
+   }
+  },
+  "IO45": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1410,
+     "y": 1212
+    }
+   }
+  },
+  "IO40": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1410,
+     "y": 1192
+    }
+   }
+  },
+  "IO41": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1410,
+     "y": 1172
+    }
+   }
+  },
+  "IO42": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1410,
+     "y": 1152
+    }
+   }
+  },
+  "GND_8": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1692,
+     "y": 1252
+    }
+   }
+  },
+  "IO42_2": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1692,
+     "y": 1212
+    }
+   }
+  },
+  "IO41_2": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1692,
+     "y": 1192
+    }
+   }
+  },
+  "3.3V_6": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1692,
+     "y": 1232
+    }
+   }
+  },
+  "∅67825": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 1349,
+     "y": 583
+    }
+   }
+  },
+  "∅67951": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 1950,
+     "y": 605
+    }
+   }
+  },
+  "∅68002": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 1926,
+     "y": 833
+    }
+   }
+  },
+  "∅68013": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 1164,
+     "y": 673
+    }
+   }
+  },
+  "∅68027": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 1091,
+     "y": 673
+    }
+   }
+  },
+  "∅68041": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 1051,
+     "y": 762
+    }
+   }
+  },
+  "U1": {
+   "pin_1": {
+    "pinname": "VIN",
+    "point": {
+     "x": 248,
+     "y": 1605
+    }
+   },
+   "pin_2": {
+    "pinname": "VSS",
+    "point": {
+     "x": 248,
+     "y": 1585
+    }
+   },
+   "pin_3": {
+    "pinname": "CE",
+    "point": {
+     "x": 248,
+     "y": 1565
+    }
+   },
+   "pin_4": {
+    "pinname": "NC",
+    "point": {
+     "x": 407,
+     "y": 1565
+    }
+   },
+   "pin_5": {
+    "pinname": "VOUT",
+    "point": {
+     "x": 407,
+     "y": 1605
+    }
+   }
+  },
+  "∅68136": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 248,
+     "y": 1585
+    }
+   }
+  },
+  "∅68149": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 157,
+     "y": 1525
+    }
+   }
+  },
+  "∅68162": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 417,
+     "y": 1700
+    }
+   }
+  },
+  "VIN_6": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 157,
+     "y": 1618
+    }
+   }
+  },
+  "C1": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 157,
+     "y": 1525
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 157,
+     "y": 1605
+    }
+   }
+  },
+  "C2": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 417,
+     "y": 1612
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 417,
+     "y": 1692
+    }
+   }
+  },
+  "∅68252": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 694,
+     "y": 1694
+    }
+   }
+  },
+  "∅68262": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 437,
+     "y": 1605
+    }
+   }
+  },
+  "电源开关": {
+   "pin_4": {
+    "pinname": "4",
+    "point": {
+     "x": 615,
+     "y": 1763
+    }
+   },
+   "pin_3": {
+    "pinname": "3",
+    "point": {
+     "x": 675,
+     "y": 1704
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 694,
+     "y": 1704
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 754,
+     "y": 1704
+    }
+   }
+  },
+  "∅68368": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 615,
+     "y": 1763
+    }
+   }
+  },
+  "R4": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 716,
+     "y": 1644
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 796,
+     "y": 1644
+    }
+   }
+  },
+  "R5": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 716,
+     "y": 1614
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 796,
+     "y": 1614
+    }
+   }
+  },
+  "C3": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 796,
+     "y": 1585
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 716,
+     "y": 1585
+    }
+   }
+  },
+  "∅68483": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 607,
+     "y": 1505
+    }
+   }
+  },
+  "3.7V锂电": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 694,
+     "y": 1555
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 675,
+     "y": 1555
+    }
+   },
+   "pin_4": {
+    "pinname": "4",
+    "point": {
+     "x": 635,
+     "y": 1495
+    }
+   },
+   "pin_3": {
+    "pinname": "3",
+    "point": {
+     "x": 734,
+     "y": 1495
+    }
+   }
+  },
+  "C6": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 1091,
+     "y": 762
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 1091,
+     "y": 682
+    }
+   }
+  },
+  "C7": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 1164,
+     "y": 682
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 1164,
+     "y": 762
+    }
+   }
+  },
+  "R10": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 1926,
+     "y": 833
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 1926,
+     "y": 754
+    }
+   }
+  },
+  "LCD-2.4TFT": {
+   "pin_1": {
+    "pinname": "GND",
+    "point": {
+     "x": 1684,
+     "y": 795
+    }
+   },
+   "pin_2": {
+    "pinname": "RST",
+    "point": {
+     "x": 1684,
+     "y": 776
+    }
+   },
+   "pin_3": {
+    "pinname": "SCL",
+    "point": {
+     "x": 1684,
+     "y": 756
+    }
+   },
+   "pin_4": {
+    "pinname": "D/C",
+    "point": {
+     "x": 1684,
+     "y": 736
+    }
+   },
+   "pin_5": {
+    "pinname": "CS",
+    "point": {
+     "x": 1684,
+     "y": 716
+    }
+   },
+   "pin_6": {
+    "pinname": "SDA",
+    "point": {
+     "x": 1684,
+     "y": 696
+    }
+   },
+   "pin_7": {
+    "pinname": "SDO",
+    "point": {
+     "x": 1684,
+     "y": 677
+    }
+   },
+   "pin_8": {
+    "pinname": "VCC",
+    "point": {
+     "x": 1684,
+     "y": 657
+    }
+   },
+   "pin_9": {
+    "pinname": "LEDA",
+    "point": {
+     "x": 1684,
+     "y": 637
+    }
+   },
+   "pin_10": {
+    "pinname": "LEDK",
+    "point": {
+     "x": 1684,
+     "y": 617
+    }
+   }
+  },
+  "GND_9": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1196,
+     "y": 1289
+    }
+   }
+  },
+  "VIN_7": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1196,
+     "y": 1269
+    }
+   }
+  },
+  "SCL-CLK": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1196,
+     "y": 1250
+    }
+   }
+  },
+  "SDA-MOSI": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1196,
+     "y": 1230
+    }
+   }
+  },
+  "RST": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1196,
+     "y": 1210
+    }
+   }
+  },
+  "DC": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1196,
+     "y": 1190
+    }
+   }
+  },
+  "CS": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1196,
+     "y": 1170
+    }
+   }
+  },
+  "BL": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 1196,
+     "y": 1150
+    }
+   }
+  },
+  "LCD-1.54TFT": {
+   "pin_12": {
+    "pinname": "GND",
+    "point": {
+     "x": 1369,
+     "y": 603
+    }
+   },
+   "pin_11": {
+    "pinname": "RESET",
+    "point": {
+     "x": 1369,
+     "y": 623
+    }
+   },
+   "pin_10": {
+    "pinname": "SDA",
+    "point": {
+     "x": 1369,
+     "y": 643
+    }
+   },
+   "pin_9": {
+    "pinname": "SCL",
+    "point": {
+     "x": 1369,
+     "y": 663
+    }
+   },
+   "pin_8": {
+    "pinname": "CS",
+    "point": {
+     "x": 1369,
+     "y": 682
+    }
+   },
+   "pin_7": {
+    "pinname": "DC",
+    "point": {
+     "x": 1369,
+     "y": 702
+    }
+   },
+   "pin_6": {
+    "pinname": "GND",
+    "point": {
+     "x": 1369,
+     "y": 722
+    }
+   },
+   "pin_5": {
+    "pinname": "GND",
+    "point": {
+     "x": 1369,
+     "y": 742
+    }
+   },
+   "pin_4": {
+    "pinname": "VDD",
+    "point": {
+     "x": 1369,
+     "y": 762
+    }
+   },
+   "pin_3": {
+    "pinname": "LEDA",
+    "point": {
+     "x": 1369,
+     "y": 782
+    }
+   },
+   "pin_2": {
+    "pinname": "LEDK",
+    "point": {
+     "x": 1369,
+     "y": 801
+    }
+   },
+   "pin_1": {
+    "pinname": "GND",
+    "point": {
+     "x": 1369,
+     "y": 821
+    }
+   }
+  },
+  "∅72104": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 1706,
+     "y": 805
+    }
+   }
+  },
+  "Q1": {
+   "pin_3": {
+    "pinname": "C",
+    "point": {
+     "x": 1488,
+     "y": 2189
+    }
+   },
+   "pin_1": {
+    "pinname": "B",
+    "point": {
+     "x": 1448,
+     "y": 2150
+    }
+   },
+   "pin_2": {
+    "pinname": "E",
+    "point": {
+     "x": 1488,
+     "y": 2110
+    }
+   }
+  },
+  "Q2": {
+   "pin_3": {
+    "pinname": "C",
+    "point": {
+     "x": 1488,
+     "y": 1971
+    }
+   },
+   "pin_1": {
+    "pinname": "B",
+    "point": {
+     "x": 1527,
+     "y": 2011
+    }
+   },
+   "pin_2": {
+    "pinname": "E",
+    "point": {
+     "x": 1488,
+     "y": 2051
+    }
+   }
+  },
+  "Q3": {
+   "pin_3": {
+    "pinname": "C",
+    "point": {
+     "x": 1950,
+     "y": 684
+    }
+   },
+   "pin_1": {
+    "pinname": "B",
+    "point": {
+     "x": 1910,
+     "y": 645
+    }
+   },
+   "pin_2": {
+    "pinname": "E",
+    "point": {
+     "x": 1950,
+     "y": 605
+    }
+   }
+  },
+  "R9": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 1831,
+     "y": 645
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 1910,
+     "y": 645
+    }
+   }
+  },
+  "LCD1": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 1196,
+     "y": 1289
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 1196,
+     "y": 1269
+    }
+   },
+   "pin_3": {
+    "pinname": "3",
+    "point": {
+     "x": 1196,
+     "y": 1250
+    }
+   },
+   "pin_4": {
+    "pinname": "4",
+    "point": {
+     "x": 1196,
+     "y": 1230
+    }
+   },
+   "pin_5": {
+    "pinname": "5",
+    "point": {
+     "x": 1196,
+     "y": 1210
+    }
+   },
+   "pin_6": {
+    "pinname": "6",
+    "point": {
+     "x": 1196,
+     "y": 1190
+    }
+   },
+   "pin_7": {
+    "pinname": "7",
+    "point": {
+     "x": 1196,
+     "y": 1170
+    }
+   },
+   "pin_8": {
+    "pinname": "8",
+    "point": {
+     "x": 1196,
+     "y": 1150
+    }
+   }
+  },
+  "LCD2": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 1430,
+     "y": 1291
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 1430,
+     "y": 1271
+    }
+   },
+   "pin_3": {
+    "pinname": "3",
+    "point": {
+     "x": 1430,
+     "y": 1252
+    }
+   },
+   "pin_4": {
+    "pinname": "4",
+    "point": {
+     "x": 1430,
+     "y": 1232
+    }
+   },
+   "pin_5": {
+    "pinname": "5",
+    "point": {
+     "x": 1430,
+     "y": 1212
+    }
+   },
+   "pin_6": {
+    "pinname": "6",
+    "point": {
+     "x": 1430,
+     "y": 1192
+    }
+   },
+   "pin_7": {
+    "pinname": "7",
+    "point": {
+     "x": 1430,
+     "y": 1172
+    }
+   },
+   "pin_8": {
+    "pinname": "8",
+    "point": {
+     "x": 1430,
+     "y": 1152
+    }
+   }
+  },
+  "OLED1": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 1692,
+     "y": 1252
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 1692,
+     "y": 1232
+    }
+   },
+   "pin_3": {
+    "pinname": "3",
+    "point": {
+     "x": 1692,
+     "y": 1212
+    }
+   },
+   "pin_4": {
+    "pinname": "4",
+    "point": {
+     "x": 1692,
+     "y": 1192
+    }
+   }
+  },
+  "IO4": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 2866,
+     "y": 603
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 2866,
+     "y": 583
+    }
+   },
+   "pin_3": {
+    "pinname": "3",
+    "point": {
+     "x": 2866,
+     "y": 563
+    }
+   }
+  },
+  "IO5": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 3104,
+     "y": 603
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 3104,
+     "y": 583
+    }
+   },
+   "pin_3": {
+    "pinname": "3",
+    "point": {
+     "x": 3104,
+     "y": 563
+    }
+   }
+  },
+  "串口1": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 3104,
+     "y": 851
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 3104,
+     "y": 831
+    }
+   },
+   "pin_3": {
+    "pinname": "3",
+    "point": {
+     "x": 3104,
+     "y": 811
+    }
+   },
+   "pin_4": {
+    "pinname": "4",
+    "point": {
+     "x": 3104,
+     "y": 792
+    }
+   }
+  },
+  "R18": {
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 1160,
+     "y": 216
+    }
+   },
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 1240,
+     "y": 216
+    }
+   }
+  },
+  "UART1": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 1378,
+     "y": 276
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 1378,
+     "y": 256
+    }
+   },
+   "pin_3": {
+    "pinname": "3",
+    "point": {
+     "x": 1378,
+     "y": 236
+    }
+   },
+   "pin_4": {
+    "pinname": "4",
+    "point": {
+     "x": 1378,
+     "y": 216
+    }
+   },
+   "pin_5": {
+    "pinname": "5",
+    "point": {
+     "x": 1378,
+     "y": 197
+    }
+   },
+   "pin_6": {
+    "pinname": "6",
+    "point": {
+     "x": 1378,
+     "y": 177
+    }
+   }
+  },
+  "LRCLK": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 2291,
+     "y": 1277
+    }
+   }
+  },
+  "BCLK": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 2291,
+     "y": 1258
+    }
+   }
+  },
+  "SDATA": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 2291,
+     "y": 1238
+    }
+   }
+  },
+  "3.3V_7": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 2291,
+     "y": 1158
+    }
+   }
+  },
+  "∅80162": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 2122,
+     "y": 1148
+    }
+   }
+  },
+  "MAX98357A": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 2291,
+     "y": 1277
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 2291,
+     "y": 1258
+    }
+   },
+   "pin_3": {
+    "pinname": "3",
+    "point": {
+     "x": 2291,
+     "y": 1238
+    }
+   },
+   "pin_4": {
+    "pinname": "4",
+    "point": {
+     "x": 2291,
+     "y": 1218
+    }
+   },
+   "pin_5": {
+    "pinname": "5",
+    "point": {
+     "x": 2291,
+     "y": 1198
+    }
+   },
+   "pin_6": {
+    "pinname": "6",
+    "point": {
+     "x": 2291,
+     "y": 1178
+    }
+   },
+   "pin_7": {
+    "pinname": "7",
+    "point": {
+     "x": 2291,
+     "y": 1158
+    }
+   }
+  },
+  "麦克风孔朝下": {
+   "pin_6": {
+    "pinname": "L/R",
+    "point": {
+     "x": 2320,
+     "y": 1892
+    }
+   },
+   "pin_5": {
+    "pinname": "WS",
+    "point": {
+     "x": 2320,
+     "y": 1872
+    }
+   },
+   "pin_4": {
+    "pinname": "SCK",
+    "point": {
+     "x": 2320,
+     "y": 1852
+    }
+   },
+   "pin_1": {
+    "pinname": "GND",
+    "point": {
+     "x": 2162,
+     "y": 1892
+    }
+   },
+   "pin_2": {
+    "pinname": "VDD",
+    "point": {
+     "x": 2162,
+     "y": 1872
+    }
+   },
+   "pin_3": {
+    "pinname": "SD",
+    "point": {
+     "x": 2162,
+     "y": 1852
+    }
+   }
+  },
+  "SCK": {
+   "pin_1": {
+    "pinname": "OUT",
+    "point": {
+     "x": 2320,
+     "y": 1852
+    }
+   }
+  },
+  "WS": {
+   "pin_1": {
+    "pinname": "OUT",
+    "point": {
+     "x": 2320,
+     "y": 1872
+    }
+   }
+  },
+  "GND_10": {
+   "pin_1": {
+    "pinname": "OUT",
+    "point": {
+     "x": 2320,
+     "y": 1892
+    }
+   }
+  },
+  "SD": {
+   "pin_1": {
+    "pinname": "OUT",
+    "point": {
+     "x": 2162,
+     "y": 1852
+    }
+   }
+  },
+  "3.3V_8": {
+   "pin_1": {
+    "pinname": "OUT",
+    "point": {
+     "x": 2162,
+     "y": 1872
+    }
+   }
+  },
+  "GND_11": {
+   "pin_1": {
+    "pinname": "OUT",
+    "point": {
+     "x": 2162,
+     "y": 1892
+    }
+   }
+  },
+  "SPK1": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 2420,
+     "y": 1208
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 2420,
+     "y": 1228
+    }
+   }
+  },
+  "扬声器2": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 2479,
+     "y": 1228
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 2479,
+     "y": 1208
+    }
+   },
+   "pin_4": {
+    "pinname": "4",
+    "point": {
+     "x": 2539,
+     "y": 1168
+    }
+   },
+   "pin_3": {
+    "pinname": "3",
+    "point": {
+     "x": 2539,
+     "y": 1267
+    }
+   }
+  },
+  "H1": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 2588,
+     "y": 1228
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 2588,
+     "y": 1208
+    }
+   }
+  },
+  "WS_2": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 407,
+     "y": 554
+    }
+   }
+  },
+  "SCK_2": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 407,
+     "y": 534
+    }
+   }
+  },
+  "SD_2": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 407,
+     "y": 514
+    }
+   }
+  },
+  "SDATA_2": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 407,
+     "y": 494
+    }
+   }
+  },
+  "BCLK_2": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 407,
+     "y": 474
+    }
+   }
+  },
+  "LRCLK_2": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 407,
+     "y": 454
+    }
+   }
+  },
+  "IO17_2": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 407,
+     "y": 435
+    }
+   }
+  },
+  "IO18_2": {
+   "pin_1": {
+    "pinname": "IN",
+    "point": {
+     "x": 407,
+     "y": 415
+    }
+   }
+  },
+  "∅83039": {
+   "pin_1": {
+    "pinname": "Pin1",
+    "point": {
+     "x": 1289,
+     "y": 1674
+    }
+   }
+  },
+  "3.7V锂电1": {
+   "pin_1": {
+    "pinname": "1",
+    "point": {
+     "x": 607,
+     "y": 1515
+    }
+   },
+   "pin_2": {
+    "pinname": "2",
+    "point": {
+     "x": 607,
+     "y": 1535
+    }
+   }
+  }
+ },
+ "nets": {
+  "net_1": {
+   "hyperGraph": "(R7.2,Q1.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1448,
+      "y": 2150
+     },
+     {
+      "x": 1438,
+      "y": 2150
+     }
+    ]
+   }
+  },
+  "net_2": {
+   "hyperGraph": "(R8.1,RTS.1,Q1.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1359,
+      "y": 2011
+     },
+     {
+      "x": 1369,
+      "y": 2011
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 1359,
+      "y": 2011
+     },
+     {
+      "x": 1319,
+      "y": 2011
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 1488,
+      "y": 2090
+     },
+     {
+      "x": 1488,
+      "y": 2110
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 1359,
+      "y": 2090
+     },
+     {
+      "x": 1488,
+      "y": 2090
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 1359,
+      "y": 2090
+     },
+     {
+      "x": 1359,
+      "y": 2011
+     }
+    ]
+   }
+  },
+  "net_3": {
+   "hyperGraph": "(R7.1,DTR.1,Q2.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1329,
+      "y": 2150
+     },
+     {
+      "x": 1359,
+      "y": 2150
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 1329,
+      "y": 2150
+     },
+     {
+      "x": 1319,
+      "y": 2150
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 1488,
+      "y": 2061
+     },
+     {
+      "x": 1488,
+      "y": 2051
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 1488,
+      "y": 2061
+     },
+     {
+      "x": 1329,
+      "y": 2061
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 1329,
+      "y": 2061
+     },
+     {
+      "x": 1329,
+      "y": 2150
+     }
+    ]
+   }
+  },
+  "net_4": {
+   "hyperGraph": "(IO0.1,Q2.3)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1488,
+      "y": 1969
+     },
+     {
+      "x": 1488,
+      "y": 1971
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 1488,
+      "y": 1969
+     },
+     {
+      "x": 1589,
+      "y": 1969
+     }
+    ]
+   }
+  },
+  "net_5": {
+   "hyperGraph": "(EN.1,Q1.3)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1597,
+      "y": 2189
+     },
+     {
+      "x": 1488,
+      "y": 2189
+     }
+    ]
+   }
+  },
+  "net_6": {
+   "hyperGraph": "(USB1.B5,R2.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 318,
+      "y": 1991
+     },
+     {
+      "x": 427,
+      "y": 1991
+     }
+    ]
+   }
+  },
+  "net_7": {
+   "hyperGraph": "(USB1.A5,R1.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 318,
+      "y": 2110
+     },
+     {
+      "x": 427,
+      "y": 2110
+     }
+    ]
+   }
+  },
+  "net_8": {
+   "hyperGraph": "(USB1.B4A9,USB1.A4B9,VIN.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 189,
+      "y": 2140
+     },
+     {
+      "x": 189,
+      "y": 2130
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 189,
+      "y": 2011
+     },
+     {
+      "x": 189,
+      "y": 2130
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 189,
+      "y": 2130
+     },
+     {
+      "x": 427,
+      "y": 2130
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 427,
+      "y": 2011
+     },
+     {
+      "x": 189,
+      "y": 2011
+     }
+    ]
+   }
+  },
+  "net_9": {
+   "hyperGraph": "(Power1.2,∅10591.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 774,
+      "y": 1981
+     },
+     {
+      "x": 774,
+      "y": 1932
+     }
+    ]
+   }
+  },
+  "net_10": {
+   "hyperGraph": "(状态指示.3,∅25385.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1547,
+      "y": 1624
+     },
+     {
+      "x": 1547,
+      "y": 1654
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 1547,
+      "y": 1654
+     },
+     {
+      "x": 1507,
+      "y": 1654
+     }
+    ]
+   }
+  },
+  "net_11": {
+   "hyperGraph": "(USB1.16,USB1.15,USB1.14,USB1.13,USB1.B1A12,USB1.A1B12,∅1806.1,R1.2,R2.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 625,
+      "y": 2090
+     },
+     {
+      "x": 625,
+      "y": 2110
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 625,
+      "y": 2071
+     },
+     {
+      "x": 625,
+      "y": 2090
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 625,
+      "y": 2071
+     },
+     {
+      "x": 625,
+      "y": 2051
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 625,
+      "y": 2051
+     },
+     {
+      "x": 625,
+      "y": 1892
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 625,
+      "y": 1892
+     },
+     {
+      "x": 218,
+      "y": 1892
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 218,
+      "y": 1991
+     },
+     {
+      "x": 218,
+      "y": 1892
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 218,
+      "y": 2031
+     },
+     {
+      "x": 218,
+      "y": 1991
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 427,
+      "y": 2031
+     },
+     {
+      "x": 218,
+      "y": 2031
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 218,
+      "y": 2110
+     },
+     {
+      "x": 218,
+      "y": 2031
+     }
+    ],
+    "edge_10": [
+     {
+      "x": 218,
+      "y": 2110
+     },
+     {
+      "x": 218,
+      "y": 2150
+     }
+    ],
+    "edge_11": [
+     {
+      "x": 427,
+      "y": 2150
+     },
+     {
+      "x": 218,
+      "y": 2150
+     }
+    ],
+    "edge_12": [
+     {
+      "x": 218,
+      "y": 2110
+     },
+     {
+      "x": 238,
+      "y": 2110
+     }
+    ],
+    "edge_13": [
+     {
+      "x": 218,
+      "y": 1991
+     },
+     {
+      "x": 238,
+      "y": 1991
+     }
+    ]
+   }
+  },
+  "net_12": {
+   "hyperGraph": "(GND_4.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 2856,
+      "y": 831
+     },
+     {
+      "x": 2866,
+      "y": 831
+     }
+    ]
+   }
+  },
+  "net_13": {
+   "hyperGraph": "(3.3V_5.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 2856,
+      "y": 811
+     },
+     {
+      "x": 2866,
+      "y": 811
+     }
+    ]
+   }
+  },
+  "net_14": {
+   "hyperGraph": "(IO17.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 2856,
+      "y": 792
+     },
+     {
+      "x": 2866,
+      "y": 792
+     }
+    ]
+   }
+  },
+  "net_15": {
+   "hyperGraph": "(∅55639.1,UART1.2,UART1.5)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1260,
+      "y": 256
+     },
+     {
+      "x": 1260,
+      "y": 197
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 1378,
+      "y": 256
+     },
+     {
+      "x": 1260,
+      "y": 256
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 1260,
+      "y": 197
+     },
+     {
+      "x": 1260,
+      "y": 167
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 1378,
+      "y": 197
+     },
+     {
+      "x": 1260,
+      "y": 197
+     }
+    ]
+   }
+  },
+  "net_16": {
+   "hyperGraph": "(UART1.3)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1378,
+      "y": 236
+     },
+     {
+      "x": 1279,
+      "y": 236
+     }
+    ]
+   }
+  },
+  "net_17": {
+   "hyperGraph": "(UART1.6)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1279,
+      "y": 177
+     },
+     {
+      "x": 1378,
+      "y": 177
+     }
+    ]
+   }
+  },
+  "net_18": {
+   "hyperGraph": "(R18.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1160,
+      "y": 216
+     },
+     {
+      "x": 1101,
+      "y": 216
+     }
+    ]
+   }
+  },
+  "net_19": {
+   "hyperGraph": "(VIN_4.1,UART1.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1329,
+      "y": 276
+     },
+     {
+      "x": 1378,
+      "y": 276
+     }
+    ]
+   }
+  },
+  "net_20": {
+   "hyperGraph": "(R18.1,UART1.4)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1240,
+      "y": 216
+     },
+     {
+      "x": 1378,
+      "y": 216
+     }
+    ]
+   }
+  },
+  "net_21": {
+   "hyperGraph": "(∅1576.1,C5.2,C4.1,R6.2,U2.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 308,
+      "y": 772
+     },
+     {
+      "x": 308,
+      "y": 722
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 288,
+      "y": 722
+     },
+     {
+      "x": 308,
+      "y": 722
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 308,
+      "y": 722
+     },
+     {
+      "x": 308,
+      "y": 633
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 308,
+      "y": 633
+     },
+     {
+      "x": 288,
+      "y": 633
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 308,
+      "y": 593
+     },
+     {
+      "x": 308,
+      "y": 633
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 407,
+      "y": 593
+     },
+     {
+      "x": 308,
+      "y": 593
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 308,
+      "y": 772
+     },
+     {
+      "x": 288,
+      "y": 772
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 308,
+      "y": 821
+     },
+     {
+      "x": 308,
+      "y": 772
+     }
+    ]
+   }
+  },
+  "net_22": {
+   "hyperGraph": "(EN_2.1,R6.1,U2.3)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 407,
+      "y": 573
+     },
+     {
+      "x": 209,
+      "y": 573
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 209,
+      "y": 573
+     },
+     {
+      "x": 209,
+      "y": 633
+     }
+    ]
+   }
+  },
+  "net_23": {
+   "hyperGraph": "(U2.1,U2.40,U2.41,∅2024.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 803,
+      "y": 613
+     },
+     {
+      "x": 853,
+      "y": 613
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 803,
+      "y": 613
+     },
+     {
+      "x": 744,
+      "y": 613
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 803,
+      "y": 613
+     },
+     {
+      "x": 803,
+      "y": 643
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 744,
+      "y": 643
+     },
+     {
+      "x": 803,
+      "y": 643
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 803,
+      "y": 831
+     },
+     {
+      "x": 803,
+      "y": 643
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 367,
+      "y": 831
+     },
+     {
+      "x": 803,
+      "y": 831
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 367,
+      "y": 831
+     },
+     {
+      "x": 367,
+      "y": 613
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 407,
+      "y": 613
+     },
+     {
+      "x": 367,
+      "y": 613
+     }
+    ]
+   }
+  },
+  "net_24": {
+   "hyperGraph": "(C5.1,C4.2,∅1987.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 179,
+      "y": 772
+     },
+     {
+      "x": 179,
+      "y": 722
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 209,
+      "y": 722
+     },
+     {
+      "x": 179,
+      "y": 722
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 179,
+      "y": 722
+     },
+     {
+      "x": 179,
+      "y": 712
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 179,
+      "y": 772
+     },
+     {
+      "x": 209,
+      "y": 772
+     }
+    ]
+   }
+  },
+  "net_25": {
+   "hyperGraph": "(EN_3.1,RESET.4)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 565,
+      "y": 1248
+     },
+     {
+      "x": 516,
+      "y": 1248
+     }
+    ]
+   }
+  },
+  "net_26": {
+   "hyperGraph": "(RESET.3,∅48798.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 337,
+      "y": 1248
+     },
+     {
+      "x": 397,
+      "y": 1248
+     }
+    ]
+   }
+  },
+  "net_27": {
+   "hyperGraph": "(BOOT.4,IO0_4.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 565,
+      "y": 1089
+     },
+     {
+      "x": 516,
+      "y": 1089
+     }
+    ]
+   }
+  },
+  "net_28": {
+   "hyperGraph": "(BOOT.3,∅47707.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 337,
+      "y": 1089
+     },
+     {
+      "x": 397,
+      "y": 1089
+     }
+    ]
+   }
+  },
+  "net_29": {
+   "hyperGraph": "(GND_7.1,LCD2.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1410,
+      "y": 1291
+     },
+     {
+      "x": 1430,
+      "y": 1291
+     }
+    ]
+   }
+  },
+  "net_30": {
+   "hyperGraph": "(VIN_5.1,LCD2.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1410,
+      "y": 1271
+     },
+     {
+      "x": 1430,
+      "y": 1271
+     }
+    ]
+   }
+  },
+  "net_31": {
+   "hyperGraph": "(IO47.1,LCD2.4)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1410,
+      "y": 1232
+     },
+     {
+      "x": 1430,
+      "y": 1232
+     }
+    ]
+   }
+  },
+  "net_32": {
+   "hyperGraph": "(IO45.1,LCD2.5)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1410,
+      "y": 1212
+     },
+     {
+      "x": 1430,
+      "y": 1212
+     }
+    ]
+   }
+  },
+  "net_33": {
+   "hyperGraph": "(IO40.1,LCD2.6)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1410,
+      "y": 1192
+     },
+     {
+      "x": 1430,
+      "y": 1192
+     }
+    ]
+   }
+  },
+  "net_34": {
+   "hyperGraph": "(IO41.1,LCD2.7)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1410,
+      "y": 1172
+     },
+     {
+      "x": 1430,
+      "y": 1172
+     }
+    ]
+   }
+  },
+  "net_35": {
+   "hyperGraph": "(IO42.1,LCD2.8)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1410,
+      "y": 1152
+     },
+     {
+      "x": 1430,
+      "y": 1152
+     }
+    ]
+   }
+  },
+  "net_36": {
+   "hyperGraph": "(IO21.1,LCD2.3)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1410,
+      "y": 1252
+     },
+     {
+      "x": 1430,
+      "y": 1252
+     }
+    ]
+   }
+  },
+  "net_37": {
+   "hyperGraph": "(∅67825.1,LCD-1.54TFT.12,LCD-1.54TFT.6,LCD-1.54TFT.5,LCD-1.54TFT.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1349,
+      "y": 583
+     },
+     {
+      "x": 1349,
+      "y": 603
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 1369,
+      "y": 603
+     },
+     {
+      "x": 1349,
+      "y": 603
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 1349,
+      "y": 603
+     },
+     {
+      "x": 1349,
+      "y": 722
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 1369,
+      "y": 722
+     },
+     {
+      "x": 1349,
+      "y": 722
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 1349,
+      "y": 722
+     },
+     {
+      "x": 1349,
+      "y": 742
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 1369,
+      "y": 742
+     },
+     {
+      "x": 1349,
+      "y": 742
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 1349,
+      "y": 821
+     },
+     {
+      "x": 1349,
+      "y": 742
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 1349,
+      "y": 821
+     },
+     {
+      "x": 1369,
+      "y": 821
+     }
+    ]
+   }
+  },
+  "net_38": {
+   "hyperGraph": "(∅68041.1,C6.1,C7.2,LCD-2.4TFT.8,LCD-1.54TFT.4)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1369,
+      "y": 762
+     },
+     {
+      "x": 1164,
+      "y": 762
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 1091,
+      "y": 762
+     },
+     {
+      "x": 1164,
+      "y": 762
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 1051,
+      "y": 762
+     },
+     {
+      "x": 1091,
+      "y": 762
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 1537,
+      "y": 762
+     },
+     {
+      "x": 1369,
+      "y": 762
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 1537,
+      "y": 657
+     },
+     {
+      "x": 1537,
+      "y": 762
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 1537,
+      "y": 657
+     },
+     {
+      "x": 1684,
+      "y": 657
+     }
+    ]
+   }
+  },
+  "net_39": {
+   "hyperGraph": "(LCD-1.54TFT.7)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1369,
+      "y": 702
+     },
+     {
+      "x": 1240,
+      "y": 702
+     }
+    ]
+   }
+  },
+  "net_40": {
+   "hyperGraph": "(LCD-1.54TFT.8)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1369,
+      "y": 682
+     },
+     {
+      "x": 1240,
+      "y": 682
+     }
+    ]
+   }
+  },
+  "net_41": {
+   "hyperGraph": "(LCD-1.54TFT.9)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1369,
+      "y": 663
+     },
+     {
+      "x": 1240,
+      "y": 663
+     }
+    ]
+   }
+  },
+  "net_42": {
+   "hyperGraph": "(LCD-1.54TFT.10)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1369,
+      "y": 643
+     },
+     {
+      "x": 1240,
+      "y": 643
+     }
+    ]
+   }
+  },
+  "net_43": {
+   "hyperGraph": "(LCD-1.54TFT.11)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1369,
+      "y": 623
+     },
+     {
+      "x": 1240,
+      "y": 623
+     }
+    ]
+   }
+  },
+  "net_44": {
+   "hyperGraph": "(LCD-1.54TFT.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1369,
+      "y": 801
+     },
+     {
+      "x": 1240,
+      "y": 801
+     }
+    ]
+   }
+  },
+  "net_45": {
+   "hyperGraph": "(LCD-1.54TFT.3)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1369,
+      "y": 782
+     },
+     {
+      "x": 1240,
+      "y": 782
+     }
+    ]
+   }
+  },
+  "net_46": {
+   "hyperGraph": "(R9.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1831,
+      "y": 645
+     },
+     {
+      "x": 1773,
+      "y": 645
+     }
+    ]
+   }
+  },
+  "net_47": {
+   "hyperGraph": "(Q3.3)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1950,
+      "y": 704
+     },
+     {
+      "x": 1950,
+      "y": 684
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 1866,
+      "y": 704
+     },
+     {
+      "x": 1950,
+      "y": 704
+     }
+    ]
+   }
+  },
+  "net_48": {
+   "hyperGraph": "(R10.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1926,
+      "y": 754
+     },
+     {
+      "x": 1926,
+      "y": 734
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 1926,
+      "y": 734
+     },
+     {
+      "x": 1866,
+      "y": 734
+     }
+    ]
+   }
+  },
+  "net_49": {
+   "hyperGraph": "(U1.1,U1.3,VIN_6.1,C1.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 248,
+      "y": 1565
+     },
+     {
+      "x": 181,
+      "y": 1565
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 181,
+      "y": 1605
+     },
+     {
+      "x": 181,
+      "y": 1565
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 181,
+      "y": 1605
+     },
+     {
+      "x": 248,
+      "y": 1605
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 157,
+      "y": 1605
+     },
+     {
+      "x": 181,
+      "y": 1605
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 157,
+      "y": 1605
+     },
+     {
+      "x": 157,
+      "y": 1618
+     }
+    ]
+   }
+  },
+  "net_50": {
+   "hyperGraph": "(∅68162.1,C2.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 417,
+      "y": 1700
+     },
+     {
+      "x": 417,
+      "y": 1692
+     }
+    ]
+   }
+  },
+  "net_51": {
+   "hyperGraph": "(U1.5,C2.1,∅68262.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 417,
+      "y": 1605
+     },
+     {
+      "x": 407,
+      "y": 1605
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 417,
+      "y": 1605
+     },
+     {
+      "x": 437,
+      "y": 1605
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 417,
+      "y": 1612
+     },
+     {
+      "x": 417,
+      "y": 1605
+     }
+    ]
+   }
+  },
+  "net_52": {
+   "hyperGraph": "(∅68252.1,电源开关.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 694,
+      "y": 1694
+     },
+     {
+      "x": 694,
+      "y": 1704
+     }
+    ]
+   }
+  },
+  "net_53": {
+   "hyperGraph": "(电源开关.3,R4.2,3.7V锂电.2,3.7V锂电1.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 675,
+      "y": 1575
+     },
+     {
+      "x": 607,
+      "y": 1575
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 607,
+      "y": 1575
+     },
+     {
+      "x": 607,
+      "y": 1535
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 675,
+      "y": 1644
+     },
+     {
+      "x": 675,
+      "y": 1575
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 675,
+      "y": 1644
+     },
+     {
+      "x": 716,
+      "y": 1644
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 675,
+      "y": 1644
+     },
+     {
+      "x": 675,
+      "y": 1704
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 675,
+      "y": 1575
+     },
+     {
+      "x": 675,
+      "y": 1555
+     }
+    ]
+   }
+  },
+  "net_54": {
+   "hyperGraph": "(R4.1,R5.1,C3.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 796,
+      "y": 1585
+     },
+     {
+      "x": 809,
+      "y": 1585
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 809,
+      "y": 1585
+     },
+     {
+      "x": 809,
+      "y": 1614
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 796,
+      "y": 1614
+     },
+     {
+      "x": 809,
+      "y": 1614
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 809,
+      "y": 1614
+     },
+     {
+      "x": 809,
+      "y": 1628
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 809,
+      "y": 1628
+     },
+     {
+      "x": 895,
+      "y": 1628
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 809,
+      "y": 1628
+     },
+     {
+      "x": 809,
+      "y": 1644
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 809,
+      "y": 1644
+     },
+     {
+      "x": 796,
+      "y": 1644
+     }
+    ]
+   }
+  },
+  "net_55": {
+   "hyperGraph": "(R5.2,C3.2,∅68483.1,3.7V锂电.1,3.7V锂电.4,3.7V锂电.3,3.7V锂电1.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 716,
+      "y": 1585
+     },
+     {
+      "x": 694,
+      "y": 1585
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 694,
+      "y": 1585
+     },
+     {
+      "x": 694,
+      "y": 1614
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 694,
+      "y": 1614
+     },
+     {
+      "x": 716,
+      "y": 1614
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 694,
+      "y": 1585
+     },
+     {
+      "x": 694,
+      "y": 1555
+     }
+    ],
+    "edge_5": [
+     {
+      "x": 734,
+      "y": 1555
+     },
+     {
+      "x": 694,
+      "y": 1555
+     }
+    ],
+    "edge_6": [
+     {
+      "x": 734,
+      "y": 1495
+     },
+     {
+      "x": 734,
+      "y": 1555
+     }
+    ],
+    "edge_7": [
+     {
+      "x": 734,
+      "y": 1495
+     },
+     {
+      "x": 635,
+      "y": 1495
+     }
+    ],
+    "edge_8": [
+     {
+      "x": 635,
+      "y": 1515
+     },
+     {
+      "x": 635,
+      "y": 1495
+     }
+    ],
+    "edge_9": [
+     {
+      "x": 635,
+      "y": 1515
+     },
+     {
+      "x": 607,
+      "y": 1515
+     }
+    ],
+    "edge_10": [
+     {
+      "x": 607,
+      "y": 1505
+     },
+     {
+      "x": 607,
+      "y": 1515
+     }
+    ]
+   }
+  },
+  "net_56": {
+   "hyperGraph": "(∅68027.1,C6.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1091,
+      "y": 673
+     },
+     {
+      "x": 1091,
+      "y": 682
+     }
+    ]
+   }
+  },
+  "net_57": {
+   "hyperGraph": "(∅68013.1,C7.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1164,
+      "y": 682
+     },
+     {
+      "x": 1164,
+      "y": 673
+     }
+    ]
+   }
+  },
+  "net_58": {
+   "hyperGraph": "(LCD-2.4TFT.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1743,
+      "y": 776
+     },
+     {
+      "x": 1684,
+      "y": 776
+     }
+    ]
+   }
+  },
+  "net_59": {
+   "hyperGraph": "(LCD-2.4TFT.3)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1743,
+      "y": 756
+     },
+     {
+      "x": 1684,
+      "y": 756
+     }
+    ]
+   }
+  },
+  "net_60": {
+   "hyperGraph": "(LCD-2.4TFT.6)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1743,
+      "y": 696
+     },
+     {
+      "x": 1684,
+      "y": 696
+     }
+    ]
+   }
+  },
+  "net_61": {
+   "hyperGraph": "(LCD-2.4TFT.10)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1743,
+      "y": 617
+     },
+     {
+      "x": 1684,
+      "y": 617
+     }
+    ]
+   }
+  },
+  "net_62": {
+   "hyperGraph": "(LCD-2.4TFT.9)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1743,
+      "y": 637
+     },
+     {
+      "x": 1684,
+      "y": 637
+     }
+    ]
+   }
+  },
+  "net_63": {
+   "hyperGraph": "(LCD-2.4TFT.4)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1743,
+      "y": 736
+     },
+     {
+      "x": 1684,
+      "y": 736
+     }
+    ]
+   }
+  },
+  "net_64": {
+   "hyperGraph": "(LCD-2.4TFT.5)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1743,
+      "y": 716
+     },
+     {
+      "x": 1684,
+      "y": 716
+     }
+    ]
+   }
+  },
+  "net_65": {
+   "hyperGraph": "(LCD-2.4TFT.1,∅72104.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1706,
+      "y": 805
+     },
+     {
+      "x": 1706,
+      "y": 795
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 1706,
+      "y": 795
+     },
+     {
+      "x": 1684,
+      "y": 795
+     }
+    ]
+   }
+  },
+  "net_66": {
+   "hyperGraph": "(R8.2,Q2.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1527,
+      "y": 2011
+     },
+     {
+      "x": 1448,
+      "y": 2011
+     }
+    ]
+   }
+  },
+  "net_67": {
+   "hyperGraph": "(∅80162.1,MAX98357A.4,MAX98357A.6)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 2122,
+      "y": 1178
+     },
+     {
+      "x": 2122,
+      "y": 1148
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 2291,
+      "y": 1178
+     },
+     {
+      "x": 2122,
+      "y": 1178
+     }
+    ],
+    "edge_3": [
+     {
+      "x": 2122,
+      "y": 1218
+     },
+     {
+      "x": 2122,
+      "y": 1178
+     }
+    ],
+    "edge_4": [
+     {
+      "x": 2122,
+      "y": 1218
+     },
+     {
+      "x": 2291,
+      "y": 1218
+     }
+    ]
+   }
+  },
+  "net_68": {
+   "hyperGraph": "(SPK1.2,扬声器2.1,H1.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 2420,
+      "y": 1228
+     },
+     {
+      "x": 2479,
+      "y": 1228
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 2479,
+      "y": 1228
+     },
+     {
+      "x": 2588,
+      "y": 1228
+     }
+    ]
+   }
+  },
+  "net_69": {
+   "hyperGraph": "(SPK1.1,扬声器2.2,H1.2)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 2420,
+      "y": 1208
+     },
+     {
+      "x": 2479,
+      "y": 1208
+     }
+    ],
+    "edge_2": [
+     {
+      "x": 2479,
+      "y": 1208
+     },
+     {
+      "x": 2588,
+      "y": 1208
+     }
+    ]
+   }
+  },
+  "net_70": {
+   "hyperGraph": "(状态指示.1,∅83039.1)",
+   "edges": {
+    "edge_1": [
+     {
+      "x": 1309,
+      "y": 1674
+     },
+     {
+      "x": 1289,
+      "y": 1674
+     }
+    ]
+   }
+  },
+  "net_71": {
+   "hyperGraph": "(USB1.B7,D-_2.1)",
+   "edges": {}
+  },
+  "net_72": {
+   "hyperGraph": "(USB1.B6,D+_3.1)",
+   "edges": {}
+  },
+  "net_73": {
+   "hyperGraph": "(USB1.A7,D-_3.1)",
+   "edges": {}
+  },
+  "net_74": {
+   "hyperGraph": "(USB1.A6,D+_2.1)",
+   "edges": {}
+  },
+  "net_75": {
+   "hyperGraph": "(IO8.1,U2.12)",
+   "edges": {}
+  },
+  "net_76": {
+   "hyperGraph": "(IO1.1,U2.39)",
+   "edges": {}
+  },
+  "net_77": {
+   "hyperGraph": "(IO2.1,U2.38)",
+   "edges": {}
+  },
+  "net_78": {
+   "hyperGraph": "(TXD0.1,U2.37)",
+   "edges": {}
+  },
+  "net_79": {
+   "hyperGraph": "(RXD0.1,U2.36)",
+   "edges": {}
+  },
+  "net_80": {
+   "hyperGraph": "(LED_BL.1,U2.35)",
+   "edges": {}
+  },
+  "net_81": {
+   "hyperGraph": "(SPI_CS.1,U2.34)",
+   "edges": {}
+  },
+  "net_82": {
+   "hyperGraph": "(SPI_DC.1,U2.33)",
+   "edges": {}
+  },
+  "net_83": {
+   "hyperGraph": "(IO39.1,U2.32)",
+   "edges": {}
+  },
+  "net_84": {
+   "hyperGraph": "(IO38.1,U2.31)",
+   "edges": {}
+  },
+  "net_85": {
+   "hyperGraph": "(IO37.1,U2.30)",
+   "edges": {}
+  },
+  "net_86": {
+   "hyperGraph": "(IO36.1,U2.29)",
+   "edges": {}
+  },
+  "net_87": {
+   "hyperGraph": "(IO35.1,U2.28)",
+   "edges": {}
+  },
+  "net_88": {
+   "hyperGraph": "(IO3.1,U2.15)",
+   "edges": {}
+  },
+  "net_89": {
+   "hyperGraph": "(IO9.1,U2.17)",
+   "edges": {}
+  },
+  "net_90": {
+   "hyperGraph": "(IO10.1,U2.18)",
+   "edges": {}
+  },
+  "net_91": {
+   "hyperGraph": "(IO11.1,U2.19)",
+   "edges": {}
+  },
+  "net_92": {
+   "hyperGraph": "(IO12.1,U2.20)",
+   "edges": {}
+  },
+  "net_93": {
+   "hyperGraph": "(IO13.1,U2.21)",
+   "edges": {}
+  },
+  "net_94": {
+   "hyperGraph": "(BAT_DET.1,U2.22)",
+   "edges": {}
+  },
+  "net_95": {
+   "hyperGraph": "(SPI_CLK.1,U2.23)",
+   "edges": {}
+  },
+  "net_96": {
+   "hyperGraph": "(SPI_MOSI.1,U2.24)",
+   "edges": {}
+  },
+  "net_97": {
+   "hyperGraph": "(IO48.1,U2.25)",
+   "edges": {}
+  },
+  "net_98": {
+   "hyperGraph": "(SPI_RST.1,U2.26)",
+   "edges": {}
+  },
+  "net_99": {
+   "hyperGraph": "(D-.1,U2.13)",
+   "edges": {}
+  },
+  "net_100": {
+   "hyperGraph": "(D+.1,U2.14)",
+   "edges": {}
+  },
+  "net_101": {
+   "hyperGraph": "(Power1.1,R3.1)",
+   "edges": {}
+  },
+  "net_102": {
+   "hyperGraph": "(R3.2,3.3V.1)",
+   "edges": {}
+  },
+  "net_103": {
+   "hyperGraph": "(IO46.1,U2.16)",
+   "edges": {}
+  },
+  "net_104": {
+   "hyperGraph": "(状态指示.4,IO48_2.1)",
+   "edges": {}
+  },
+  "net_105": {
+   "hyperGraph": "(GND.1,IO4.1)",
+   "edges": {}
+  },
+  "net_106": {
+   "hyperGraph": "(IO18.1,IO4.3)",
+   "edges": {}
+  },
+  "net_107": {
+   "hyperGraph": "(3.3V_2.1,IO4.2)",
+   "edges": {}
+  },
+  "net_108": {
+   "hyperGraph": "(GND_5.1,IO5.1)",
+   "edges": {}
+  },
+  "net_109": {
+   "hyperGraph": "(IO0_2.1,IO5.3)",
+   "edges": {}
+  },
+  "net_110": {
+   "hyperGraph": "(VIN_2.1,IO5.2)",
+   "edges": {}
+  },
+  "net_111": {
+   "hyperGraph": "(GND_6.1,串口1.1)",
+   "edges": {}
+  },
+  "net_112": {
+   "hyperGraph": "(VIN_3.1,串口1.2)",
+   "edges": {}
+  },
+  "net_113": {
+   "hyperGraph": "(D+_4.1,串口1.3)",
+   "edges": {}
+  },
+  "net_114": {
+   "hyperGraph": "(D-_4.1,串口1.4)",
+   "edges": {}
+  },
+  "net_115": {
+   "hyperGraph": "(U2.4,WS_2.1)",
+   "edges": {}
+  },
+  "net_116": {
+   "hyperGraph": "(U2.5,SCK_2.1)",
+   "edges": {}
+  },
+  "net_117": {
+   "hyperGraph": "(U2.6,SD_2.1)",
+   "edges": {}
+  },
+  "net_118": {
+   "hyperGraph": "(U2.7,SDATA_2.1)",
+   "edges": {}
+  },
+  "net_119": {
+   "hyperGraph": "(U2.8,BCLK_2.1)",
+   "edges": {}
+  },
+  "net_120": {
+   "hyperGraph": "(U2.9,LRCLK_2.1)",
+   "edges": {}
+  },
+  "net_121": {
+   "hyperGraph": "(U2.10,IO17_2.1)",
+   "edges": {}
+  },
+  "net_122": {
+   "hyperGraph": "(U2.11,IO18_2.1)",
+   "edges": {}
+  },
+  "net_123": {
+   "hyperGraph": "(U2.27,IO0_3.1)",
+   "edges": {}
+  },
+  "net_124": {
+   "hyperGraph": "(GND_8.1,OLED1.1)",
+   "edges": {}
+  },
+  "net_125": {
+   "hyperGraph": "(IO42_2.1,OLED1.3)",
+   "edges": {}
+  },
+  "net_126": {
+   "hyperGraph": "(IO41_2.1,OLED1.4)",
+   "edges": {}
+  },
+  "net_127": {
+   "hyperGraph": "(3.3V_6.1,OLED1.2)",
+   "edges": {}
+  },
+  "net_128": {
+   "hyperGraph": "(∅67951.1,Q3.2)",
+   "edges": {}
+  },
+  "net_129": {
+   "hyperGraph": "(∅68002.1,R10.2)",
+   "edges": {}
+  },
+  "net_130": {
+   "hyperGraph": "(U1.2,∅68136.1)",
+   "edges": {}
+  },
+  "net_131": {
+   "hyperGraph": "(∅68149.1,C1.1)",
+   "edges": {}
+  },
+  "net_132": {
+   "hyperGraph": "(电源开关.4,∅68368.1)",
+   "edges": {}
+  },
+  "net_133": {
+   "hyperGraph": "(GND_9.1,LCD1.1)",
+   "edges": {}
+  },
+  "net_134": {
+   "hyperGraph": "(VIN_7.1,LCD1.2)",
+   "edges": {}
+  },
+  "net_135": {
+   "hyperGraph": "(SCL-CLK.1,LCD1.3)",
+   "edges": {}
+  },
+  "net_136": {
+   "hyperGraph": "(SDA-MOSI.1,LCD1.4)",
+   "edges": {}
+  },
+  "net_137": {
+   "hyperGraph": "(RST.1,LCD1.5)",
+   "edges": {}
+  },
+  "net_138": {
+   "hyperGraph": "(DC.1,LCD1.6)",
+   "edges": {}
+  },
+  "net_139": {
+   "hyperGraph": "(CS.1,LCD1.7)",
+   "edges": {}
+  },
+  "net_140": {
+   "hyperGraph": "(BL.1,LCD1.8)",
+   "edges": {}
+  },
+  "net_141": {
+   "hyperGraph": "(Q3.1,R9.1)",
+   "edges": {}
+  },
+  "net_142": {
+   "hyperGraph": "(LRCLK.1,MAX98357A.1)",
+   "edges": {}
+  },
+  "net_143": {
+   "hyperGraph": "(BCLK.1,MAX98357A.2)",
+   "edges": {}
+  },
+  "net_144": {
+   "hyperGraph": "(SDATA.1,MAX98357A.3)",
+   "edges": {}
+  },
+  "net_145": {
+   "hyperGraph": "(3.3V_7.1,MAX98357A.7)",
+   "edges": {}
+  },
+  "net_146": {
+   "hyperGraph": "(麦克风孔朝下.6,GND_10.1)",
+   "edges": {}
+  },
+  "net_147": {
+   "hyperGraph": "(麦克风孔朝下.5,WS.1)",
+   "edges": {}
+  },
+  "net_148": {
+   "hyperGraph": "(麦克风孔朝下.4,SCK.1)",
+   "edges": {}
+  },
+  "net_149": {
+   "hyperGraph": "(麦克风孔朝下.1,GND_11.1)",
+   "edges": {}
+  },
+  "net_150": {
+   "hyperGraph": "(麦克风孔朝下.2,3.3V_8.1)",
+   "edges": {}
+  },
+  "net_151": {
+   "hyperGraph": "(麦克风孔朝下.3,SD.1)",
+   "edges": {}
+  }
+ }
+}

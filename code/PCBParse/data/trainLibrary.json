@@ -1,0 +1,1874 @@
+{
+"HC-PZ254-11.5L-1x3P": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2",
+"name": "2"
+},
+{
+"number": "3",
+"name": "3"
+}
+]
+},
+"Type-c_6P": {
+"pins": [
+{
+"number": "104",
+"name": "P_14"
+},
+{
+"number": "106",
+"name": "P_15"
+},
+{
+"number": "A5",
+"name": "cCI"
+},
+{
+"number": "B12",
+"name": "GND"
+},
+{
+"number": "BS",
+"name": "cc2"
+},
+{
+"number": "USB",
+"name": "GND A12"
+}
+]
+},
+"ARDUINO UNO R3": {
+"pins": [
+{
+"number": "5",
+"name": "5V"
+},
+{
+"number": "6",
+"name": "GND"
+},
+{
+"number": "11",
+"name": "A2"
+},
+{
+"number": "12",
+"name": "A3"
+},
+{
+"number": "13",
+"name": "A4"
+},
+{
+"number": "31",
+"name": "RESET"
+},
+{
+"number": "206",
+"name": "SCL"
+},
+{
+"number": "207",
+"name": "GND"
+},
+{
+"number": "208",
+"name": "D3"
+},
+{
+"number": "209",
+"name": "D4"
+},
+{
+"number": "210",
+"name": "D5"
+},
+{
+"number": "211",
+"name": "D9"
+},
+{
+"number": "212",
+"name": "D10"
+},
+{
+"number": "213",
+"name": "D11"
+},
+{
+"number": "214",
+"name": "D12"
+},
+{
+"number": "215",
+"name": "ARED"
+},
+{
+"number": "216",
+"name": "SDA"
+}
+]
+},
+"JTAG-20PIN": {
+"pins": [
+{
+"number": "1",
+"name": "VCC"
+},
+{
+"number": "2",
+"name": "VCC"
+},
+{
+"number": "3",
+"name": "nTRST"
+},
+{
+"number": "4",
+"name": "GND"
+},
+{
+"number": "5",
+"name": "TDI"
+},
+{
+"number": "6",
+"name": "GND"
+},
+{
+"number": "7",
+"name": "TMS"
+},
+{
+"number": "8",
+"name": "GND"
+},
+{
+"number": "9",
+"name": "TCK"
+},
+{
+"number": "10",
+"name": "GND"
+},
+{
+"number": "12",
+"name": "GND"
+},
+{
+"number": "14",
+"name": "GND"
+},
+{
+"number": "16",
+"name": "GND"
+},
+{
+"number": "18",
+"name": "GND"
+},
+{
+"number": "19",
+"name": "NC"
+},
+{
+"number": "41",
+"name": "nSRST"
+},
+{
+"number": "42",
+"name": "GND"
+},
+{
+"number": "43",
+"name": "RTCK"
+},
+{
+"number": "44",
+"name": "TDO"
+},
+{
+"number": "45",
+"name": "NC"
+}
+]
+},
+"DB9-male connector": {
+"pins": [
+{
+"number": "3",
+"name": "3"
+},
+{
+"number": "5",
+"name": "C"
+},
+{
+"number": "7",
+"name": "7"
+},
+{
+"number": "69",
+"name": "P_2"
+},
+{
+"number": "95",
+"name": "95"
+},
+{
+"number": "M2",
+"name": "M2"
+},
+{
+"number": "X",
+"name": "X"
+}
+]
+},
+"RJ-6P6C": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2",
+"name": "2"
+},
+{
+"number": "3",
+"name": "3"
+},
+{
+"number": "4",
+"name": "4"
+},
+{
+"number": "5",
+"name": "5"
+},
+{
+"number": "9",
+"name": "9"
+}
+]
+},
+"USB_TYPEC-1": {
+"pins": [
+{
+"number": "39",
+"name": "VBUS"
+},
+{
+"number": "40",
+"name": "USBG"
+},
+{
+"number": "41",
+"name": "USBG"
+},
+{
+"number": "42",
+"name": "D-"
+},
+{
+"number": "43",
+"name": "D+"
+},
+{
+"number": "44",
+"name": "D+"
+},
+{
+"number": "45",
+"name": "NC"
+},
+{
+"number": "46",
+"name": "CC2"
+},
+{
+"number": "47",
+"name": "CC1"
+},
+{
+"number": "50",
+"name": "VBUS"
+},
+{
+"number": "51",
+"name": "GND"
+},
+{
+"number": "A8",
+"name": "VBUS"
+},
+{
+"number": "A12",
+"name": "GND"
+}
+]
+},
+"LM50/LM50-Q1": {
+"pins": [
+{
+"number": "32",
+"name": "P_2"
+},
+{
+"number": "34",
+"name": "P_28"
+}
+]
+},
+"LM4040": {
+"pins": [
+{
+"number": "95",
+"name": "P_21"
+}
+]
+},
+"ADS8326": {
+"pins": [
+{
+"number": "11",
+"name": "P_1"
+},
+{
+"number": "13",
+"name": "P_12"
+},
+{
+"number": "15",
+"name": "P_27"
+},
+{
+"number": "17",
+"name": "P_5"
+}
+]
+},
+"REF5040": {
+"pins": [
+{
+"number": "32",
+"name": "P_21"
+},
+{
+"number": "34",
+"name": "P_4"
+},
+{
+"number": "36",
+"name": "P_6"
+}
+]
+},
+"MAX14571 MAX14572 MAX14573": {
+"pins": [
+{
+"number": "99",
+"name": "È"
+},
+{
+"number": "100",
+"name": "N"
+},
+{
+"number": "101",
+"name": "N"
+},
+{
+"number": "102",
+"name": "OUT"
+},
+{
+"number": "103",
+"name": "OVLO"
+},
+{
+"number": "104",
+"name": "OUT"
+},
+{
+"number": "105",
+"name": "OUT"
+},
+{
+"number": "106",
+"name": "UVLO"
+},
+{
+"number": "107",
+"name": "FLAG"
+},
+{
+"number": "108",
+"name": "REN"
+},
+{
+"number": "109",
+"name": "EN"
+},
+{
+"number": "110",
+"name": "SETI"
+},
+{
+"number": "111",
+"name": "GND"
+},
+{
+"number": "112",
+"name": "HVEN"
+}
+]
+},
+"5-V Voltage Regulator (e.g. TPSxxxx)": {
+"pins": [
+{
+"number": "37",
+"name": "(e.g. TPSxxxx)"
+},
+{
+"number": "38",
+"name": "V"
+},
+{
+"number": "39",
+"name": "P_3"
+},
+{
+"number": "41",
+"name": "Vcc"
+},
+{
+"number": "42",
+"name": "P_37"
+}
+]
+},
+"CONN_5": {
+"pins": [
+{
+"number": "4",
+"name": "4"
+},
+{
+"number": "492",
+"name": "P_109"
+},
+{
+"number": "494",
+"name": "P_496"
+},
+{
+"number": "496",
+"name": "P_87"
+},
+{
+"number": "498",
+"name": "P_93"
+}
+]
+},
+"CONN_2": {
+"pins": [
+{
+"number": "9",
+"name": "9"
+},
+{
+"number": "502",
+"name": "P_208"
+}
+]
+},
+"Conn_02x15_Top_Bottom_MountingPin": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2",
+"name": "2"
+},
+{
+"number": "2B",
+"name": "2B"
+},
+{
+"number": "3",
+"name": "3"
+},
+{
+"number": "4",
+"name": "4"
+},
+{
+"number": "5",
+"name": "5"
+},
+{
+"number": "6",
+"name": "6"
+},
+{
+"number": "7",
+"name": "7"
+},
+{
+"number": "8",
+"name": "8"
+},
+{
+"number": "9",
+"name": "9"
+},
+{
+"number": "10",
+"name": "10"
+},
+{
+"number": "11",
+"name": "11"
+},
+{
+"number": "12",
+"name": "12"
+},
+{
+"number": "13",
+"name": "13"
+},
+{
+"number": "14",
+"name": "14"
+},
+{
+"number": "15",
+"name": "15"
+},
+{
+"number": "16",
+"name": "16"
+},
+{
+"number": "17",
+"name": "17"
+},
+{
+"number": "18",
+"name": "18"
+},
+{
+"number": "19",
+"name": "19"
+},
+{
+"number": "20",
+"name": "20"
+},
+{
+"number": "21",
+"name": "21"
+},
+{
+"number": "22",
+"name": "22"
+},
+{
+"number": "23",
+"name": "23"
+},
+{
+"number": "24",
+"name": "24"
+},
+{
+"number": "25",
+"name": "25"
+},
+{
+"number": "26",
+"name": "26"
+},
+{
+"number": "27",
+"name": "27"
+},
+{
+"number": "29",
+"name": "29"
+},
+{
+"number": "30",
+"name": "30"
+},
+{
+"number": "MP",
+"name": "MP"
+},
+{
+"number": "1B",
+"name": "1B"
+},
+{
+"number": "GND",
+"name": "MP"
+}
+]
+},
+"10K排阻": {
+"pins": [
+{
+"number": "10K排阻",
+"name": "10K排阻"
+},
+{
+"number": "100",
+"name": "P_13"
+},
+{
+"number": "103",
+"name": "P_37"
+},
+{
+"number": "105",
+"name": "P_5"
+},
+{
+"number": "107",
+"name": "P_6"
+},
+{
+"number": "109",
+"name": "P_62"
+},
+{
+"number": "111",
+"name": "P_68"
+},
+{
+"number": "113",
+"name": "P_71"
+},
+{
+"number": "J1",
+"name": "J1"
+}
+]
+},
+"LCD DRIVER:ST7735": {
+"pins": [
+{
+"number": "1",
+"name": "GND"
+},
+{
+"number": "2",
+"name": "VSS"
+},
+{
+"number": "4",
+"name": "LEDA"
+},
+{
+"number": "5",
+"name": "VSS_2"
+},
+{
+"number": "6",
+"name": "RES"
+},
+{
+"number": "10",
+"name": "VDD"
+},
+{
+"number": "14",
+"name": "GND_2"
+},
+{
+"number": "41",
+"name": "A0"
+},
+{
+"number": "42",
+"name": "VSS_3"
+},
+{
+"number": "43",
+"name": "SCL"
+},
+{
+"number": "44",
+"name": "VDDIO"
+},
+{
+"number": "45",
+"name": "LEDK"
+},
+{
+"number": "46",
+"name": "SDA"
+},
+{
+"number": "47",
+"name": "CS"
+}
+]
+},
+"HX PM1.0-1x3P ZC": {
+"pins": [
+{
+"number": "3",
+"name": "3"
+},
+{
+"number": "283",
+"name": "P_85"
+},
+{
+"number": "U4",
+"name": "U4"
+}
+]
+},
+"HX PZ1.0-1x2P ZZ": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2",
+"name": "2"
+}
+]
+},
+"USB转第2组串口": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "4",
+"name": "4"
+},
+{
+"number": "377",
+"name": "P_126"
+},
+{
+"number": "380",
+"name": "P_161"
+}
+]
+},
+"TYPE-C 18PIN 2MD(073)": {
+"pins": [
+{
+"number": "0",
+"name": "DP1"
+},
+{
+"number": "1",
+"name": "VBUS"
+},
+{
+"number": "2_1",
+"name": "GND SHELL"
+},
+{
+"number": "2_2",
+"name": "VBUS"
+},
+{
+"number": "4",
+"name": "CC1"
+},
+{
+"number": "5",
+"name": "DN2"
+},
+{
+"number": "7",
+"name": "DN1"
+},
+{
+"number": "8_1",
+"name": "DP2"
+},
+{
+"number": "8_2",
+"name": "CC2"
+},
+{
+"number": "13",
+"name": "13"
+},
+{
+"number": "14",
+"name": "SHELL"
+}
+]
+},
+"3.3V 500mA LDO": {
+"pins": [
+{
+"number": "1",
+"name": "yss"
+},
+{
+"number": "2",
+"name": "2"
+},
+{
+"number": "3",
+"name": "3"
+}
+]
+},
+"间距2.54 4P排针": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2",
+"name": "2"
+},
+{
+"number": "3",
+"name": "3"
+},
+{
+"number": "4",
+"name": "4"
+}
+]
+},
+"1.27mm间距 4P卧贴排母": {
+"pins": [
+{
+"number": "2",
+"name": "2"
+},
+{
+"number": "3",
+"name": "3"
+},
+{
+"number": "4",
+"name": "4"
+},
+{
+"number": "2234",
+"name": "2234"
+}
+]
+},
+"10-16UH线圈": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+}
+]
+},
+"X6521WVS-2x01H-C60D74": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2",
+"name": "2"
+}
+]
+},
+"PM254-1-02-Z-8.5": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "173",
+"name": "P_14"
+}
+]
+},
+"SP3232/SP232/MAX3232/MAX232": {
+"pins": [
+{
+"number": "1",
+"name": "C1+"
+},
+{
+"number": "2",
+"name": "V+"
+},
+{
+"number": "3",
+"name": "C1-"
+},
+{
+"number": "4",
+"name": "C2+"
+},
+{
+"number": "5",
+"name": "C2-"
+},
+{
+"number": "6",
+"name": "R2OUT"
+},
+{
+"number": "7",
+"name": "T2OUT"
+},
+{
+"number": "8",
+"name": "R2IN"
+},
+{
+"number": "9",
+"name": "V-"
+},
+{
+"number": "16",
+"name": "VCC"
+},
+{
+"number": "175",
+"name": "T1IN"
+},
+{
+"number": "176",
+"name": "GND"
+},
+{
+"number": "177",
+"name": "P_49"
+},
+{
+"number": "179",
+"name": "T1OUT"
+},
+{
+"number": "180",
+"name": "R1IN"
+},
+{
+"number": "181",
+"name": "T2IN"
+}
+]
+},
+"PZ200V-11-02P": {
+"pins": [
+{
+"number": "2_1",
+"name": "2_1"
+},
+{
+"number": "2_2",
+"name": "2_2"
+},
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2",
+"name": "2"
+}
+]
+},
+"KH-2.54PH180-1X2P-L11.5": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2",
+"name": "2"
+}
+]
+},
+"铜柱M3*12+3": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "X1",
+"name": "X1"
+}
+]
+},
+"BX-PH2.0-2PZZ": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2",
+"name": "2"
+}
+]
+},
+"FH-8A": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2_1",
+"name": "2_1"
+},
+{
+"number": "2_2",
+"name": "2_2"
+},
+{
+"number": "3",
+"name": "3"
+},
+{
+"number": "4",
+"name": "4"
+},
+{
+"number": "5",
+"name": "5"
+},
+{
+"number": "6",
+"name": "6"
+},
+{
+"number": "8",
+"name": "8"
+}
+]
+},
+"KF7.62-2P": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2",
+"name": "2"
+},
+{
+"number": "10",
+"name": "10"
+}
+]
+},
+"KH-A2541WR-20PB": {
+"pins": [
+{
+"number": "0",
+"name": "0"
+},
+{
+"number": "1_1",
+"name": "1_1"
+},
+{
+"number": "1_2",
+"name": "1_2"
+},
+{
+"number": "1_3",
+"name": "1_3"
+},
+{
+"number": "2",
+"name": "2"
+},
+{
+"number": "4",
+"name": "4"
+},
+{
+"number": "5",
+"name": "G"
+},
+{
+"number": "7",
+"name": "7"
+},
+{
+"number": "8_1",
+"name": "8_1"
+},
+{
+"number": "8_2",
+"name": "8_2"
+},
+{
+"number": "11",
+"name": "11"
+},
+{
+"number": "13",
+"name": "13"
+},
+{
+"number": "14",
+"name": "14"
+},
+{
+"number": "17",
+"name": "17"
+},
+{
+"number": "18",
+"name": "18"
+},
+{
+"number": "19",
+"name": "19"
+},
+{
+"number": "301",
+"name": "P_55"
+}
+]
+},
+"STPS2141STR": {
+"pins": [
+{
+"number": "1",
+"name": "ou"
+},
+{
+"number": "2",
+"name": "GND"
+},
+{
+"number": "3",
+"name": "3"
+},
+{
+"number": "4",
+"name": "EN"
+},
+{
+"number": "5",
+"name": "IN"
+}
+]
+},
+"B2B-PH-K-S(LF)(SN)": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2",
+"name": "2"
+}
+]
+},
+"FH2.0-2P": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2",
+"name": "2"
+}
+]
+},
+"2.0-6P LT-BD": {
+"pins": [
+{
+"number": "1_1",
+"name": "1_1"
+},
+{
+"number": "1_2",
+"name": "1_2"
+},
+{
+"number": "2",
+"name": "2"
+},
+{
+"number": "2.0-6P LT-BD",
+"name": "2.0-6P LT-BD"
+},
+{
+"number": "3",
+"name": "3"
+},
+{
+"number": "4",
+"name": "4"
+},
+{
+"number": "5",
+"name": "5"
+},
+{
+"number": "6",
+"name": "6"
+}
+]
+},
+"PW8205": {
+"pins": [
+{
+"number": "0",
+"name": "0"
+},
+{
+"number": "1",
+"name": "D1/D2"
+},
+{
+"number": "2",
+"name": "S1"
+},
+{
+"number": "3",
+"name": "S1"
+},
+{
+"number": "4",
+"name": "G1"
+},
+{
+"number": "7",
+"name": "7"
+},
+{
+"number": "332",
+"name": "D1/D2"
+},
+{
+"number": "o",
+"name": "o"
+},
+{
+"number": "232",
+"name": "D1/D2"
+}
+]
+},
+"KF128-5.0-2P": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2",
+"name": "2"
+}
+]
+},
+"XD-XH-2AW-G": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "21",
+"name": "21"
+}
+]
+},
+"1.27mm 1x3p": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2",
+"name": "2"
+},
+{
+"number": "3",
+"name": "3"
+}
+]
+},
+"1.27mm_1x3p": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2",
+"name": "2"
+},
+{
+"number": "3",
+"name": "3"
+}
+]
+},
+"M3960V-02P": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2",
+"name": "2"
+}
+]
+},
+"WJ128V-5.0-2P": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2",
+"name": "2"
+}
+]
+},
+"PZ254V-11-02P": {
+"pins": [
+{
+"number": "2_1",
+"name": "i"
+},
+{
+"number": "2_2",
+"name": "2_2"
+},
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2",
+"name": "2"
+}
+]
+},
+"REF-5000": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+}
+]
+},
+"REF-5030": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "1",
+"name": "."
+}
+]
+},
+"ADR431 or ADR421 or REF5025": {
+"pins": [
+{
+"number": "2",
+"name": "VIN"
+},
+{
+"number": "4",
+"name": "GND"
+},
+{
+"number": "5",
+"name": "TRIM"
+},
+{
+"number": "6",
+"name": "VOUT"
+}
+]
+},
+"USB母座5P": {
+"pins": [
+{
+"number": "1",
+"name": "Vcc"
+},
+{
+"number": "2",
+"name": "2"
+},
+{
+"number": "4",
+"name": "D+"
+},
+{
+"number": "5",
+"name": "GND"
+},
+{
+"number": "6",
+"name": "SHELL"
+},
+{
+"number": "9",
+"name": "司"
+},
+{
+"number": "a",
+"name": "SHELL"
+},
+{
+"number": "USB母座5P",
+"name": "USB母座5P"
+}
+]
+},
+"MAX PD140W 输出": {
+"pins": [
+{
+"number": "10uF",
+"name": "SBU2"
+},
+{
+"number": "87",
+"name": "DN2"
+},
+{
+"number": "253",
+"name": "VBUS"
+},
+{
+"number": "254",
+"name": "VBUS"
+},
+{
+"number": "255",
+"name": "CC2"
+},
+{
+"number": "256",
+"name": "DP2"
+},
+{
+"number": "257",
+"name": "DN1"
+},
+{
+"number": "258",
+"name": "DP1"
+},
+{
+"number": "259",
+"name": "CC1"
+},
+{
+"number": "260",
+"name": "VBUS"
+},
+{
+"number": "261",
+"name": "VBUS"
+},
+{
+"number": "A1",
+"name": "GND"
+},
+{
+"number": "A12",
+"name": "GND"
+},
+{
+"number": "B1",
+"name": "GND"
+},
+{
+"number": "B12",
+"name": "GND"
+},
+{
+"number": "SH1",
+"name": "SH1"
+}
+]
+},
+"MAX PD65W 输出": {
+"pins": [
+{
+"number": "89",
+"name": "VBUS"
+},
+{
+"number": "266",
+"name": "VBUS"
+},
+{
+"number": "267",
+"name": "CC2"
+},
+{
+"number": "268",
+"name": "SBU1"
+},
+{
+"number": "A1",
+"name": "GND"
+},
+{
+"number": "A4",
+"name": "VBUS"
+},
+{
+"number": "A5",
+"name": "CC1"
+},
+{
+"number": "A6",
+"name": "DP1"
+},
+{
+"number": "A12",
+"name": "GND"
+},
+{
+"number": "B4",
+"name": "VBUS"
+},
+{
+"number": "B6",
+"name": "DP2"
+},
+{
+"number": "B7",
+"name": "DN2"
+},
+{
+"number": "PE",
+"name": "DN1"
+},
+{
+"number": "SH1",
+"name": "SH1"
+}
+]
+},
+"ESN4838": {
+"pins": [
+{
+"number": "0k",
+"name": "D1"
+},
+{
+"number": "1",
+"name": "S2"
+},
+{
+"number": "2",
+"name": "2"
+},
+{
+"number": "3",
+"name": "S1"
+},
+{
+"number": "4",
+"name": "G1"
+},
+{
+"number": "5",
+"name": "D1"
+},
+{
+"number": "7",
+"name": "D2"
+},
+{
+"number": "8",
+"name": "D2"
+}
+]
+},
+"AC 220V 输入": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2",
+"name": "2"
+}
+]
+},
+"XT30UPB-M": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "POWER",
+"name": "POWER"
+}
+]
+},
+"HDR1X2": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2",
+"name": "2"
+}
+]
+},
+"CH3.96*2P": {
+"pins": [
+{
+"number": "2",
+"name": "2"
+},
+{
+"number": "11",
+"name": "11"
+},
+{
+"number": "1",
+"name": "1"
+}
+]
+},
+"2381AB": {
+"pins": [
+{
+"number": "0",
+"name": "G"
+},
+{
+"number": "1",
+"name": "om"
+},
+{
+"number": "2",
+"name": "2"
+},
+{
+"number": "3",
+"name": "DP"
+},
+{
+"number": "7",
+"name": "odp B"
+},
+{
+"number": "8",
+"name": "DIG2"
+},
+{
+"number": "745",
+"name": "A"
+},
+{
+"number": "746",
+"name": "P_123"
+},
+{
+"number": "749",
+"name": "DIG3"
+},
+{
+"number": "2381AB",
+"name": "DIG1"
+},
+{
+"number": "C",
+"name": "C"
+}
+]
+},
+"2381AS": {
+"pins": [
+{
+"number": "1",
+"name": "om"
+},
+{
+"number": "2",
+"name": "2"
+},
+{
+"number": "7",
+"name": "odp B"
+},
+{
+"number": "8",
+"name": "DIG2"
+},
+{
+"number": "792",
+"name": "DIG3"
+},
+{
+"number": "794",
+"name": "πA"
+},
+{
+"number": "795",
+"name": "DP"
+},
+{
+"number": "796",
+"name": "P_95"
+},
+{
+"number": "2381AS",
+"name": "DIG1"
+},
+{
+"number": "c",
+"name": "QO"
+},
+{
+"number": "G",
+"name": "G"
+}
+]
+},
+"KH-A2541WR-20FB": {
+"pins": [
+{
+"number": "0",
+"name": "0"
+},
+{
+"number": "1_1",
+"name": "1_1"
+},
+{
+"number": "1_2",
+"name": "1_2"
+},
+{
+"number": "1_3",
+"name": "1_3"
+},
+{
+"number": "2",
+"name": "2"
+},
+{
+"number": "4",
+"name": "4"
+},
+{
+"number": "5",
+"name": "G"
+},
+{
+"number": "7",
+"name": "7"
+},
+{
+"number": "8_1",
+"name": "8_1"
+},
+{
+"number": "8_2",
+"name": "8_2"
+},
+{
+"number": "11",
+"name": "11"
+},
+{
+"number": "13",
+"name": "13"
+},
+{
+"number": "14",
+"name": "14"
+},
+{
+"number": "17",
+"name": "17"
+},
+{
+"number": "18",
+"name": "18"
+},
+{
+"number": "19",
+"name": "19"
+},
+{
+"number": "301",
+"name": "P_55"
+}
+]
+},
+"HC-PZ254-11.5L-1x3PZ": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "2",
+"name": "2"
+},
+{
+"number": "3",
+"name": "3"
+}
+]
+},
+"N20电机": {
+"pins": [
+{
+"number": "1",
+"name": "1"
+},
+{
+"number": "22uF2",
+"name": "22uF2"
+}
+]
+}
+}
